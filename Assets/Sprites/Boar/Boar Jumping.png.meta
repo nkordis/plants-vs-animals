@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: ba317bfb77a9c6e49b6de7457cb8173f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4875957099125350524
+    second: Boar Jumping_0
+  - first:
+      213: 6154197823886514397
+    second: Boar Jumping_1
+  - first:
+      213: -151381033079318371
+    second: Boar Jumping_2
+  - first:
+      213: 4569449157897725766
+    second: Boar Jumping_3
+  - first:
+      213: 523469575453621968
+    second: Boar Jumping_4
+  - first:
+      213: -750625537712506467
+    second: Boar Jumping_5
+  - first:
+      213: 4838383066000541099
+    second: Boar Jumping_6
+  - first:
+      213: -9183960641933133774
+    second: Boar Jumping_7
+  - first:
+      213: -920570153956586979
+    second: Boar Jumping_8
+  - first:
+      213: 1856187683967932322
+    second: Boar Jumping_9
+  - first:
+      213: -7674970357053871407
+    second: Boar Jumping_10
+  - first:
+      213: -8741639189525726140
+    second: Boar Jumping_11
+  - first:
+      213: -3434127938348197284
+    second: Boar Jumping_12
+  - first:
+      213: -484534273822085427
+    second: Boar Jumping_13
+  - first:
+      213: -3189215903117379440
+    second: Boar Jumping_14
+  - first:
+      213: -3592450100163014723
+    second: Boar Jumping_15
+  - first:
+      213: -7085028186622062325
+    second: Boar Jumping_16
+  - first:
+      213: 6254951880472274189
+    second: Boar Jumping_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boar Jumping_0
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1507
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948ddaf2cf561d34c8081a47cdb2a007
+      internalID: 4875957099125350524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_1
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1504
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d89f766605c904f9ef704a6e8d6f2c
+      internalID: 6154197823886514397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_2
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1465
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549920d712da6e4b99b120f503de194
+      internalID: -151381033079318371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_3
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1465
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1105bf63fab7845a4499006b18ca8e
+      internalID: 4569449157897725766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_4
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1425
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4ec0b9acdcbcd4b9183ab64d725f2e
+      internalID: 523469575453621968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_5
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1428
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f785f69e550d774d87518de0fc6d38b
+      internalID: -750625537712506467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1062
+        width: 434
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e685f2f828d5418e285589fae301d
+      internalID: 4838383066000541099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1056
+        width: 459
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b24d331e6c1370428f6995e02ea085b
+      internalID: -9183960641933133774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_8
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1058
+        width: 462
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a832a0c1505b24da4507c2936d46ef
+      internalID: -920570153956586979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_9
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1056
+        width: 502
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72942db30014090408feb5365090e3ad
+      internalID: 1856187683967932322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 549
+        width: 454
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd24ebff2c245084c9ee4ab2ecbac88d
+      internalID: -7674970357053871407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 560
+        width: 447
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501c2e764fd290b42a289de1b093e322
+      internalID: -8741639189525726140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_12
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 623
+        width: 516
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff1794d5bf8d8f46b9d21d339c0f128
+      internalID: -3434127938348197284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_13
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 545
+        width: 564
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dde73983ef4c5047ad011af7b3c34a5
+      internalID: -484534273822085427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 536
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fba6ebac002764f9e4e416647506db
+      internalID: -3189215903117379440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_15
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 71
+        width: 511
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a208bc3d1d26742b27def01cb1cf13
+      internalID: -3592450100163014723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_16
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 33
+        width: 498
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3f0921d32ac5e4bb0e78683b0efd1b
+      internalID: -7085028186622062325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Jumping_17
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 28
+        width: 451
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c497bd1f45e3e14ebd03de882f19278
+      internalID: 6254951880472274189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

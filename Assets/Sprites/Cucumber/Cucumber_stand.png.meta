@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 9536f7cbc06ea644fa08ab08e07f1b67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3698911396777018913
+    second: Cucumber_stand_0
+  - first:
+      213: -1467838274167964004
+    second: Cucumber_stand_1
+  - first:
+      213: 6161394379099652358
+    second: Cucumber_stand_2
+  - first:
+      213: -2224848989554686198
+    second: Cucumber_stand_3
+  - first:
+      213: 3611346641775516447
+    second: Cucumber_stand_4
+  - first:
+      213: 843181565460619113
+    second: Cucumber_stand_5
+  - first:
+      213: 4790167967667497396
+    second: Cucumber_stand_6
+  - first:
+      213: 8873163199691806784
+    second: Cucumber_stand_7
+  - first:
+      213: -8573639314961659710
+    second: Cucumber_stand_8
+  - first:
+      213: 7282203455912829601
+    second: Cucumber_stand_9
+  - first:
+      213: -2974561133230869408
+    second: Cucumber_stand_10
+  - first:
+      213: 3275368015870655428
+    second: Cucumber_stand_11
+  - first:
+      213: -761493515980102415
+    second: Cucumber_stand_12
+  - first:
+      213: 1181221405138628082
+    second: Cucumber_stand_13
+  - first:
+      213: 7914063998740559735
+    second: Cucumber_stand_14
+  - first:
+      213: 7822575936087176405
+    second: Cucumber_stand_15
+  - first:
+      213: 1111765176690830729
+    second: Cucumber_stand_16
+  - first:
+      213: 340191860381896570
+    second: Cucumber_stand_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 700
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cucumber_stand_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3069
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2e1e8e1d68a7247bb199c5336fe70e
+      internalID: -3698911396777018913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3067
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a42b6b2819ccf145b69907e582df49c
+      internalID: -1467838274167964004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3067
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7f9d6fe78eec64db795f9431acb9a6
+      internalID: 6161394379099652358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3067
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3139e305a64bb74785415eac296050a
+      internalID: -2224848989554686198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_4
+      rect:
+        serializedVersion: 2
+        x: 4302
+        y: 3067
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557c5252486ead2468d3f8e4a4f44028
+      internalID: 3611346641775516447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_5
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 3069
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f90c48233afb4d8313cc5f2ce68c9
+      internalID: 843181565460619113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2259
+        width: 650
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62011300973b1ac469b0b965e38ffc94
+      internalID: 4790167967667497396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2259
+        width: 647
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501e3462df7c0947a9291de3d641d14
+      internalID: 8873163199691806784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_8
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 2259
+        width: 645
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f418c99829a6a9488ebfe5605a1ea5e
+      internalID: -8573639314961659710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_9
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 2259
+        width: 642
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6298d196cf14141b40ea38e44467a8
+      internalID: 7282203455912829601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1225
+        width: 645
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286c463cf739c5043921c531dbcd324c
+      internalID: -2974561133230869408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_11
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1225
+        width: 641
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dc3b1701846ed4e97b70eeb32ef101
+      internalID: 3275368015870655428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_12
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1225
+        width: 643
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572b2505522766a4abd6c7bcae37838f
+      internalID: -761493515980102415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_13
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 1225
+        width: 643
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f24a7041fa97e9419fc8e7a5d66520e
+      internalID: 1181221405138628082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 191
+        width: 641
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31b79a3bb7e0444fa9654b519b3f507
+      internalID: 7914063998740559735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_15
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 191
+        width: 642
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9755ba6d7695f64db19b1ccc29ca7fc
+      internalID: 7822575936087176405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_16
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 191
+        width: 643
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b620095b62226e47a901ca098ad8f64
+      internalID: 1111765176690830729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cucumber_stand_17
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 191
+        width: 643
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e09faa2df0bd74c9df1a656a32a242
+      internalID: 340191860381896570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

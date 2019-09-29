@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 414e0f1a40bfe1043be5915efe05ff79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6623985113605916699
+    second: Boar Running_0
+  - first:
+      213: 5366586630851214341
+    second: Boar Running_1
+  - first:
+      213: -8598940486440084651
+    second: Boar Running_2
+  - first:
+      213: -4066310084443365310
+    second: Boar Running_3
+  - first:
+      213: -3221381282735423051
+    second: Boar Running_4
+  - first:
+      213: -6001452598689259140
+    second: Boar Running_5
+  - first:
+      213: 371094816903140739
+    second: Boar Running_6
+  - first:
+      213: -7187916523418053459
+    second: Boar Running_7
+  - first:
+      213: -4781704152359865570
+    second: Boar Running_8
+  - first:
+      213: 263808439364489296
+    second: Boar Running_9
+  - first:
+      213: -5671443443125903297
+    second: Boar Running_10
+  - first:
+      213: 4726682710951877737
+    second: Boar Running_11
+  - first:
+      213: 8581943451389227450
+    second: Boar Running_12
+  - first:
+      213: 5201740091930756423
+    second: Boar Running_13
+  - first:
+      213: -8217946657617091843
+    second: Boar Running_14
+  - first:
+      213: -4233292995506926192
+    second: Boar Running_15
+  - first:
+      213: 3440737041604934449
+    second: Boar Running_16
+  - first:
+      213: -7737382157175194111
+    second: Boar Running_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boar Running_0
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1507
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5184d117aafa844882eedce2e60fba
+      internalID: 6623985113605916699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_1
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1504
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd50831e9ba010546b4933dcafa48fe2
+      internalID: 5366586630851214341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_2
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1465
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5ffebb5f43f8478ec4d691cd4364c
+      internalID: -8598940486440084651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_3
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1465
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0a2beb529627d4a994104bc430de9c
+      internalID: -4066310084443365310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1063
+        width: 569
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7346b4548363c478443e6d47b1c964
+      internalID: -3221381282735423051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1067
+        width: 570
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530e60e06aa2fbd4e9936497c1941581
+      internalID: -6001452598689259140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_6
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1072
+        width: 569
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523ca9f70bde7004bb7baa6407baa8ef
+      internalID: 371094816903140739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_7
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1064
+        width: 569
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a6262962613234d889f18790038fdf
+      internalID: -7187916523418053459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_8
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1425
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0321fe60b0223f84cb47f4acd0e9fbe0
+      internalID: -4781704152359865570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_9
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1428
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89a1bba1d6cb840af5f3f49b97efb9
+      internalID: 263808439364489296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 549
+        width: 568
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04862efd5940f1849bd8a047a2ea4fb3
+      internalID: -5671443443125903297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 546
+        width: 567
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb651b7c674bba4ba338e562100135d
+      internalID: 4726682710951877737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_12
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 541
+        width: 566
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aa3c3fb371dc648b60a5a92ba579b6
+      internalID: 8581943451389227450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_13
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 545
+        width: 569
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e6dbc062fb38e48b50ace9783622b8
+      internalID: 5201740091930756423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 37
+        width: 564
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6a445f13562274397fb66f493e2abf
+      internalID: -8217946657617091843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_15
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 53
+        width: 565
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007ad6831bfd1d49a29428efe847bdd
+      internalID: -4233292995506926192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_16
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 34
+        width: 567
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3471617ef3dfb4b4180fb4b3da3dddb4
+      internalID: 3440737041604934449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running_17
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 33
+        width: 569
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bab364768976c443aac4171e002df51
+      internalID: -7737382157175194111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

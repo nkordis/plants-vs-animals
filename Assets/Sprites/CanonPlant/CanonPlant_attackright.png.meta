@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: a7bf63ba7ca02c5479ecd41abe739e60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5312758422897632722
+    second: CanonPlant_attackright_0
+  - first:
+      213: -8224254722333554997
+    second: CanonPlant_attackright_1
+  - first:
+      213: 995386255760953446
+    second: CanonPlant_attackright_2
+  - first:
+      213: -7204939514276990443
+    second: CanonPlant_attackright_3
+  - first:
+      213: -565267179897198150
+    second: CanonPlant_attackright_4
+  - first:
+      213: -470463385345318861
+    second: CanonPlant_attackright_5
+  - first:
+      213: 2131772435631010425
+    second: CanonPlant_attackright_6
+  - first:
+      213: -1699124967533507216
+    second: CanonPlant_attackright_7
+  - first:
+      213: 5020775696209238659
+    second: CanonPlant_attackright_8
+  - first:
+      213: 5597491118838810575
+    second: CanonPlant_attackright_9
+  - first:
+      213: 4176174930212954539
+    second: CanonPlant_attackright_10
+  - first:
+      213: 5941338116913475208
+    second: CanonPlant_attackright_11
+  - first:
+      213: -4390364357055882142
+    second: CanonPlant_attackright_12
+  - first:
+      213: -9192888974364438083
+    second: CanonPlant_attackright_13
+  - first:
+      213: 4931769683077129492
+    second: CanonPlant_attackright_14
+  - first:
+      213: -8054486643170762949
+    second: CanonPlant_attackright_15
+  - first:
+      213: 8836142549998728967
+    second: CanonPlant_attackright_16
+  - first:
+      213: 6186524681785135251
+    second: CanonPlant_attackright_17
+  - first:
+      213: -9160483891594589450
+    second: CanonPlant_attackright_18
+  - first:
+      213: 2377260786702156753
+    second: CanonPlant_attackright_19
+  - first:
+      213: 2287013468861073786
+    second: CanonPlant_attackright_20
+  - first:
+      213: 148363518942906986
+    second: CanonPlant_attackright_21
+  - first:
+      213: -8958283759912319911
+    second: CanonPlant_attackright_22
+  - first:
+      213: 8851676178363167305
+    second: CanonPlant_attackright_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CanonPlant_attackright_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1117
+        width: 430
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84b81756d209ee408ed0be71c423df2
+      internalID: 5312758422897632722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_1
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1119
+        width: 426
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe33d5d60ea8774e96d67d6a1efd273
+      internalID: -8224254722333554997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_2
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1119
+        width: 395
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e58a4df48e2ce4b9726fff23960cd9
+      internalID: 995386255760953446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_3
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1119
+        width: 365
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385bba50cef8004db94cdc176358e18
+      internalID: -7204939514276990443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_4
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 1120
+        width: 360
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3fe74f1e4fd5f46abb46cc2ba815bf
+      internalID: -565267179897198150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_5
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1120
+        width: 342
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e139859cb60e34cb50d02b0a49bcde
+      internalID: -470463385345318861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 623
+        width: 345
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d27f16254a9448aa792d225e6dfdf
+      internalID: 2131772435631010425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 623
+        width: 348
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef507363ad8ea4bb10dc7a623cfca6
+      internalID: -1699124967533507216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_8
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 623
+        width: 352
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e88f65446fb3945b627348ad46f76e
+      internalID: 5020775696209238659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_9
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 623
+        width: 402
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ee6ef244683747b5abe87703948d8
+      internalID: 5597491118838810575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_10
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 623
+        width: 448
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef74956d60e0114180fbfb3ad07c7b1
+      internalID: 4176174930212954539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_11
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 623
+        width: 452
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde538a636790bd48bf97d51c55384b8
+      internalID: 5941338116913475208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 128
+        width: 451
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9cf0cacff63674a8892b921481e72c
+      internalID: -4390364357055882142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 126
+        width: 474
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6802a187babf649a3cbdffddf6a455
+      internalID: -9192888974364438083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_14
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 126
+        width: 472
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b3ce50246ec8d43977f4995eeaa6db
+      internalID: 4931769683077129492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_15
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 126
+        width: 452
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ef0e34c04002d438a954e8bfa969c6
+      internalID: -8054486643170762949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_16
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 126
+        width: 450
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f7d847bba16640b8d3b3bee807c12
+      internalID: 8836142549998728967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_17
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 126
+        width: 431
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dab2180522603348a6ef9aa8adf08c5
+      internalID: 6186524681785135251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503c7ae668161854b857a33742d16486
+      internalID: -9160483891594589450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894b0094db04d8e4d8c386fc7bed6711
+      internalID: 2377260786702156753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 6
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89c567e56f1bc04b9c90c57fe371d62
+      internalID: 2287013468861073786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a27d8ef40eabf40a0ff2b954d69336
+      internalID: 148363518942906986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366883a15acb5b3499c109faff0ba314
+      internalID: -8958283759912319911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_attackright_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 8
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d8993a16130d48843d1d9095e989b
+      internalID: 8851676178363167305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

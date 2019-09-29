@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: e1379402c90bca84185e3d422138bdd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7186236857077595189
+    second: CanonPlant_idleright_green_0
+  - first:
+      213: -2045765043570596475
+    second: CanonPlant_idleright_green_1
+  - first:
+      213: -5302028759908730235
+    second: CanonPlant_idleright_green_2
+  - first:
+      213: -2688435566081130574
+    second: CanonPlant_idleright_green_3
+  - first:
+      213: -2565297431603391372
+    second: CanonPlant_idleright_green_4
+  - first:
+      213: 2635386111344023982
+    second: CanonPlant_idleright_green_5
+  - first:
+      213: -6116762767731412123
+    second: CanonPlant_idleright_green_6
+  - first:
+      213: 1243948215507312315
+    second: CanonPlant_idleright_green_7
+  - first:
+      213: -1961273529343588534
+    second: CanonPlant_idleright_green_8
+  - first:
+      213: 4123274767016799256
+    second: CanonPlant_idleright_green_9
+  - first:
+      213: 8609754273173766232
+    second: CanonPlant_idleright_green_10
+  - first:
+      213: -550260421372167048
+    second: CanonPlant_idleright_green_11
+  - first:
+      213: -3605322392855105836
+    second: CanonPlant_idleright_green_12
+  - first:
+      213: -667144899575062534
+    second: CanonPlant_idleright_green_13
+  - first:
+      213: -7996515324204808295
+    second: CanonPlant_idleright_green_14
+  - first:
+      213: -6399244588687097492
+    second: CanonPlant_idleright_green_15
+  - first:
+      213: 8769998141801125899
+    second: CanonPlant_idleright_green_16
+  - first:
+      213: 1189829416781894840
+    second: CanonPlant_idleright_green_17
+  - first:
+      213: -3149882028719754455
+    second: CanonPlant_idleright_green_18
+  - first:
+      213: 2955714656776863445
+    second: CanonPlant_idleright_green_19
+  - first:
+      213: 1319697994248565128
+    second: CanonPlant_idleright_green_20
+  - first:
+      213: 5640059843932423968
+    second: CanonPlant_idleright_green_21
+  - first:
+      213: -8529517048728641017
+    second: CanonPlant_idleright_green_22
+  - first:
+      213: -8923707542524063758
+    second: CanonPlant_idleright_green_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1574
+        width: 430
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec32dd8fab95d14d8aad6fb8bbec94e
+      internalID: 7186236857077595189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_1
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1574
+        width: 430
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7bcc9ed97cd2549984b9500ac53a48
+      internalID: -2045765043570596475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_2
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1574
+        width: 430
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329b129e8e0ebf41adb1efe4607b590
+      internalID: -5302028759908730235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_3
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1574
+        width: 430
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb6e510c04d1944b51cbc8af2210ca
+      internalID: -2688435566081130574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_4
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1574
+        width: 428
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb35b9a41161439438f66b42041eb01f
+      internalID: -2565297431603391372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_5
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 1574
+        width: 428
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61f67c34ec82741815cb7658a314a3
+      internalID: 2635386111344023982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1077
+        width: 428
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf09adbf92c124246813080cdd65bbea
+      internalID: -6116762767731412123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1077
+        width: 428
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f815972f318f854a9f44e314e15a501
+      internalID: 1243948215507312315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_8
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1077
+        width: 426
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579560921561e0c40aca60f5f2fbc2cd
+      internalID: -1961273529343588534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_9
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1077
+        width: 428
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e536221a03d8943a9acd343a976ba9
+      internalID: 4123274767016799256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_10
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1077
+        width: 426
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e94d4e35853c46b37ef01621bd2bc
+      internalID: 8609754273173766232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_11
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 1077
+        width: 425
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86025224f9cd9e14b887c0e5f2005f8a
+      internalID: -550260421372167048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 581
+        width: 426
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ffaee589d18664abb65f3451346959
+      internalID: -3605322392855105836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 581
+        width: 426
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b989288629007459300b76995dd6d2
+      internalID: -667144899575062534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_14
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 581
+        width: 426
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e604ad60dddacd546b24f1b69d92dbd8
+      internalID: -7996515324204808295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_15
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 581
+        width: 428
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e09431e87fb4042aaf9377b822c829
+      internalID: -6399244588687097492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_16
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 581
+        width: 426
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18e0c365414f24a9416f36e582792b
+      internalID: 8769998141801125899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_17
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 581
+        width: 427
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dea8ef842bad4b42a392bd808c1575f
+      internalID: 1189829416781894840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 85
+        width: 428
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa186a3de02a1c41873d6b7f557004c
+      internalID: -3149882028719754455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 85
+        width: 430
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0698b66a05f04524ebb076b54f1bd2ef
+      internalID: 2955714656776863445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_20
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 85
+        width: 428
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526e1f235d084b540904e12c6db6abdc
+      internalID: 1319697994248565128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_21
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 85
+        width: 430
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2673f80195ce0d94080db200c1c70e26
+      internalID: 5640059843932423968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_22
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 85
+        width: 430
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b108f29bbe68784bb7de9abf1d27405
+      internalID: -8529517048728641017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CanonPlant_idleright_green_23
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 85
+        width: 429
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3766036f7e2dfd741be4b5db092ea9b4
+      internalID: -8923707542524063758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

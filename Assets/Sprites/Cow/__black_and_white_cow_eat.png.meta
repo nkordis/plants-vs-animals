@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: a1a969a1f7f940942957dfa7def606da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7118046994763391206
+    second: __black_and_white_cow_eat_0
+  - first:
+      213: -929376983240581953
+    second: __black_and_white_cow_eat_1
+  - first:
+      213: 8407425042795692335
+    second: __black_and_white_cow_eat_2
+  - first:
+      213: -7098790228301965468
+    second: __black_and_white_cow_eat_3
+  - first:
+      213: -5626932552416593505
+    second: __black_and_white_cow_eat_4
+  - first:
+      213: -6418290521053812214
+    second: __black_and_white_cow_eat_5
+  - first:
+      213: 1162649434800234853
+    second: __black_and_white_cow_eat_6
+  - first:
+      213: -7001543748702655972
+    second: __black_and_white_cow_eat_7
+  - first:
+      213: -685171591154165042
+    second: __black_and_white_cow_eat_8
+  - first:
+      213: -192599780472372754
+    second: __black_and_white_cow_eat_9
+  - first:
+      213: -4048015816149831215
+    second: __black_and_white_cow_eat_10
+  - first:
+      213: 6019672572725058985
+    second: __black_and_white_cow_eat_11
+  - first:
+      213: -3234426495155582981
+    second: __black_and_white_cow_eat_12
+  - first:
+      213: 1349063497156945224
+    second: __black_and_white_cow_eat_13
+  - first:
+      213: 8185288759759137869
+    second: __black_and_white_cow_eat_14
+  - first:
+      213: 2676647721196606533
+    second: __black_and_white_cow_eat_15
+  - first:
+      213: 1038994011000306176
+    second: __black_and_white_cow_eat_16
+  - first:
+      213: 381987999756982123
+    second: __black_and_white_cow_eat_17
+  - first:
+      213: 6150973132984879064
+    second: __black_and_white_cow_eat_18
+  - first:
+      213: -7065153206191164559
+    second: __black_and_white_cow_eat_19
+  - first:
+      213: -8296891874591598608
+    second: __black_and_white_cow_eat_20
+  - first:
+      213: 417226863096494966
+    second: __black_and_white_cow_eat_21
+  - first:
+      213: -5329303446919701317
+    second: __black_and_white_cow_eat_22
+  - first:
+      213: 5161308729595017574
+    second: __black_and_white_cow_eat_23
+  - first:
+      213: 4270949467551682991
+    second: __black_and_white_cow_eat_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1687
+        width: 475
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8887fd10dd4d2814da9bffc5ea634e95
+      internalID: 7118046994763391206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1687
+        width: 473
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ce67bdd4a73648b3a3a4128ba1d9a
+      internalID: -929376983240581953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_2
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1687
+        width: 473
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50399c406682a94e9e813cf94cf5709
+      internalID: 8407425042795692335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_3
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1687
+        width: 472
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46403989d91f6846bcad052ae3343f8
+      internalID: -7098790228301965468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_4
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1687
+        width: 472
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da925f85e95605f49b502d1a2d2f96aa
+      internalID: -5626932552416593505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1269
+        width: 471
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3887d86f82d7d542afa2166675b0252
+      internalID: -6418290521053812214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1269
+        width: 470
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e5f70a53183b74497ff552697c17cb
+      internalID: 1162649434800234853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_7
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1269
+        width: 470
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3352004014d1da14891b40a47a8ad038
+      internalID: -7001543748702655972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_8
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1269
+        width: 470
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ef94aa7432bba40895cf0d5e7c6e07
+      internalID: -685171591154165042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_9
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1269
+        width: 468
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0ec6091973204fbcc6834a85d8c43
+      internalID: -192599780472372754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 853
+        width: 468
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f7c77db083bf42acf452fe8f1088c
+      internalID: -4048015816149831215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_11
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 853
+        width: 466
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b46938cb2da9a438ba86b75ff785f3
+      internalID: 6019672572725058985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_12
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 853
+        width: 466
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f73035e58a5340418ced6e4624c0371
+      internalID: -3234426495155582981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_13
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 853
+        width: 467
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd567bb9dd6c45438a7b2b069c8ca19
+      internalID: 1349063497156945224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_14
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 853
+        width: 466
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9f6e5c3bc7f1d40a78c6883d3c498e
+      internalID: 8185288759759137869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 468
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cc10797504db745b682b3c39513a90
+      internalID: 2676647721196606533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 435
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8767cd0b7b144243912d28758fef103
+      internalID: 1038994011000306176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_17
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 435
+        width: 469
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04840b8fbefe2bc4fb22ab3ff3aaf770
+      internalID: 381987999756982123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_18
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 435
+        width: 471
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f8be2732308c419b96abe48e179b6
+      internalID: 6150973132984879064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_19
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 435
+        width: 470
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1755ea6eeb5cfaf42b4f8f8a64ae25e3
+      internalID: -7065153206191164559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 18
+        width: 471
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e763f19833a95294fa8fc439c4366106
+      internalID: -8296891874591598608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_21
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 18
+        width: 471
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fa1b99956e20f43965059be1c3c66a
+      internalID: 417226863096494966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_22
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 18
+        width: 472
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0d04550a4724745ae21ac1d627b621
+      internalID: -5329303446919701317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_23
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 18
+        width: 473
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd225315f743ae49a585cb11c57ac5d
+      internalID: 5161308729595017574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_eat_24
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 18
+        width: 474
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc2f59f0d157649be0aadef89ebf69
+      internalID: 4270949467551682991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

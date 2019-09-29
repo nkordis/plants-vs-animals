@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: e1bb8dd9b5d26dd46849fbac29e4a9b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9005020166264408032
+    second: __black_and_white_cow_transition_out_of_eat_0
+  - first:
+      213: -678986522528589339
+    second: __black_and_white_cow_transition_out_of_eat_1
+  - first:
+      213: -6124897720424395424
+    second: __black_and_white_cow_transition_out_of_eat_2
+  - first:
+      213: -797702064423575557
+    second: __black_and_white_cow_transition_out_of_eat_3
+  - first:
+      213: -7239144626845749718
+    second: __black_and_white_cow_transition_out_of_eat_4
+  - first:
+      213: -3269450866637722132
+    second: __black_and_white_cow_transition_out_of_eat_5
+  - first:
+      213: 287425244569276827
+    second: __black_and_white_cow_transition_out_of_eat_6
+  - first:
+      213: 7058293452210971096
+    second: __black_and_white_cow_transition_out_of_eat_7
+  - first:
+      213: 5902706320695965634
+    second: __black_and_white_cow_transition_out_of_eat_8
+  - first:
+      213: -3971856926601841698
+    second: __black_and_white_cow_transition_out_of_eat_9
+  - first:
+      213: -2219777074036451274
+    second: __black_and_white_cow_transition_out_of_eat_10
+  - first:
+      213: -9105525307674525551
+    second: __black_and_white_cow_transition_out_of_eat_11
+  - first:
+      213: 1055787904699930526
+    second: __black_and_white_cow_transition_out_of_eat_12
+  - first:
+      213: -5917390000611284352
+    second: __black_and_white_cow_transition_out_of_eat_13
+  - first:
+      213: -3535739370832132824
+    second: __black_and_white_cow_transition_out_of_eat_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 853
+        width: 475
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0506a93a24fd6419da2659778afc10
+      internalID: -9005020166264408032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 853
+        width: 472
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9cf0952ca0baf4eb0f4067dbeea26e
+      internalID: -678986522528589339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_2
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 853
+        width: 472
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f4357df40947144971e9916f8f2c18
+      internalID: -6124897720424395424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_3
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 853
+        width: 469
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2be31df300b9e4d8354852b6c0c7d2
+      internalID: -797702064423575557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_4
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 853
+        width: 469
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4646300335cf4191b7eb1d642d755
+      internalID: -7239144626845749718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 435
+        width: 469
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d31ff11da405140b34044043c7cbb8
+      internalID: -3269450866637722132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 435
+        width: 466
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec949fc2f8c7e63429bfcf7c3d71fc95
+      internalID: 287425244569276827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_7
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 435
+        width: 465
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eaaa708c7a19a4a85abff481e4db40
+      internalID: 7058293452210971096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_8
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 435
+        width: 468
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109f2dd71b1c5747baf2a69c3334c4a
+      internalID: 5902706320695965634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_9
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 435
+        width: 467
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4620193f42eafac498d4a56d21b59076
+      internalID: -3971856926601841698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 19
+        width: 469
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2244186275939cd4a858dd3c136288ee
+      internalID: -2219777074036451274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_11
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 19
+        width: 472
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d5a5edafe12e942a394907de0988d0
+      internalID: -9105525307674525551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_12
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 19
+        width: 472
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c499c549a48af47b03419db969df50
+      internalID: 1055787904699930526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_13
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 19
+        width: 473
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596e64419db7aa2489bfb35a7f0094f1
+      internalID: -5917390000611284352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_and_white_cow_transition_out_of_eat_14
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 19
+        width: 476
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c904af9eb3890474da4230eb67df9ef8
+      internalID: -3535739370832132824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
