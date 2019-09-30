@@ -7,11 +7,16 @@ public class DefenderSpawner : MonoBehaviour {
 
     Defender defender;
     GameObject defenderParent;
+	[SerializeField]AudioClip defenderSpawnedSound;
+
+	AudioSource audioSource;
+
     const string DEFENDER_PARENT_NAME = "Defenders";
 
     private void Start()
     {
         CreateDefenderParent();
+		audioSource = GetComponent<AudioSource>();
     }
 
     private void CreateDefenderParent()
@@ -32,6 +37,10 @@ public class DefenderSpawner : MonoBehaviour {
     {
         defender = defenderToSelect;
     }
+
+	public Defender GetSelectedDefender() {
+		return defender;
+	}
 
     private void AttemptToPlaceDefenderAt(Vector2 gridPos)
     {
@@ -63,6 +72,7 @@ public class DefenderSpawner : MonoBehaviour {
     private void SpawnDefender(Vector2 roundedPos)
     {
         Defender newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as Defender;
+		audioSource.PlayOneShot(defenderSpawnedSound);
         newDefender.transform.parent = defenderParent.transform;
     }
 

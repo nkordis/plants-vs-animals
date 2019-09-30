@@ -7,14 +7,19 @@ public class LivesDisplay : MonoBehaviour {
 
     [SerializeField] float baseLives = 3;
     [SerializeField] int damage = 1;
+	[SerializeField] AudioClip livesMinusSound;
+
     float lives;
     Text livesText;
+
+	AudioSource audioSource;
 
     void Start()
     {
         lives = baseLives - PlayerPrefsController.GetDifficulty();
         livesText = GetComponent<Text>();
         UpdateDisplay();
+		audioSource = GetComponent<AudioSource>();
         Debug.Log("difficulty setting currently is " + PlayerPrefsController.GetDifficulty());
     }
 
@@ -27,6 +32,7 @@ public class LivesDisplay : MonoBehaviour {
     {
         lives -= damage;
         UpdateDisplay();
+		audioSource.PlayOneShot(livesMinusSound);
 
         if (lives <= 0)
         {

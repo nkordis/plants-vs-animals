@@ -7,10 +7,14 @@ using UnityEngine.UI;
 public class DefenderButton : MonoBehaviour {
 
     [SerializeField] Defender defenderPrefab;
+	[SerializeField] AudioClip defenderSelectSound;
+
+	AudioSource audioSource;
 
     private void Start()
     {
         LabelButtonWithCost();
+		audioSource = GetComponent<AudioSource>();
     }
 
     private void LabelButtonWithCost()
@@ -34,8 +38,16 @@ public class DefenderButton : MonoBehaviour {
             button.GetComponent<SpriteRenderer>().color = new Color32(140, 140, 140, 255);
         }
 
-        GetComponent<SpriteRenderer>().color = Color.white;
-        FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
-    }
+
+
+		if (FindObjectOfType<DefenderSpawner>().GetSelectedDefender() != defenderPrefab) {
+		
+			audioSource.PlayOneShot(defenderSelectSound);
+		}
+
+		GetComponent<SpriteRenderer>().color = Color.white;
+		FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
+
+	}
 
 }

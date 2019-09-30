@@ -502,8 +502,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 82067405138131342, guid: 4cb23b604f7d30f45b32e7491eae026b,
         type: 3}
-      propertyPath: Loop
-      value: 1
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb23b604f7d30f45b32e7491eae026b, type: 3}

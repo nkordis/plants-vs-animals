@@ -6,12 +6,13 @@ using UnityEngine;
 public class Shooter : MonoBehaviour {
 
     [SerializeField] GameObject projectile, gun;
-    AttackerSpawner myLaneSpawner;
+	[SerializeField] AudioClip shootSound;
+	AttackerSpawner myLaneSpawner;
     Animator animator;
     GameObject projectileParent;
     const string PROJECTILE_PARENT_NAME = "Projectiles";
-
-    private void Start()
+	
+	private void Start()
     {
         SetLaneSpawner();
         animator = GetComponent<Animator>();
@@ -32,7 +33,7 @@ public class Shooter : MonoBehaviour {
         if(IsAttackerInLane())
         {
             animator.SetBool("isAttacking", true);
-        }
+		}
         else
         {
             animator.SetBool("isAttacking", false);
@@ -73,6 +74,7 @@ public class Shooter : MonoBehaviour {
             Instantiate(projectile, gun.transform.position, transform.rotation)
             as GameObject;
         newProjectile.transform.parent = projectileParent.transform;
-    }
+		AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, 0.1f);
+	}
 
 }
