@@ -7,13 +7,19 @@ public class GameTimer : MonoBehaviour {
 
     [Tooltip("Our level timer in SECONDS")]
     [SerializeField] float levelTime = 10;
-    bool triggeredLevelFinished = false;
+
+	[Tooltip("Slider delay")]
+	[Range(0.0f, 1.0f)]
+	[SerializeField] float delaySlider = 0.7f;
+
+	bool triggeredLevelFinished = false;
+
+
 	
-	// Update is called once per frame
 	void Update ()
     {
-        if (triggeredLevelFinished) { return; }
-        GetComponent<Slider>().value = Time.timeSinceLevelLoad / levelTime;
+        if (triggeredLevelFinished) { GetComponent<Slider>().value = (Time.timeSinceLevelLoad / levelTime) * delaySlider;  return; }
+        GetComponent<Slider>().value = (Time.timeSinceLevelLoad  / levelTime) * delaySlider;
 
         bool timerFinished = (Time.timeSinceLevelLoad >= levelTime);
         if (timerFinished)
