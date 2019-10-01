@@ -1539,6 +1539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1420497600473072, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224553267476746374, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -1568,6 +1572,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2127395975, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085971238439928, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785407344080854, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
