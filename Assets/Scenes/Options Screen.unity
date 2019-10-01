@@ -679,6 +679,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4178622404167878, guid: f9eff50856968b6419cfbebe240936af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178622404167878, guid: f9eff50856968b6419cfbebe240936af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178622404167878, guid: f9eff50856968b6419cfbebe240936af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114599023143678996, guid: f9eff50856968b6419cfbebe240936af,
         type: 3}
       propertyPath: volumeSlider
