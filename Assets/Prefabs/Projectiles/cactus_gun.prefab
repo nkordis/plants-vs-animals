@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 30
+  damage: 20
 --- !u!61 &61870328876804644
 BoxCollider2D:
   m_ObjectHideFlags: 0

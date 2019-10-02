@@ -1207,10 +1207,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1231280703759362, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_Name
-      value: Buttons
-      objectReference: {fileID: 0}
     - target: {fileID: 1058112619914848, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_Name
       value: Mushroom
@@ -1391,6 +1387,10 @@ PrefabInstance:
       propertyPath: defenderSelectSound
       value: 
       objectReference: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
+    - target: {fileID: 1231280703759362, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_Name
+      value: Buttons
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4a995833fef0534899db9724d1944a8, type: 3}
 --- !u!1 &1721989022
