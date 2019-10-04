@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 61503019794373868}
   - component: {fileID: 114985411910902546}
   m_Layer: 0
-  m_Name: Trophy
+  m_Name: Mushroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingOrder: 7
   m_Sprite: {fileID: 6200610923588321965, guid: 0de4d84a380d8c64e83470704e87d6f9,
     type: 3}
-  m_Color: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  m_Color: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,7 +102,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.49403858, y: 0.648}
+    oldSize: {x: 0.49400002, y: 0.648718}
     newSize: {x: 0.38, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defenderPrefab: {fileID: 114909859968797902, guid: 368e9aff6d1d0c64eac54e76a22e85c5,
     type: 3}
+  defenderSelectSound: {fileID: 0}
 --- !u!1 &1074455701547796
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,13 +184,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9048885, b: 0, a: 1}
+  m_Color: {r: 0.8980392, g: 0.4, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 734c9f178b3958841bde85fbb83119ab, type: 3}
+    m_Font: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
@@ -260,13 +261,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9048885, b: 0, a: 1}
+  m_Color: {r: 0.8980392, g: 0.4, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 734c9f178b3958841bde85fbb83119ab, type: 3}
+    m_Font: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
@@ -395,13 +396,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9048885, b: 0, a: 1}
+  m_Color: {r: 0.8980392, g: 0.4, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 734c9f178b3958841bde85fbb83119ab, type: 3}
+    m_Font: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
@@ -441,7 +442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549758557912422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.004, y: 0.050000004, z: 0.28847656}
+  m_LocalPosition: {x: 0.076, y: 0.050000004, z: 0.28847656}
   m_LocalScale: {x: 0.098577954, y: 0.96434945, z: 0.88720155}
   m_Children:
   - {fileID: 224418892254310882}
@@ -489,7 +490,7 @@ SpriteRenderer:
   m_SortingOrder: 7
   m_Sprite: {fileID: -3860959065797876610, guid: 1304de86ab7039b4a80778d9e1c39b99,
     type: 3}
-  m_Color: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  m_Color: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -538,6 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defenderPrefab: {fileID: 0}
+  defenderSelectSound: {fileID: 0}
 --- !u!1 &1559098257834714
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +552,7 @@ GameObject:
   - component: {fileID: 212349094423400360}
   - component: {fileID: 61747531590017068}
   - component: {fileID: 114799349882747212}
+  - component: {fileID: 799870223}
   m_Layer: 0
   m_Name: Cucumber
   m_TagString: Untagged
@@ -611,9 +614,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: -1253259170063541605, guid: 80b9e9c3030e1014cb6c90f049ef0119,
+  m_Sprite: {fileID: 8966194803602975413, guid: 81519c997811de74890b0a4e830101db,
     type: 3}
-  m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  m_Color: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -640,7 +643,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.04, y: 1.04}
+    oldSize: {x: 0.91, y: 0.9293291}
     newSize: {x: 1.256, y: 1.008}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -663,6 +666,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defenderPrefab: {fileID: 114840601588962314, guid: b4a53ad1f30810f4ca36c7acc29e3487,
     type: 3}
+  defenderSelectSound: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
+--- !u!82 &799870223
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559098257834714}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1639471019028446
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,13 +821,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9048885, b: 0, a: 1}
+  m_Color: {r: 0.8980392, g: 0.4, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 734c9f178b3958841bde85fbb83119ab, type: 3}
+    m_Font: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
@@ -851,7 +951,7 @@ GameObject:
   - component: {fileID: 61313973796866754}
   - component: {fileID: 114297844720976886}
   m_Layer: 0
-  m_Name: Gravestone
+  m_Name: Thorn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -865,7 +965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660638162923836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119, y: 0.050000004, z: 0.28847656}
+  m_LocalPosition: {x: -0.017, y: 0.050000004, z: 0.28847656}
   m_LocalScale: {x: 0.09086112, y: 0.8888587, z: 0.81775}
   m_Children:
   - {fileID: 224357729974503646}
@@ -911,8 +1011,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: 1f44be1e2ea4b1d498da37e9d9c95687, type: 3}
-  m_Color: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  m_Sprite: {fileID: -7451194681563383075, guid: 52f43b805ed15a3438b8765a79f95ebc,
+    type: 3}
+  m_Color: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -939,7 +1040,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64736843, y: 0.93157893}
+    oldSize: {x: 0.2557143, y: 0.69965875}
     newSize: {x: 0.38, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -960,4 +1061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cacd74eebdbf84cb37baed9d81b1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 0}
+  defenderPrefab: {fileID: 114823913217999490, guid: fea7f0ff17fcf504385b4d19edb8b6b4,
+    type: 3}
+  defenderSelectSound: {fileID: 0}
