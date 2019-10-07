@@ -54,14 +54,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 14.unity
     guid: f54e89e56a883e44f9f436792045da22
   - enabled: 1
-    path: Assets/Scenes/Level 100.unity
-    guid: a81a6894fa2113c409b32f5b069ed391
-  - enabled: 1
-    path: Assets/Scenes/Level 110.unity
-    guid: d77297d0aef6faf40b3e79b344b887a1
-  - enabled: 1
-    path: Assets/Scenes/Level 120.unity
-    guid: 75b20f454d248d447bdcf94e1b181a07
+    path: Assets/Scenes/Level 15.unity
+    guid: 75c0c4c493e211b47870cb69b2c84858
   - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: de3ac8056ceae8140b58a10ad0bafa61
