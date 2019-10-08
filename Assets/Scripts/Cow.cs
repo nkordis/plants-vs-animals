@@ -8,7 +8,7 @@ public class Cow : MonoBehaviour {
     {
         GameObject otherObject = otherCollider.gameObject;
 
-        if (otherObject.GetComponent<Defender>())
+        if (otherObject.GetComponent<Defender>() && otherObject.transform.position.x < transform.position.x)
         {
             GetComponent<Attacker>().Attack(otherObject);
         }

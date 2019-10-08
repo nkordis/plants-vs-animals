@@ -10,13 +10,13 @@ public class Goat : MonoBehaviour {
     {
         GameObject otherObject = otherCollider.gameObject;
 
-		if (otherObject.GetComponent<Mushroom>()) {
+		if (otherObject.GetComponent<Mushroom>() && otherObject.transform.position.x < transform.position.x) {
 			GetComponent<Attacker>().Attack(otherObject);
 			GetComponent<Attacker>().StrikeCurrentTarget(damage);
 			GetComponent<Health>().DealDamage(damage);
 		}
 
-        else if (otherObject.GetComponent<Defender>())
+        else if (otherObject.GetComponent<Defender>() && otherObject.transform.position.x < transform.position.x)
         {
             GetComponent<Attacker>().Attack(otherObject);
 			GetComponent<Attacker>().StrikeCurrentTarget(damage);

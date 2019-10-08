@@ -8,12 +8,9 @@ public class Boar : MonoBehaviour {
     {
         GameObject otherObject = otherCollider.gameObject;
 
-        if(otherObject.GetComponent<Thorn>())
-        {
-            GetComponent<Animator>().SetTrigger("jumpTrigger");
-        }
-
-        else if (otherObject.GetComponent<Defender>())
+		if (otherObject.GetComponent<Thorn>() && otherObject.transform.position.x < transform.position.x) {
+			GetComponent<Animator>().SetTrigger("jumpTrigger");
+		} else if (otherObject.GetComponent<Defender>() && otherObject.transform.position.x < transform.position.x)
         {
             GetComponent<Attacker>().Attack(otherObject);
         }
