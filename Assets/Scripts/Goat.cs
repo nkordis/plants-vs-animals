@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Goat : MonoBehaviour {
 
-	private float damage = 500f;
+	private float damage = 2000f;
 
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
