@@ -69,6 +69,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level 19.unity
     guid: 04bc915effe1bca41be2d2b280a6f436
   - enabled: 1
+    path: Assets/Scenes/Help Screen.unity
+    guid: 9a598e646496e264998b08b996e16b3b
+  - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: de3ac8056ceae8140b58a10ad0bafa61
   - enabled: 1

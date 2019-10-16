@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour {
 
     [SerializeField] int timeToWait = 4;
+	
     int currentSceneIndex;
 
 	// Use this for initialization
@@ -53,6 +54,11 @@ public class LevelLoader : MonoBehaviour {
     {
         SceneManager.LoadScene("Lose Screen");
     }
+
+	public int GetCurrentLevel() 
+	{
+		return currentSceneIndex - 1;
+	}
 	
     public void QuitGame()
     {
