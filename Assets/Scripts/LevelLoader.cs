@@ -40,7 +40,11 @@ public class LevelLoader : MonoBehaviour {
         SceneManager.LoadScene("Options Screen");
     }
 
-    public void LoadNextScene()
+	public void LoadHelpScreen() {
+		SceneManager.LoadScene("Help Screen");
+	}
+
+	public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
