@@ -55,9 +55,14 @@ public class LevelLoader : MonoBehaviour {
         SceneManager.LoadScene("Lose Screen");
     }
 
+	public void LoadLevel(int level) 
+	{
+		SceneManager.LoadScene(level + 2);
+	}
+
 	public int GetCurrentLevel() 
 	{
-		return currentSceneIndex - 1;
+		return currentSceneIndex - 2;
 	}
 	
     public void QuitGame()
