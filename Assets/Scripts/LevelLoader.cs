@@ -12,6 +12,7 @@ public class LevelLoader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+		//PlayersMaxLevelController.SetMaxLeveL(0);
         if (currentSceneIndex == 0)
         {
             StartCoroutine(WaitForTime());
@@ -47,8 +48,14 @@ public class LevelLoader : MonoBehaviour {
 
 	public void LoadNextScene()
     {
-        SceneManager.LoadScene(currentSceneIndex + 1);
-    }
+        
+		if (currentSceneIndex > 2 && PlayersMaxLevelController.GetMaxLevel() < GetCurrentLevel() ) {
+			PlayersMaxLevelController.SetMaxLeveL(GetCurrentLevel());
+		}
+
+		Debug.Log("Current max level: " + PlayersMaxLevelController.GetMaxLevel());
+		SceneManager.LoadScene(currentSceneIndex + 1);
+	}
 
     public void LoadYouLose()
     {

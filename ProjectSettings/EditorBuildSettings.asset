@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Screen.unity
     guid: 80b5d51ef7ba0104ba078c9cace0c1f9
   - enabled: 1
-    path: Assets/Scenes/Level Screen.unity
+    path: Assets/Scenes/Choose Level Screen.unity
     guid: e95d01d76f9694b428dd6c206b861876
   - enabled: 1
     path: Assets/Scenes/Levels/Level 1.unity
@@ -72,11 +72,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level 19.unity
     guid: 04bc915effe1bca41be2d2b280a6f436
   - enabled: 1
-    path: Assets/Scenes/Help Screen.unity
-    guid: 9a598e646496e264998b08b996e16b3b
-  - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: de3ac8056ceae8140b58a10ad0bafa61
+  - enabled: 1
+    path: Assets/Scenes/Help Screen.unity
+    guid: 9a598e646496e264998b08b996e16b3b
   - enabled: 1
     path: Assets/Scenes/Options Screen.unity
     guid: 437275e0ede2e534e99ce9b02b217d2a
