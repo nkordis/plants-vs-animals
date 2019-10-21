@@ -15,10 +15,11 @@ public class LevelController : MonoBehaviour {
 
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
+	bool gameEnded = false;
 
 	AudioSource audioSource;
 
-    private void Start()
+	private void Start()
     {
         winLabel.SetActive(false);
         loseLabel.SetActive(false);
@@ -40,15 +41,26 @@ public class LevelController : MonoBehaviour {
         }
     }
 
-    IEnumerator HandleWinCondition()
-    {
-        winLabel.SetActive(true);
-        audioSource.PlayOneShot(levelWinSound);
-        yield return new WaitForSeconds(waitToLoad);
-        FindObjectOfType<LevelLoader>().LoadNextScene();
-    }
+    IEnumerator HandleWinCondition() {
+		gameEnded = true;
+		winLabel.SetActive(true);
+		audioSource.PlayOneShot(levelWinSound);
+		AddLevelScore();
+		yield return new WaitForSeconds(waitToLoad);
+		FindObjectOfType<LevelLoader>().LoadNextScene();
+	}
 
-    public void HandleLoseCondition()
+	private static void AddLevelScore() {
+		int score = Convert.ToInt32(FindObjectOfType<StarDisplay>().GetStars());
+		int level = FindObjectOfType<LevelDisplay>().GetCurrentLevel();
+		int oldScore = PlayersScoreController.GetScore(level);
+		if (score > oldScore) 
+			{
+			PlayersScoreController.SetScore(level, score);
+			}
+	}
+
+	public void HandleLoseCondition()
     {
         loseLabel.SetActive(true);
 		audioSource.PlayOneShot(levelLostSound);
@@ -70,4 +82,7 @@ public class LevelController : MonoBehaviour {
         }
     }
 
+	public bool GetGameEnded() {
+		return gameEnded;
+	}
 }

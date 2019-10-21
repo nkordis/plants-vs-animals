@@ -13,6 +13,7 @@ public class ChooseLevelController : MonoBehaviour
 	void Start()
     {
 		buttons[0].transform.GetChild(3).GetComponent<Image>().enabled = false;
+		buttons[0].transform.GetChild(2).GetComponent<Text>().text = PlayersScoreController.GetScore(1).ToString();
 		buttons[buttons.Length - 1].GetComponent<Image>().sprite = defaultImage;
 		buttons[buttons.Length-1].GetComponent<Image>().color = new Color32(144, 192, 46, 130);
 		buttons[buttons.Length-1].transform.GetChild(0).GetComponent<Text>().enabled = false;
@@ -32,6 +33,7 @@ public class ChooseLevelController : MonoBehaviour
 			} else 
 			{
 				buttons[i].transform.GetChild(3).GetComponent<Image>().enabled = false;
+				buttons[i].transform.GetChild(2).GetComponent<Text>().text = PlayersScoreController.GetScore(i+1).ToString();
 			}
 		}
 

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,5 +21,9 @@ public class LevelDisplay : MonoBehaviour
 	private void Update() {
 		currentLevel = levelLoader.GetCurrentLevel();
 		levelText.text = "Level " + currentLevel;
+	}
+
+	public int GetCurrentLevel() {
+		return currentLevel;
 	}
 }

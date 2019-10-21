@@ -9,17 +9,15 @@ public class LevelLoader : MonoBehaviour {
 	
     int currentSceneIndex;
 
-	// Use this for initialization
 	void Start () {
-        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-		//PlayersMaxLevelController.SetMaxLeveL(0);
-        if (currentSceneIndex == 0)
-        {
-            StartCoroutine(WaitForTime());
-        }
+		//ResetAllStoredValues();
+		currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+		if (currentSceneIndex == 0) {
+			StartCoroutine(WaitForTime());
+		}
 	}
 
-    IEnumerator WaitForTime()
+	IEnumerator WaitForTime()
     {
         yield return new WaitForSeconds(timeToWait);
         LoadNextScene();
@@ -76,5 +74,12 @@ public class LevelLoader : MonoBehaviour {
     {
         Application.Quit();
     }
+
+	private static void ResetAllStoredValues() {
+		PlayersMaxLevelController.SetMaxLeveL(0);
+		for (int i = 1; i < 20; i++) {
+			PlayersScoreController.SetScore(i, 0);
+		}
+	}
 
 }

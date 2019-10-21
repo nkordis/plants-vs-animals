@@ -8,12 +8,14 @@ public class StarDisplay : MonoBehaviour
 
     [SerializeField] int stars = 100;
     Text starText;
+	LevelController levelController;
 
     void Start()
     {
         starText = GetComponent<Text>();
         UpdateDisplay();
-    }
+		levelController = FindObjectOfType<LevelController>();
+	}
 
     private void UpdateDisplay()
     {
@@ -27,8 +29,10 @@ public class StarDisplay : MonoBehaviour
 
     public void AddStars(int amount)
     {
-        stars += amount;
-        UpdateDisplay();
+		if (!levelController.GetGameEnded()) {
+			stars += amount;
+			UpdateDisplay();
+		}
     }
 
     public void SpendStars(int amount)
@@ -39,4 +43,8 @@ public class StarDisplay : MonoBehaviour
             UpdateDisplay();
         }
     }
+
+	public int GetStars() {
+		return stars;
+	}
 }
