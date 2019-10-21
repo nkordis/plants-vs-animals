@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour {
 
@@ -9,6 +11,7 @@ public class LevelController : MonoBehaviour {
     [SerializeField] GameObject loseLabel;
 	[SerializeField] AudioClip levelWinSound;
 	[SerializeField] AudioClip levelLostSound;
+	[SerializeField] Text livesText;
 
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
@@ -30,7 +33,8 @@ public class LevelController : MonoBehaviour {
     public void AttackerKilled()
     {
         numberOfAttackers--;
-        if (numberOfAttackers <= 0 && levelTimerFinished)
+		int lives = Convert.ToInt32(livesText.text);
+		if (numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
         {
             StartCoroutine(HandleWinCondition());
         }

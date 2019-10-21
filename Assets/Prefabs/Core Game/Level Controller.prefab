@@ -50,6 +50,7 @@ MonoBehaviour:
   loseLabel: {fileID: 0}
   levelWinSound: {fileID: 8300000, guid: 1f1a87cf463e8564da45a23dd11ee96c, type: 3}
   levelLostSound: {fileID: 8300000, guid: 4648749528eb4814f81c77f1e550e6b1, type: 3}
+  livesText: {fileID: 0}
 --- !u!114 &114966389011391646
 MonoBehaviour:
   m_ObjectHideFlags: 0
