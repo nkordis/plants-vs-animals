@@ -5,44 +5,72 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour {
 
-    [SerializeField] int timeToWait = 4;
+    [SerializeField] float timeToWait = 4f;
+	[SerializeField] float timeToWaitUI = 0.5f;
 	
     int currentSceneIndex;
 
 	void Start () {
-		//ResetAllStoredValues();
+		ResetAllStoredValues();
 		currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 		if (currentSceneIndex == 0) {
-			StartCoroutine(WaitForTime());
+			StartCoroutine(WaitForTime(timeToWait));
 		}
 	}
 
-	IEnumerator WaitForTime()
+	public void LoadChooseLevelScreen() {
+		
+		StartCoroutine(WaitForTime(1));
+	}
+
+	IEnumerator WaitForTime(float time)
     {
-        yield return new WaitForSeconds(timeToWait);
+        yield return new WaitForSeconds(time);
         LoadNextScene();
     }
 
     public void RestartScene()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(currentSceneIndex);
-    }
+		Time.timeScale = 1;
+		SceneManager.LoadScene(currentSceneIndex);
+	}
 
-    public void LoadMainMenu()
+	public void LoadMainMenuNormally() {
+		Time.timeScale = 1;
+		SceneManager.LoadScene("Start Screen");
+	}
+
+	public void LoadMainMenu()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene("Start Screen");
+		StartCoroutine(MainMenusWaitForTime(timeToWaitUI));
     }
 
-    public void LoadOptionsScreen()
+	IEnumerator MainMenusWaitForTime(float time) {
+		Time.timeScale = 1;
+		yield return new WaitForSeconds(time);
+		SceneManager.LoadScene("Start Screen");
+	}
+
+	public void LoadOptionsScreen()
     {
-        SceneManager.LoadScene("Options Screen");
+		StartCoroutine(OptionsWaitForTime(timeToWaitUI));
     }
 
-	public void LoadHelpScreen() {
+	IEnumerator OptionsWaitForTime(float time) {
+		yield return new WaitForSeconds(time);
+		SceneManager.LoadScene("Options Screen");
+	}
+
+	public void LoadHelpScreen() 
+	{
+		StartCoroutine(HelpsWaitForTime(timeToWaitUI));
+	}
+
+	IEnumerator HelpsWaitForTime(float time) {
+		yield return new WaitForSeconds(time);
 		SceneManager.LoadScene("Help Screen");
 	}
+
 
 	public void LoadNextScene()
     {
@@ -62,6 +90,12 @@ public class LevelLoader : MonoBehaviour {
 
 	public void LoadLevel(int level) 
 	{
+		//SceneManager.LoadScene(level + 2);
+		StartCoroutine(LoadLevelsWaitForTime(level, timeToWaitUI));
+	}
+
+	IEnumerator LoadLevelsWaitForTime(int level,float time) {
+		yield return new WaitForSeconds(time);
 		SceneManager.LoadScene(level + 2);
 	}
 
@@ -72,8 +106,13 @@ public class LevelLoader : MonoBehaviour {
 	
     public void QuitGame()
     {
-        Application.Quit();
+		StartCoroutine(QuitsWaitForTime(timeToWaitUI));
     }
+
+	IEnumerator QuitsWaitForTime(float time) {
+		yield return new WaitForSeconds(time);
+		Application.Quit();
+	}
 
 	private static void ResetAllStoredValues() {
 		PlayersMaxLevelController.SetMaxLeveL(0);
