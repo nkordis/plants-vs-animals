@@ -834,8 +834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ce0bbf1a771704c89cf6b36eb43bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 2
-  maxSpawnDelay: 4
+  minSpawnDelay: 7
+  maxSpawnDelay: 7
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
 --- !u!4 &848811184 stripped
@@ -1644,10 +1644,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2118012029}
     m_Modifications:
-    - target: {fileID: 1349419610069012, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
-      propertyPath: m_Name
-      value: Level Controller
-      objectReference: {fileID: 0}
     - target: {fileID: 4657867077449048, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.1879487
@@ -1691,6 +1687,10 @@ PrefabInstance:
     - target: {fileID: 4657867077449048, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349419610069012, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
+      propertyPath: m_Name
+      value: Level Controller
       objectReference: {fileID: 0}
     - target: {fileID: 114664922250655312, guid: 1ee37da65c855354c9c93e4aae5473d9,
         type: 3}

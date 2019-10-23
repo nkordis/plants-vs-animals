@@ -11,7 +11,7 @@ public class LevelLoader : MonoBehaviour {
     int currentSceneIndex;
 
 	void Start () {
-		ResetAllStoredValues();
+		//ResetAllStoredValues();
 		currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 		if (currentSceneIndex == 0) {
 			StartCoroutine(WaitForTime(timeToWait));

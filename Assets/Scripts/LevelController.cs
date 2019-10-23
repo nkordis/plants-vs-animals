@@ -52,8 +52,14 @@ public class LevelController : MonoBehaviour {
 
 	private static void AddLevelScore() {
 		int score = Convert.ToInt32(FindObjectOfType<StarDisplay>().GetStars());
+		float difficulty = PlayerPrefsController.GetDifficulty();
+		if (difficulty == 1f) 
+			{ score = (3 * score) / 2; } else if (difficulty == 2f) { score = 2 * score; }
+
 		int level = FindObjectOfType<LevelDisplay>().GetCurrentLevel();
 		int oldScore = PlayersScoreController.GetScore(level);
+		Debug.Log("score: " + score);
+		Debug.Log("oldScore: " + oldScore);
 		if (score > oldScore) 
 			{
 			PlayersScoreController.SetScore(level, score);

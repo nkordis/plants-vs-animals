@@ -406,7 +406,8 @@ MonoBehaviour:
     not defenseless though. Each one of them has special weapons. Use your stars
     carefully and place the plants on the map to fight back. Mushrooms  give you
     extra stars as time passes and not only... Every time an animal makes it to the
-    end of the map, you lose one life.
+    end of the map, you lose one life. Earn more points by increasing the difficulty
+    from the options menu.
 --- !u!222 &790751029
 CanvasRenderer:
   m_ObjectHideFlags: 0
