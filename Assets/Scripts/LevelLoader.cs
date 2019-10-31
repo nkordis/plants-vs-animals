@@ -7,13 +7,14 @@ public class LevelLoader : MonoBehaviour {
 
     [SerializeField] float timeToWait = 4f;
 	[SerializeField] float timeToWaitUI = 0.5f;
-	
-    int currentSceneIndex;
 
-	void Start () {
+
+	int currentSceneIndex;
+
+	 void Start () {
 		//ResetAllStoredValues();
 		currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-		if (currentSceneIndex == 0) {
+		if (currentSceneIndex == 1) {
 			StartCoroutine(WaitForTime(timeToWait));
 		}
 	}
@@ -96,12 +97,12 @@ public class LevelLoader : MonoBehaviour {
 
 	IEnumerator LoadLevelsWaitForTime(int level,float time) {
 		yield return new WaitForSeconds(time);
-		SceneManager.LoadScene(level + 2);
+		SceneManager.LoadScene(level + 3);
 	}
 
 	public int GetCurrentLevel() 
 	{
-		return currentSceneIndex - 2;
+		return currentSceneIndex - 3;
 	}
 	
     public void QuitGame()
