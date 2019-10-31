@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: 270197268}
   - component: {fileID: 270197270}
   - component: {fileID: 270197272}
+  - component: {fileID: 270197271}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -401,6 +402,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &270197271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270197266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: main_start
 --- !u!82 &270197272
 AudioSource:
   m_ObjectHideFlags: 0
@@ -510,6 +524,7 @@ GameObject:
   - component: {fileID: 1052452662}
   - component: {fileID: 1052452664}
   - component: {fileID: 1052452665}
+  - component: {fileID: 1052452666}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -737,6 +752,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1052452666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052452660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: main_quit
 --- !u!1 &1073619118
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1020,7 @@ GameObject:
   - component: {fileID: 1952903183}
   - component: {fileID: 1952903182}
   - component: {fileID: 1952903185}
+  - component: {fileID: 1952903186}
   m_Layer: 5
   m_Name: 'Help Button '
   m_TagString: Untagged
@@ -1219,6 +1248,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1952903186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952903180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: main_help
 --- !u!1 &2049472703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1274,7 @@ GameObject:
   - component: {fileID: 2049472706}
   - component: {fileID: 2049472705}
   - component: {fileID: 2049472708}
+  - component: {fileID: 2049472709}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -1459,3 +1502,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2049472709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049472703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: main_options

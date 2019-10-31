@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 270197267}
   - component: {fileID: 270197269}
   - component: {fileID: 270197268}
+  - component: {fileID: 270197270}
   m_Layer: 5
   m_Name: Help Heading
   m_TagString: Untagged
@@ -334,6 +335,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270197266}
   m_CullTransparentMesh: 0
+--- !u!114 &270197270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270197266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: help_heading
 --- !u!1 &790751026
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +359,7 @@ GameObject:
   - component: {fileID: 790751027}
   - component: {fileID: 790751029}
   - component: {fileID: 790751028}
+  - component: {fileID: 790751030}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -416,6 +431,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790751026}
   m_CullTransparentMesh: 0
+--- !u!114 &790751030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790751026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: help_text
 --- !u!1 &1052452660
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +457,7 @@ GameObject:
   - component: {fileID: 1052452662}
   - component: {fileID: 1052452664}
   - component: {fileID: 1052452665}
+  - component: {fileID: 1052452666}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -656,6 +685,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1052452666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052452660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: help_back
 --- !u!1 &1073619118
 GameObject:
   m_ObjectHideFlags: 0

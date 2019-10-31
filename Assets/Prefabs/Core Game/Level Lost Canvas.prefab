@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 224863133123348114}
   - component: {fileID: 222855290874395224}
   - component: {fileID: 114166418891342316}
+  - component: {fileID: 6340229348486503367}
   m_Layer: 5
   m_Name: Level Lost Text
   m_TagString: Untagged
@@ -206,6 +207,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: That was close!
+--- !u!114 &6340229348486503367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183380130650608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: level_lost
 --- !u!1 &1481179775543886
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,6 +562,7 @@ GameObject:
   - component: {fileID: 224880061373475988}
   - component: {fileID: 222270802197730928}
   - component: {fileID: 114703672806614148}
+  - component: {fileID: 4510443528054168312}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -614,6 +629,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Main Menu
+--- !u!114 &4510443528054168312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938656310520510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: main_menu
 --- !u!1 &1996878592343384
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +653,7 @@ GameObject:
   - component: {fileID: 224083437844787516}
   - component: {fileID: 222844239934575096}
   - component: {fileID: 114160578846228904}
+  - component: {fileID: 5190214539111701909}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -691,3 +720,16 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Play Again
+--- !u!114 &5190214539111701909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996878592343384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64a193e0b8f61540ba28380edd321fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: try_again
