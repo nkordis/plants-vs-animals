@@ -43,10 +43,10 @@ public class Runner : MonoBehaviour
 	void Update()
     {
 		transform.Translate(Vector2.right * currentSpeed * Time.deltaTime);
-		if (IsAttackerInLane()) {
+		if (IsAttackerInLane() && myLaneSpawner.transform.GetChild(0).gameObject.transform.position.x - gameObject.transform.position.x < 3) {
 			animator.SetBool("isAttacking", true);
 		} else {
-			//animator.SetBool("isAttacking", false);
+			animator.SetBool("isAttacking", false);
 		}
 	}
 
@@ -75,6 +75,7 @@ public class Runner : MonoBehaviour
 
 
 	private void OnTriggerEnter2D(Collider2D otherCollider) {
+
 
 		if (otherCollider.gameObject.GetComponent<Attacker>() != null && otherCollider.gameObject.transform.position.x >= gameObject.transform.position.x
 			) 

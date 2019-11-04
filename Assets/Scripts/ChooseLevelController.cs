@@ -44,7 +44,7 @@ public class ChooseLevelController : MonoBehaviour
 			buttons[buttons.Length - 1].GetComponent<Image>().color = new Color32(255, 255, 255, 105);
 			buttons[buttons.Length-1].transform.GetChild(0).GetComponent<Text>().enabled = true;
 			buttons[buttons.Length-1].transform.GetChild(1).GetComponent<Text>().enabled = true;
-			buttons[buttons.Length - 1].transform.GetChild(4).GetComponent<Text>().enabled = true;
+			//buttons[buttons.Length - 1].transform.GetChild(4).GetComponent<Text>().enabled = true;
 			buttons[buttons.Length-1].transform.GetChild(2).GetComponent<Image>().enabled = false;
 		}
 		
