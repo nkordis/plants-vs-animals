@@ -152,11 +152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 19 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -166,6 +161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 19 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -513,11 +513,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 17 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -527,6 +522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 17 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -665,11 +665,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 12 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -679,6 +674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 12 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -944,11 +944,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 2 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -958,6 +953,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 2 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -1114,11 +1114,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 4 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1128,6 +1123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 4 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -1384,6 +1384,7 @@ MonoBehaviour:
   - {fileID: 344220405}
   - {fileID: 1191108120}
   - {fileID: 1678891620}
+  - {fileID: 1937143821}
   - {fileID: 1171935743}
   comingSoonImage: {fileID: 21300000, guid: ddd69ed021b195a4a99ed5222dae7d52, type: 3}
   defaultImage: {fileID: 21300000, guid: 0e02013ac1882f1489c17aba3c76ce0f, type: 3}
@@ -1497,11 +1498,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 10 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1511,6 +1507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 10 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -1649,11 +1650,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 5 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1663,6 +1659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 5 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -1789,11 +1790,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 3 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1803,6 +1799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 3 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -1953,11 +1954,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 20 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1967,6 +1963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 20 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -2093,11 +2094,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 14 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2107,6 +2103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 14 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -2226,6 +2227,146 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1213033404}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1275125308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2001641755}
+    m_Modifications:
+    - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 416707938}
+    - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 21 Button '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064819623641975, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Text
+      value: ' 21'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc7468a3f9bc1334187b1ac5cc51b949, type: 3}
+--- !u!224 &1275125309 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+    type: 3}
+  m_PrefabInstance: {fileID: 1275125308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1277700914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2233,11 +2374,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 15 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2247,6 +2383,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 15 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -2373,11 +2514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 9 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2387,6 +2523,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 9 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -2519,11 +2660,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 18 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2533,6 +2669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 18 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -2659,11 +2800,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 16 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2673,6 +2809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 16 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -3099,11 +3240,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 7 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3113,6 +3249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 7 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -3275,11 +3416,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 8 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3289,6 +3425,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 8 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -3517,11 +3658,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 6 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3531,6 +3667,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 6 Button
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -3650,6 +3791,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1693070338}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1937143821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+    type: 3}
+  m_PrefabInstance: {fileID: 1275125308}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1986408814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3657,11 +3810,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 13 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3671,6 +3819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 13 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -3837,6 +3990,7 @@ RectTransform:
   - {fileID: 1388740406}
   - {fileID: 129591699}
   - {fileID: 1192224188}
+  - {fileID: 1275125309}
   - {fileID: 3011270461933034682}
   m_Father: {fileID: 1073619122}
   m_RootOrder: 4
@@ -3877,11 +4031,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Level 11 Button '
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3891,6 +4040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Level 11 Button '
       objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
@@ -4023,11 +4177,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 9214214762167743402, guid: b762587f78ea8cb4a8590ab7fa6532ab,
-        type: 3}
-      propertyPath: m_Name
-      value: Level ComingSoon
-      objectReference: {fileID: 0}
     - target: {fileID: 9214214762167743400, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
       propertyPath: m_Enabled
@@ -4071,7 +4220,7 @@ PrefabInstance:
     - target: {fileID: 9214214762167743403, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9214214762167743403, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
@@ -4091,7 +4240,7 @@ PrefabInstance:
     - target: {fileID: 9214214762167743403, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 111
+      value: 311
       objectReference: {fileID: 0}
     - target: {fileID: 9214214762167743403, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
@@ -4138,6 +4287,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9214214762167743402, guid: b762587f78ea8cb4a8590ab7fa6532ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Level ComingSoon
+      objectReference: {fileID: 0}
     - target: {fileID: 9214214762167743401, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
       propertyPath: m_Sprite
@@ -4167,7 +4321,7 @@ PrefabInstance:
     - target: {fileID: 9214214761149768795, guid: b762587f78ea8cb4a8590ab7fa6532ab,
         type: 3}
       propertyPath: m_Text
-      value: Level 21
+      value: Level 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b762587f78ea8cb4a8590ab7fa6532ab, type: 3}
@@ -4178,16 +4332,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2001641755}
     m_Modifications:
-    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
-        type: 3}
-      propertyPath: m_Name
-      value: Level 1 Button
-      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933636, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 416707938}
+    - target: {fileID: 8074064818470933638, guid: dc7468a3f9bc1334187b1ac5cc51b949,
+        type: 3}
+      propertyPath: m_Name
+      value: Level 1 Button
+      objectReference: {fileID: 0}
     - target: {fileID: 8074064818470933639, guid: dc7468a3f9bc1334187b1ac5cc51b949,
         type: 3}
       propertyPath: m_LocalPosition.x
