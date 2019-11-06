@@ -142,10 +142,10 @@ MonoBehaviour:
   minSpawnDelay: 6
   maxSpawnDelay: 8
   attackerPrefabArray:
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
 --- !u!4 &12710567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4783717922975062, guid: 1e7fdd6db50f6b54dbf976bc096cb9ce,
@@ -542,8 +542,8 @@ MonoBehaviour:
   maxSpawnDelay: 10
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
 --- !u!4 &557978800 stripped
 Transform:
@@ -827,8 +827,8 @@ MonoBehaviour:
   maxSpawnDelay: 10
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
 --- !u!4 &827130541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4783717922975062, guid: 1e7fdd6db50f6b54dbf976bc096cb9ce,
@@ -857,7 +857,7 @@ MonoBehaviour:
   maxSpawnDelay: 10
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
+  - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
 --- !u!4 &848811184 stripped
 Transform:
@@ -973,8 +973,8 @@ MonoBehaviour:
   maxSpawnDelay: 10
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
-  - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
+  - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
 --- !u!4 &1472841699 stripped
 Transform:
@@ -1909,7 +1909,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 165
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
