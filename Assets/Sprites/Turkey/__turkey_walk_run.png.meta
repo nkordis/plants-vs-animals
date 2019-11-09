@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 35c4375303ab5fd42886a60521a349b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 351340262615288324
+    second: __turkey_walk_run_0
+  - first:
+      213: -6141277471654101362
+    second: __turkey_walk_run_1
+  - first:
+      213: -5049341565680292849
+    second: __turkey_walk_run_2
+  - first:
+      213: -7781791082651142816
+    second: __turkey_walk_run_3
+  - first:
+      213: 5116172590850143579
+    second: __turkey_walk_run_4
+  - first:
+      213: -7935158792496899451
+    second: __turkey_walk_run_5
+  - first:
+      213: -1011196977134272414
+    second: __turkey_walk_run_6
+  - first:
+      213: 1145014744698793241
+    second: __turkey_walk_run_7
+  - first:
+      213: 6697011354599615486
+    second: __turkey_walk_run_8
+  - first:
+      213: 8766258979613004462
+    second: __turkey_walk_run_9
+  - first:
+      213: -7981339852222318447
+    second: __turkey_walk_run_10
+  - first:
+      213: -4078425615384012366
+    second: __turkey_walk_run_11
+  - first:
+      213: 791307219327338758
+    second: __turkey_walk_run_12
+  - first:
+      213: 4903279917070746052
+    second: __turkey_walk_run_13
+  - first:
+      213: 5522729214531546630
+    second: __turkey_walk_run_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __turkey_walk_run_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1351
+        width: 478
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6026e6ebc324289408f4549467526833
+      internalID: 351340262615288324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_1
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1350
+        width: 478
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89598294599d06042914f2aa415a04c9
+      internalID: -6141277471654101362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_2
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1350
+        width: 478
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680608cca84c597489fcab7bf8d101e3
+      internalID: -5049341565680292849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_3
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1350
+        width: 475
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a9584c3a4e3a94eaba95a3d373fc3c
+      internalID: -7781791082651142816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_4
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 1353
+        width: 475
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8bbc2983508ae469ae2383fa6ef86d
+      internalID: 5116172590850143579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 708
+        width: 473
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e03d28a409f50f43834dc3c2101ae6b
+      internalID: -7935158792496899451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_6
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 706
+        width: 472
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6dfcfe13a5047439c157988c72e29c
+      internalID: -1011196977134272414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_7
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 708
+        width: 471
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c97aa4ddef8fb141991f29b9aab7e0a
+      internalID: 1145014744698793241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_8
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 706
+        width: 468
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88df727857bf4314fa07afca13c8e126
+      internalID: 6697011354599615486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_9
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 706
+        width: 472
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc64dccc35d9ac4caf3e1c0bf21a033
+      internalID: 8766258979613004462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 60
+        width: 472
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b818b7e9274bf4188d0f8d7e811e47
+      internalID: -7981339852222318447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 61
+        width: 476
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb40be31981ad141a64fe397285823f
+      internalID: -4078425615384012366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_12
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 64
+        width: 477
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba844cb0c203b594e9fa80320b9bf70d
+      internalID: 791307219327338758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_13
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 63
+        width: 477
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fc1c38c11190e48af61345df336d32
+      internalID: 4903279917070746052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __turkey_walk_run_14
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 62
+        width: 477
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb0a1efe3532eb42a2d5179e6d339fb
+      internalID: 5522729214531546630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
