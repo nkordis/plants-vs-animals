@@ -96,6 +96,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level 26.unity
     guid: 2c7fe42530e1cdb4e80d9ab58879eab7
   - enabled: 1
+    path: Assets/Scenes/Levels/Level 27.unity
+    guid: b8f23b6b185fe334388179c93364a51e
+  - enabled: 1
     path: Assets/Scenes/Win Screen.unity
     guid: de3ac8056ceae8140b58a10ad0bafa61
   - enabled: 1

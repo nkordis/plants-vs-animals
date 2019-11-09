@@ -971,8 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ce0bbf1a771704c89cf6b36eb43bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 6
-  maxSpawnDelay: 10
+  minSpawnDelay: 5
+  maxSpawnDelay: 9
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
@@ -1911,7 +1911,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 225
+      value: 240
       objectReference: {fileID: 0}
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
