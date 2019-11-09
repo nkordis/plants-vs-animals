@@ -19,34 +19,34 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.18333334
+    - time: 0
       value: {fileID: -7584569985898667708, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.26666668
+    - time: 0.083333336
       value: {fileID: 3758100981194653540, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.36666667
+    - time: 0.16666667
       value: {fileID: -3863121849497987149, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.45
+    - time: 0.25
       value: {fileID: 3958914112060540643, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.53333336
+    - time: 0.33333334
       value: {fileID: 1118599053014035630, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.6333333
+    - time: 0.41666666
       value: {fileID: -8715956710817761079, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.71666664
+    - time: 0.5
       value: {fileID: -2492342868547200500, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.8
+    - time: 0.5833333
       value: {fileID: 5386495695568963268, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.9166667
+    - time: 0.6666667
       value: {fileID: -2212685195558692721, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
-    - time: 0.98333335
+    - time: 0.9166667
       value: {fileID: 4932101957399394118, guid: fa8361163085a6b4e8a6435a8873c355,
         type: 3}
     attribute: m_Sprite
@@ -83,7 +83,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.93333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -110,7 +110,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6333333
+  - time: 0.41666666
     functionName: StrikeCurrentTarget
     data: 
     objectReferenceParameter: {fileID: 0}

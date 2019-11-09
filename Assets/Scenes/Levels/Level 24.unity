@@ -265,6 +265,67 @@ PrefabInstance:
       objectReference: {fileID: 319040612}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5c753cb93ddcf44d86fa7c8ced0d062, type: 3}
+--- !u!1001 &66981584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1098104420820142, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_Name
+      value: Turkey
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098104420820142, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.545843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.9754047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298131131119366, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
 --- !u!4 &319040611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4657867077449048, guid: 1ee37da65c855354c9c93e4aae5473d9,
@@ -1204,6 +1265,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_Name
+      value: Thorn
+      objectReference: {fileID: 0}
     - target: {fileID: 224692337828174682, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1301,14 +1370,6 @@ PrefabInstance:
     - target: {fileID: 1058112619914848, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_Name
       value: Mushroom
-      objectReference: {fileID: 0}
-    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_Name
-      value: Thorn
       objectReference: {fileID: 0}
     - target: {fileID: 212391926492217832, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
@@ -1916,7 +1977,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: delaySlider
-      value: 0.95
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 114009962718335206, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
