@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: fa375753da5a6484a8d1e73ceb607789
+guid: 7fa801a7565f5af45970afb9ba0ec250
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: trophy cut_0
+      213: -6316210471220350323
+    second: watermelon_flare_blast_0
   - first:
-      213: 21300002
-    second: trophy cut_1
+      213: 7780974891294188468
+    second: watermelon_flare_blast_1
+  - first:
+      213: -9021809026160850712
+    second: watermelon_flare_blast_2
+  - first:
+      213: 7877650279582103718
+    second: watermelon_flare_blast_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -78,7 +84,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -90,18 +96,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -111,18 +105,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trophy cut_0
+      name: watermelon_flare_blast_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 26
-        width: 37
-        height: 36
+        x: 248
+        y: 1152
+        width: 404
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3804832b867721d4f99e01d0330e35de
-      internalID: 21300000
+      spriteID: 6408ec952458e8c47988beb553f2f4a9
+      internalID: -6316210471220350323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trophy cut_1
+      name: watermelon_flare_blast_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 38
-        height: 19
+        x: 1032
+        y: 1036
+        width: 636
+        height: 628
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +145,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f371d347da310449f36f2b82f81a58
-      internalID: 21300002
+      spriteID: f26f17bc6012b5544b8f3fd342529d4e
+      internalID: 7780974891294188468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watermelon_flare_blast_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 20
+        width: 868
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b70f0b6fbfc0d4c953b706cf418acf
+      internalID: -9021809026160850712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watermelon_flare_blast_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 900
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0535e55be02245143a8fa6f479b4ad68
+      internalID: 7877650279582103718
       vertices: []
       indices: 
       edges: []
@@ -160,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 593381d400c89504ea2a140ccbf219e9
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: 4fbf3361314de3e44a178bd422842581
+guid: 3b8999561cd8bf64c835db7de81aaa18
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: Fox Running_0
+      213: 2568614649726474100
+    second: watermelon_idle_0
   - first:
-      213: 21300002
-    second: Fox Running_1
+      213: -5425769214999233490
+    second: watermelon_idle_1
   - first:
-      213: 21300004
-    second: Fox Running_2
+      213: -3498397581659687470
+    second: watermelon_idle_2
   - first:
-      213: 21300006
-    second: Fox Running_3
+      213: -1558478202466392417
+    second: watermelon_idle_3
   - first:
-      213: 21300008
-    second: Fox Running_4
+      213: -2173804712097451793
+    second: watermelon_idle_4
   - first:
-      213: 21300010
-    second: Fox Running_5
+      213: -5309446574768635643
+    second: watermelon_idle_5
   - first:
-      213: 21300012
-    second: Fox Running_6
+      213: -7242954216984871652
+    second: watermelon_idle_6
   - first:
-      213: 21300014
-    second: Fox Running_7
+      213: -3978772456180897401
+    second: watermelon_idle_7
   - first:
-      213: 21300016
-    second: Fox Running_8
+      213: -5134101284312458295
+    second: watermelon_idle_8
   - first:
-      213: 21300018
-    second: Fox Running_9
-  - first:
-      213: 21300020
-    second: Fox Running_10
-  - first:
-      213: 21300022
-    second: Fox Running_11
+      213: 8809482668012974659
+    second: watermelon_idle_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -81,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 133
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +90,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,7 +102,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -120,18 +114,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,18 +123,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox Running_0
+      name: watermelon_idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 139
-        width: 153
-        height: 139
+        x: 7
+        y: 657
+        width: 27
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213bdcd8b80b96145a70ec7cd29bdd3b
-      internalID: 21300000
+      spriteID: 126d49b2229a7ee4890cd7e17e3fba94
+      internalID: 2568614649726474100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_1
+      name: watermelon_idle_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 139
-        width: 153
-        height: 139
+        x: 46
+        y: 656
+        width: 28
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0833b810e91b5d428c81c19f5698d0f
-      internalID: 21300002
+      spriteID: 35a379e8eb7f0be448abf99a091ea814
+      internalID: -5425769214999233490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_2
+      name: watermelon_idle_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 139
-        width: 153
-        height: 139
+        x: 86
+        y: 656
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d64b5ca5d78daf458e98fcfbe998b78
-      internalID: 21300004
+      spriteID: e880fec412f1a4e4f93fa44a38040c40
+      internalID: -3498397581659687470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_3
+      name: watermelon_idle_3
       rect:
         serializedVersion: 2
-        x: 459
-        y: 139
-        width: 153
-        height: 139
+        x: 128
+        y: 656
+        width: 24
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52381154d1d922e4585a0eaee33bed57
-      internalID: 21300006
+      spriteID: 3f47c33191993ae4699460de30147549
+      internalID: -1558478202466392417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_4
+      name: watermelon_idle_4
       rect:
         serializedVersion: 2
-        x: 612
-        y: 139
-        width: 153
-        height: 139
+        x: 166
+        y: 656
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0bd111d819aca247901a31d009fff86
-      internalID: 21300008
+      spriteID: f86602749476e404baf64c825ad6afea
+      internalID: -2173804712097451793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_5
+      name: watermelon_idle_5
       rect:
         serializedVersion: 2
-        x: 765
-        y: 139
-        width: 153
-        height: 139
+        x: 207
+        y: 659
+        width: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f6be960297c8ce4688de89a6247b478
-      internalID: 21300010
+      spriteID: bccdd41679f2eb54696a9b3c3b622ebd
+      internalID: -5309446574768635643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_6
+      name: watermelon_idle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 153
-        height: 139
+        x: 307
+        y: 59
+        width: 556
+        height: 555
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d53596c22e65c4e42bd43424994bc71b
-      internalID: 21300012
+      spriteID: d39bdccf067516948b28fc5a0adc0aa2
+      internalID: -7242954216984871652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_7
+      name: watermelon_idle_7
       rect:
         serializedVersion: 2
-        x: 153
-        y: 0
-        width: 153
-        height: 139
+        x: 979
+        y: 42
+        width: 591
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff927ac411c6a0458d3bdad785214b7
-      internalID: 21300014
+      spriteID: c39c3774f589f1643a1527b4099840cd
+      internalID: -3978772456180897401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_8
+      name: watermelon_idle_8
       rect:
         serializedVersion: 2
-        x: 306
-        y: 0
-        width: 153
-        height: 139
+        x: 1663
+        y: 35
+        width: 605
+        height: 602
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c7090da30f8254d8307e85281394a1
-      internalID: 21300016
+      spriteID: 6b8ffe89ad2f7324d8d0600216bf79a0
+      internalID: -5134101284312458295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Running_9
+      name: watermelon_idle_9
       rect:
         serializedVersion: 2
-        x: 459
-        y: 0
-        width: 153
-        height: 139
+        x: 2339
+        y: 22
+        width: 631
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,50 +331,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99c222d89898af04dbaaa53d2e5e3555
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Running_10
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 0
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cc670b5e846f924e840df674340bec5
-      internalID: 21300020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Running_11
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 0
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c857a1c49dd41f64dbbc10ffa8b82f81
-      internalID: 21300022
+      spriteID: c515a1ee35910a7469bd530736c0cf16
+      internalID: 8809482668012974659
       vertices: []
       indices: 
       edges: []
@@ -400,7 +340,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 812a9a30f8a5fa74f89808cd44e7601d
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
