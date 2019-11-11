@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 2f8e79107dbe6e64fb3c525046b1ecbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8158473946532926252
+    second: Boar Eating1_0
+  - first:
+      213: 253576827176792612
+    second: Boar Eating1_1
+  - first:
+      213: 6305483315311377886
+    second: Boar Eating1_2
+  - first:
+      213: 5619877909513772813
+    second: Boar Eating1_3
+  - first:
+      213: 1794911936266307194
+    second: Boar Eating1_4
+  - first:
+      213: 6180789192140920802
+    second: Boar Eating1_5
+  - first:
+      213: -5361577479740332968
+    second: Boar Eating1_6
+  - first:
+      213: -1818314753754749179
+    second: Boar Eating1_7
+  - first:
+      213: -6463265819851939207
+    second: Boar Eating1_8
+  - first:
+      213: -2071020038137959541
+    second: Boar Eating1_9
+  - first:
+      213: -5465620835176917379
+    second: Boar Eating1_10
+  - first:
+      213: -6101745455828616442
+    second: Boar Eating1_11
+  - first:
+      213: 6895994482565067641
+    second: Boar Eating1_12
+  - first:
+      213: 1964124749886747547
+    second: Boar Eating1_13
+  - first:
+      213: -8935185553969203878
+    second: Boar Eating1_14
+  - first:
+      213: -5704558744976238930
+    second: Boar Eating1_15
+  - first:
+      213: -7007213659722015693
+    second: Boar Eating1_16
+  - first:
+      213: -8801033407531509880
+    second: Boar Eating1_17
+  - first:
+      213: 5473792550140540032
+    second: Boar Eating1_18
+  - first:
+      213: 1961453660551169707
+    second: Boar Eating1_19
+  - first:
+      213: -4952229594143590875
+    second: Boar Eating1_20
+  - first:
+      213: -8700357785235198586
+    second: Boar Eating1_21
+  - first:
+      213: -2827117458769681099
+    second: Boar Eating1_22
+  - first:
+      213: -1929241261772605518
+    second: Boar Eating1_23
+  - first:
+      213: 1672854794482620336
+    second: Boar Eating1_24
+  - first:
+      213: 8627785054225609552
+    second: Boar Eating1_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boar Eating1_0
+      rect:
+        serializedVersion: 2
+        x: 13733
+        y: 475
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955d41dc369fc4245a097d6f8db3fc8c
+      internalID: 8158473946532926252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_1
+      rect:
+        serializedVersion: 2
+        x: 13767
+        y: 469
+        width: 121
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c897574bad4549932dbae5be4b1a9
+      internalID: 253576827176792612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_2
+      rect:
+        serializedVersion: 2
+        x: 13890
+        y: 472
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e178fd8babe027479d5d41e4e3f17dd
+      internalID: 6305483315311377886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_3
+      rect:
+        serializedVersion: 2
+        x: 13931
+        y: 475
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1bba573acdbd04eb3d5a40608c9a94
+      internalID: 5619877909513772813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 450
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b9c59f1935dcc45ab685e6a2eea471
+      internalID: 1794911936266307194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 31
+        width: 456
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69749676352b440b335492fe5bf598
+      internalID: 6180789192140920802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_6
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 31
+        width: 456
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b7adf180cd23448215e50e4d7e8cc
+      internalID: -5361577479740332968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 31
+        width: 457
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240daac6890c7b741b82ffef3f52f607
+      internalID: -1818314753754749179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_8
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 31
+        width: 464
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1c661f0bbf2d4c94f642969481b68
+      internalID: -6463265819851939207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_9
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 31
+        width: 463
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf5b78b052a0764aa151dff5e5aef12
+      internalID: -2071020038137959541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_10
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 31
+        width: 457
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a647004bff38db4bbea4ceee2839b1d
+      internalID: -5465620835176917379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_11
+      rect:
+        serializedVersion: 2
+        x: 4403
+        y: 31
+        width: 456
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca43532efe23d438e1edb1882b2ddf
+      internalID: -6101745455828616442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_12
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 31
+        width: 457
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f08d7ee77065b3439afe509891eee88
+      internalID: 6895994482565067641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_13
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 31
+        width: 450
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec94a60c64127a047bca4a841591692e
+      internalID: 1964124749886747547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_14
+      rect:
+        serializedVersion: 2
+        x: 6278
+        y: 31
+        width: 457
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b112ae1c99b5d45bb811701bd858b7
+      internalID: -8935185553969203878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_15
+      rect:
+        serializedVersion: 2
+        x: 6899
+        y: 31
+        width: 463
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4cb8bb6ecad064e9be32b96e6525d4
+      internalID: -5704558744976238930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_16
+      rect:
+        serializedVersion: 2
+        x: 7519
+        y: 31
+        width: 470
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f72fc0093dc7c41a6f46197c5dec62
+      internalID: -7007213659722015693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_17
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 31
+        width: 471
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2cd3cb8025be4bb43c00d3fd74ace
+      internalID: -8801033407531509880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_18
+      rect:
+        serializedVersion: 2
+        x: 8761
+        y: 31
+        width: 477
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c77bd6261e550448e0ce8d7d510930
+      internalID: 5473792550140540032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_19
+      rect:
+        serializedVersion: 2
+        x: 9388
+        y: 31
+        width: 477
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e2a07a0244e74592103c507daa32d
+      internalID: 1961453660551169707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_20
+      rect:
+        serializedVersion: 2
+        x: 10009
+        y: 31
+        width: 477
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794d2d51f4d6a3c479d550463a2413ec
+      internalID: -4952229594143590875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_21
+      rect:
+        serializedVersion: 2
+        x: 10636
+        y: 31
+        width: 471
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928e19b00d97e74ab83dbb7b244b0de
+      internalID: -8700357785235198586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_22
+      rect:
+        serializedVersion: 2
+        x: 11257
+        y: 31
+        width: 470
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f059999da17dfd43998debb67bc00a2
+      internalID: -2827117458769681099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_23
+      rect:
+        serializedVersion: 2
+        x: 11884
+        y: 31
+        width: 464
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d39235df683904b95ee334a80b7ba6
+      internalID: -1929241261772605518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_24
+      rect:
+        serializedVersion: 2
+        x: 12512
+        y: 31
+        width: 457
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1f0b8f72374164ebf0064fa9ae3994
+      internalID: 1672854794482620336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Eating1_25
+      rect:
+        serializedVersion: 2
+        x: 13133
+        y: 0
+        width: 789
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519cba90bc0d7da44a6ac7a546e68abd
+      internalID: 8627785054225609552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

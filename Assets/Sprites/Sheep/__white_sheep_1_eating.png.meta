@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 3b824f675c1aee842b21d3ff3b4bd4ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2368127103454662414
+    second: __white_sheep_1_eating_0
+  - first:
+      213: 3468802837833952991
+    second: __white_sheep_1_eating_1
+  - first:
+      213: -614213116192028245
+    second: __white_sheep_1_eating_2
+  - first:
+      213: 478729173130372132
+    second: __white_sheep_1_eating_3
+  - first:
+      213: 7497999627201693654
+    second: __white_sheep_1_eating_4
+  - first:
+      213: 2626688147267571754
+    second: __white_sheep_1_eating_5
+  - first:
+      213: 229871961193478994
+    second: __white_sheep_1_eating_6
+  - first:
+      213: 7120423235488151870
+    second: __white_sheep_1_eating_7
+  - first:
+      213: -8698596533625347167
+    second: __white_sheep_1_eating_8
+  - first:
+      213: -1459122851668081692
+    second: __white_sheep_1_eating_9
+  - first:
+      213: 7565248539445606646
+    second: __white_sheep_1_eating_10
+  - first:
+      213: 1943413662004739563
+    second: __white_sheep_1_eating_11
+  - first:
+      213: -1793687793336275156
+    second: __white_sheep_1_eating_12
+  - first:
+      213: -1222710938162805825
+    second: __white_sheep_1_eating_13
+  - first:
+      213: -455059262850164144
+    second: __white_sheep_1_eating_14
+  - first:
+      213: -3533627683278665907
+    second: __white_sheep_1_eating_15
+  - first:
+      213: -3172166466616621042
+    second: __white_sheep_1_eating_16
+  - first:
+      213: 5204086846034819046
+    second: __white_sheep_1_eating_17
+  - first:
+      213: 7457945106160344502
+    second: __white_sheep_1_eating_18
+  - first:
+      213: 819321388534512984
+    second: __white_sheep_1_eating_19
+  - first:
+      213: 7217301646701447861
+    second: __white_sheep_1_eating_20
+  - first:
+      213: -4854194877535292432
+    second: __white_sheep_1_eating_21
+  - first:
+      213: -3704326408338818230
+    second: __white_sheep_1_eating_22
+  - first:
+      213: 9164258787795538921
+    second: __white_sheep_1_eating_23
+  - first:
+      213: -6959803484549051170
+    second: __white_sheep_1_eating_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1507
+        width: 312
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b7e316b8d3071409273907fc7e5a4d
+      internalID: -2368127103454662414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1507
+        width: 311
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac649253b515f364d934f0c9a3707d02
+      internalID: 3468802837833952991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_2
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1507
+        width: 312
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6517eb5c7131c874d8abfef0a3f59303
+      internalID: -614213116192028245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_3
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1507
+        width: 313
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdff0e5e9c9cc7418eb15cbe36aced1
+      internalID: 478729173130372132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_4
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1507
+        width: 315
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4702b1c9c747a9a4fa1758f27cdb695d
+      internalID: 7497999627201693654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1144
+        width: 314
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122a450145ad13646ac1b85bbd5f807b
+      internalID: 2626688147267571754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1144
+        width: 315
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402da521991f21049ba6bab9639dc8bc
+      internalID: 229871961193478994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_7
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1144
+        width: 316
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4011f70eaefc3448abe3efec7cf746
+      internalID: 7120423235488151870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_8
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1144
+        width: 314
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a3847bc981944fbf4f92694f9953f
+      internalID: -8698596533625347167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_9
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1144
+        width: 313
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab0fded5f0ac504c85b657cec4017c9
+      internalID: -1459122851668081692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 781
+        width: 312
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11f0a5557a9d9742850cf01e77fd1ad
+      internalID: 7565248539445606646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 781
+        width: 312
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9746d1433d134cc40b1b157749e12e85
+      internalID: 1943413662004739563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_12
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 781
+        width: 314
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b10a3aa17e8c740bdf174062adebf6
+      internalID: -1793687793336275156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_13
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 781
+        width: 314
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b0daf4dfc7c6141ada5ab6d2131435
+      internalID: -1222710938162805825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_14
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 781
+        width: 315
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f650cacd2519bb24d835ab777c0bc67c
+      internalID: -455059262850164144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 418
+        width: 316
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f7bc9da543ca4b83a6ce3dc7f084b
+      internalID: -3533627683278665907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 418
+        width: 317
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8f0514043d874696077aeb58b1aef
+      internalID: -3172166466616621042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_17
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 418
+        width: 319
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd81e9f7f085847b363dc199fb9428
+      internalID: 5204086846034819046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_18
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 418
+        width: 319
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e052207af4992e4596cf4a51e6103aa
+      internalID: 7457945106160344502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_19
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 418
+        width: 320
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ab7fe9fc58354887060eb677b7ee6
+      internalID: 819321388534512984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 55
+        width: 319
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9397f736d2fc2143938abaef3c8c864
+      internalID: 7217301646701447861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_21
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 55
+        width: 318
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe2913751f5b254592f3a638c162f68
+      internalID: -4854194877535292432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_22
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 55
+        width: 316
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f4a4f2fa0be945b5b32db50eaad69
+      internalID: -3704326408338818230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_23
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 55
+        width: 314
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a79cd615bea0b46bff87ba3917a283
+      internalID: 9164258787795538921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_1_eating_24
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 55
+        width: 313
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f6107bdc9c5d4895ca5b878b1a372
+      internalID: -6959803484549051170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,61 +1,52 @@
 fileFormatVersion: 2
-guid: ba317bfb77a9c6e49b6de7457cb8173f
+guid: 3f8aee0e017753849bf129582da5d2a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4875957099125350524
-    second: Boar Jumping_0
+      213: -7795730397608475445
+    second: __white_sheep_1_run_0
   - first:
-      213: 6154197823886514397
-    second: Boar Jumping_1
+      213: 4730749334651597745
+    second: __white_sheep_1_run_1
   - first:
-      213: -151381033079318371
-    second: Boar Jumping_2
+      213: -5068019306024316021
+    second: __white_sheep_1_run_2
   - first:
-      213: 4569449157897725766
-    second: Boar Jumping_3
+      213: -1136325536369940971
+    second: __white_sheep_1_run_3
   - first:
-      213: 523469575453621968
-    second: Boar Jumping_4
+      213: 2027679802075149158
+    second: __white_sheep_1_run_4
   - first:
-      213: -750625537712506467
-    second: Boar Jumping_5
+      213: 7936599529139962945
+    second: __white_sheep_1_run_5
   - first:
-      213: 4838383066000541099
-    second: Boar Jumping_6
+      213: -4291435321808661725
+    second: __white_sheep_1_run_6
   - first:
-      213: -9183960641933133774
-    second: Boar Jumping_7
+      213: 1442835617251334107
+    second: __white_sheep_1_run_7
   - first:
-      213: -920570153956586979
-    second: Boar Jumping_8
+      213: -1477877440219961234
+    second: __white_sheep_1_run_8
   - first:
-      213: 1856187683967932322
-    second: Boar Jumping_9
+      213: 2295062214462422425
+    second: __white_sheep_1_run_9
   - first:
-      213: -7674970357053871407
-    second: Boar Jumping_10
+      213: 7068057718209465415
+    second: __white_sheep_1_run_10
   - first:
-      213: -8741639189525726140
-    second: Boar Jumping_11
+      213: 7404427073102760079
+    second: __white_sheep_1_run_11
   - first:
-      213: -3434127938348197284
-    second: Boar Jumping_12
+      213: -6915278848777015236
+    second: __white_sheep_1_run_12
   - first:
-      213: -484534273822085427
-    second: Boar Jumping_13
+      213: 5783193689989841774
+    second: __white_sheep_1_run_13
   - first:
-      213: -3189215903117379440
-    second: Boar Jumping_14
-  - first:
-      213: -3592450100163014723
-    second: Boar Jumping_15
-  - first:
-      213: -7085028186622062325
-    second: Boar Jumping_16
-  - first:
-      213: 6254951880472274189
-    second: Boar Jumping_17
+      213: 8473894120175052872
+    second: __white_sheep_1_run_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -99,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 450
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,7 +117,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -138,27 +129,27 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 47
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boar Jumping_0
+      name: __white_sheep_1_run_0
       rect:
         serializedVersion: 2
-        x: 2503
-        y: 1507
-        width: 26
-        height: 24
+        x: 62
+        y: 781
+        width: 311
+        height: 263
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948ddaf2cf561d34c8081a47cdb2a007
-      internalID: 4875957099125350524
+      spriteID: 6fde0ff1182dee94584466d8f4760d56
+      internalID: -7795730397608475445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_1
+      name: __white_sheep_1_run_1
       rect:
         serializedVersion: 2
-        x: 2543
-        y: 1504
-        width: 26
-        height: 27
+        x: 490
+        y: 782
+        width: 308
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d89f766605c904f9ef704a6e8d6f2c
-      internalID: 6154197823886514397
+      spriteID: 99b1cad8f9e04c940a40ee96b0c3d9aa
+      internalID: 4730749334651597745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_2
+      name: __white_sheep_1_run_2
       rect:
         serializedVersion: 2
-        x: 2502
-        y: 1465
-        width: 27
-        height: 27
+        x: 920
+        y: 783
+        width: 291
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d549920d712da6e4b99b120f503de194
-      internalID: -151381033079318371
+      spriteID: 7378a1f8c1bfb66448c4b63a2e863729
+      internalID: -5068019306024316021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_3
+      name: __white_sheep_1_run_3
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 1465
-        width: 24
-        height: 27
+        x: 1326
+        y: 800
+        width: 310
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c1105bf63fab7845a4499006b18ca8e
-      internalID: 4569449157897725766
+      spriteID: 29e9474291d180448aba57581d4ceebc
+      internalID: -1136325536369940971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_4
+      name: __white_sheep_1_run_4
       rect:
         serializedVersion: 2
-        x: 2502
-        y: 1425
-        width: 27
-        height: 28
+        x: 1729
+        y: 843
+        width: 356
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4ec0b9acdcbcd4b9183ab64d725f2e
-      internalID: 523469575453621968
+      spriteID: e406ddf714aaf2b43a8cb94fe729731d
+      internalID: 2027679802075149158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_5
+      name: __white_sheep_1_run_5
       rect:
         serializedVersion: 2
-        x: 2543
-        y: 1428
-        width: 26
-        height: 22
+        x: 42
+        y: 483
+        width: 368
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f785f69e550d774d87518de0fc6d38b
-      internalID: -750625537712506467
+      spriteID: 86fbad22572fba34dbaab89cf6f81f2b
+      internalID: 7936599529139962945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_6
+      name: __white_sheep_1_run_6
       rect:
         serializedVersion: 2
-        x: 41
-        y: 1062
-        width: 434
-        height: 352
+        x: 456
+        y: 458
+        width: 374
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 959e685f2f828d5418e285589fae301d
-      internalID: 4838383066000541099
+      spriteID: 855a83b20f9def74aba51b21d7212045
+      internalID: -4291435321808661725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_7
+      name: __white_sheep_1_run_7
       rect:
         serializedVersion: 2
-        x: 674
-        y: 1056
-        width: 459
-        height: 362
+        x: 873
+        y: 427
+        width: 378
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b24d331e6c1370428f6995e02ea085b
-      internalID: -9183960641933133774
+      spriteID: a4f0854bf4bc73e4cb2277e2cd583cf4
+      internalID: 1442835617251334107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_8
+      name: __white_sheep_1_run_8
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 1058
-        width: 462
-        height: 360
+        x: 1295
+        y: 411
+        width: 376
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83a832a0c1505b24da4507c2936d46ef
-      internalID: -920570153956586979
+      spriteID: 74f36cdf3352e8f4cb6fc2552edf9a05
+      internalID: -1477877440219961234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_9
+      name: __white_sheep_1_run_9
       rect:
         serializedVersion: 2
-        x: 1924
-        y: 1056
-        width: 502
-        height: 355
+        x: 1706
+        y: 410
+        width: 388
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72942db30014090408feb5365090e3ad
-      internalID: 1856187683967932322
+      spriteID: 519d62a5d10abcd4787dd5396926ae14
+      internalID: 2295062214462422425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_10
+      name: __white_sheep_1_run_10
       rect:
         serializedVersion: 2
-        x: 57
-        y: 549
-        width: 454
-        height: 395
+        x: 28
+        y: 49
+        width: 387
+        height: 232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd24ebff2c245084c9ee4ab2ecbac88d
-      internalID: -7674970357053871407
+      spriteID: faefd6f9ddc93c94da788c20139593e4
+      internalID: 7068057718209465415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_11
+      name: __white_sheep_1_run_11
       rect:
         serializedVersion: 2
-        x: 681
-        y: 560
-        width: 447
-        height: 424
+        x: 454
+        y: 49
+        width: 372
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 501c2e764fd290b42a289de1b093e322
-      internalID: -8741639189525726140
+      spriteID: c0702b7cc68bb3b4490ecdb227e92249
+      internalID: 7404427073102760079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_12
+      name: __white_sheep_1_run_12
       rect:
         serializedVersion: 2
-        x: 1297
-        y: 623
-        width: 516
-        height: 365
+        x: 879
+        y: 50
+        width: 331
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff1794d5bf8d8f46b9d21d339c0f128
-      internalID: -3434127938348197284
+      spriteID: a8b3beb6b8f23444aa43fbc13587d4f0
+      internalID: -6915278848777015236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_13
+      name: __white_sheep_1_run_13
       rect:
         serializedVersion: 2
-        x: 1921
-        y: 545
-        width: 564
-        height: 356
+        x: 1304
+        y: 52
+        width: 322
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +430,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dde73983ef4c5047ad011af7b3c34a5
-      internalID: -484534273822085427
+      spriteID: 63df9545400201e488e26ea995d296bb
+      internalID: 5783193689989841774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Jumping_14
+      name: __white_sheep_1_run_14
       rect:
         serializedVersion: 2
-        x: 53
-        y: 104
-        width: 536
-        height: 379
+        x: 1729
+        y: 53
+        width: 317
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,71 +451,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99fba6ebac002764f9e4e416647506db
-      internalID: -3189215903117379440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Jumping_15
-      rect:
-        serializedVersion: 2
-        x: 685
-        y: 71
-        width: 511
-        height: 396
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2a208bc3d1d26742b27def01cb1cf13
-      internalID: -3592450100163014723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Jumping_16
-      rect:
-        serializedVersion: 2
-        x: 1311
-        y: 33
-        width: 498
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a3f0921d32ac5e4bb0e78683b0efd1b
-      internalID: -7085028186622062325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Jumping_17
-      rect:
-        serializedVersion: 2
-        x: 1918
-        y: 28
-        width: 451
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c497bd1f45e3e14ebd03de882f19278
-      internalID: 6254951880472274189
+      spriteID: 4ee43fbe704b6a249a946d26700b0221
+      internalID: 8473894120175052872
       vertices: []
       indices: 
       edges: []

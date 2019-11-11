@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: 414e0f1a40bfe1043be5915efe05ff79
+guid: ec493c07903586f419aa6b295a30cd15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6623985113605916699
-    second: Boar Running_0
+      213: 2222164426767305557
+    second: Boar Running1_0
   - first:
-      213: 5366586630851214341
-    second: Boar Running_1
+      213: 2599683476441176872
+    second: Boar Running1_1
   - first:
-      213: -8598940486440084651
-    second: Boar Running_2
+      213: 8196110057116443527
+    second: Boar Running1_2
   - first:
-      213: -4066310084443365310
-    second: Boar Running_3
+      213: -8603093479263752084
+    second: Boar Running1_3
   - first:
-      213: -3221381282735423051
-    second: Boar Running_4
+      213: 8755769243340423823
+    second: Boar Running1_4
   - first:
-      213: -6001452598689259140
-    second: Boar Running_5
+      213: -1657895044586919066
+    second: Boar Running1_5
   - first:
-      213: 371094816903140739
-    second: Boar Running_6
+      213: -795518807659267855
+    second: Boar Running1_6
   - first:
-      213: -7187916523418053459
-    second: Boar Running_7
+      213: -7239625073057166745
+    second: Boar Running1_7
   - first:
-      213: -4781704152359865570
-    second: Boar Running_8
+      213: -5793544187844945405
+    second: Boar Running1_8
   - first:
-      213: 263808439364489296
-    second: Boar Running_9
+      213: -6528314939258899549
+    second: Boar Running1_9
   - first:
-      213: -5671443443125903297
-    second: Boar Running_10
+      213: 2927233528698172829
+    second: Boar Running1_10
   - first:
-      213: 4726682710951877737
-    second: Boar Running_11
+      213: 7406313297589559430
+    second: Boar Running1_11
   - first:
-      213: 8581943451389227450
-    second: Boar Running_12
+      213: 1379665530265400317
+    second: Boar Running1_12
   - first:
-      213: 5201740091930756423
-    second: Boar Running_13
+      213: 2398703246557168400
+    second: Boar Running1_13
   - first:
-      213: -8217946657617091843
-    second: Boar Running_14
+      213: -2850098068885004753
+    second: Boar Running1_14
   - first:
-      213: -4233292995506926192
-    second: Boar Running_15
+      213: -2210611519376317205
+    second: Boar Running1_15
   - first:
-      213: 3440737041604934449
-    second: Boar Running_16
+      213: -944992973598215921
+    second: Boar Running1_16
   - first:
-      213: -7737382157175194111
-    second: Boar Running_17
+      213: 4238116608485044133
+    second: Boar Running1_17
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -114,7 +114,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,7 +126,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -138,27 +138,27 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 47
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boar Running_0
+      name: Boar Running1_0
       rect:
         serializedVersion: 2
-        x: 2503
-        y: 1507
-        width: 26
-        height: 24
+        x: 7493
+        y: 477
+        width: 31
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe5184d117aafa844882eedce2e60fba
-      internalID: 6623985113605916699
+      spriteID: f66cf301fee363f40b064433920c9e0e
+      internalID: 2222164426767305557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_1
+      name: Boar Running1_1
       rect:
         serializedVersion: 2
-        x: 2543
-        y: 1504
-        width: 26
-        height: 27
+        x: 7530
+        y: 474
+        width: 34
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd50831e9ba010546b4933dcafa48fe2
-      internalID: 5366586630851214341
+      spriteID: a290f47bb84db3f44b2e6dc93beb207c
+      internalID: 2599683476441176872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_2
+      name: Boar Running1_2
       rect:
         serializedVersion: 2
-        x: 2502
-        y: 1465
-        width: 27
-        height: 27
+        x: 7571
+        y: 477
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea5ffebb5f43f8478ec4d691cd4364c
-      internalID: -8598940486440084651
+      spriteID: 3a4a7f84d6d8c214c8bf395649e8cbf0
+      internalID: 8196110057116443527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_3
+      name: Boar Running1_3
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 1465
-        width: 24
-        height: 27
+        x: 7613
+        y: 477
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0a2beb529627d4a994104bc430de9c
-      internalID: -4066310084443365310
+      spriteID: 7534bde3cfa57124a8d66ab21d8c5078
+      internalID: -8603093479263752084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_4
+      name: Boar Running1_4
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1063
-        width: 569
-        height: 370
+        x: 7651
+        y: 477
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,19 +250,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d7346b4548363c478443e6d47b1c964
-      internalID: -3221381282735423051
+      spriteID: d655763241d7d7f4a9075f73e4b7a68f
+      internalID: 8755769243340423823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_5
+      name: Boar Running1_5
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1067
-        width: 570
+        x: 7692
+        y: 477
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b291b33370b7b244b967353866d1db5
+      internalID: -1657895044586919066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running1_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 573
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593afbfb99ffddc4a90a2c4f3919dccd
+      internalID: -795518807659267855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running1_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 36
+        width: 574
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d252fe266898e429c3fa0733e4cc4a
+      internalID: -7239625073057166745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running1_8
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 43
+        width: 574
         height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 530e60e06aa2fbd4e9936497c1941581
-      internalID: -6001452598689259140
+      spriteID: f185193746d8c334a8492ed09504a732
+      internalID: -5793544187844945405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_6
+      name: Boar Running1_9
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 1072
-        width: 569
-        height: 359
+        x: 1901
+        y: 32
+        width: 576
+        height: 377
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,19 +355,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 523ca9f70bde7004bb7baa6407baa8ef
-      internalID: 371094816903140739
+      spriteID: 792ee6609c3dc074b92495825d0649fc
+      internalID: -6528314939258899549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_7
+      name: Boar Running1_10
       rect:
         serializedVersion: 2
-        x: 1906
-        y: 1064
-        width: 569
+        x: 2526
+        y: 28
+        width: 574
         height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -313,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79a6262962613234d889f18790038fdf
-      internalID: -7187916523418053459
+      spriteID: d2e4f5b882c97b84a9aa079502b2f279
+      internalID: 2927233528698172829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_8
+      name: Boar Running1_11
       rect:
         serializedVersion: 2
-        x: 2502
-        y: 1425
-        width: 27
-        height: 28
+        x: 3149
+        y: 25
+        width: 573
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,104 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0321fe60b0223f84cb47f4acd0e9fbe0
-      internalID: -4781704152359865570
+      spriteID: 392105588035496479c9afa36fc38517
+      internalID: 7406313297589559430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_9
+      name: Boar Running1_12
       rect:
         serializedVersion: 2
-        x: 2543
-        y: 1428
-        width: 26
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a89a1bba1d6cb840af5f3f49b97efb9
-      internalID: 263808439364489296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Running_10
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 549
-        width: 568
-        height: 369
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04862efd5940f1849bd8a047a2ea4fb3
-      internalID: -5671443443125903297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Running_11
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 546
-        width: 567
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fb651b7c674bba4ba338e562100135d
-      internalID: 4726682710951877737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Running_12
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 541
-        width: 566
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49aa3c3fb371dc648b60a5a92ba579b6
-      internalID: 8581943451389227450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boar Running_13
-      rect:
-        serializedVersion: 2
-        x: 1907
-        y: 545
+        x: 3772
+        y: 32
         width: 569
-        height: 386
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e6dbc062fb38e48b50ace9783622b8
-      internalID: 5201740091930756423
+      spriteID: 89b0ba45a3ed0c546bd764adb5cd5cc1
+      internalID: 1379665530265400317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_14
+      name: Boar Running1_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 37
-        width: 564
-        height: 384
+        x: 4398
+        y: 51
+        width: 570
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b6a445f13562274397fb66f493e2abf
-      internalID: -8217946657617091843
+      spriteID: 669b6dbb03d0e77459ad4b7f849fbe9b
+      internalID: 2398703246557168400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_15
+      name: Boar Running1_14
       rect:
         serializedVersion: 2
-        x: 657
-        y: 53
-        width: 565
-        height: 369
+        x: 5021
+        y: 32
+        width: 573
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0007ad6831bfd1d49a29428efe847bdd
-      internalID: -4233292995506926192
+      spriteID: 66139b2d921b8bd459d29022a291dada
+      internalID: -2850098068885004753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_16
+      name: Boar Running1_15
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 34
-        width: 567
-        height: 388
+        x: 5647
+        y: 30
+        width: 573
+        height: 394
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3471617ef3dfb4b4180fb4b3da3dddb4
-      internalID: 3440737041604934449
+      spriteID: 24e0030cd7696b64c8680b97152ca2e4
+      internalID: -2210611519376317205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boar Running_17
+      name: Boar Running1_16
       rect:
         serializedVersion: 2
-        x: 1909
-        y: 33
-        width: 569
-        height: 379
+        x: 6273
+        y: 28
+        width: 574
+        height: 393
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,8 +502,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bab364768976c443aac4171e002df51
-      internalID: -7737382157175194111
+      spriteID: acbdf4e540bcfde4a91a55ce6864175e
+      internalID: -944992973598215921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boar Running1_17
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 32
+        width: 573
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1c019fd729f64293e68067cf8879f
+      internalID: 4238116608485044133
       vertices: []
       indices: 
       edges: []
