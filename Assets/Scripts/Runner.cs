@@ -5,7 +5,7 @@ using UnityEngine;
 public class Runner : MonoBehaviour
 {
 	[Range(0f, 5f)]
-	float currentSpeed = 1f;
+	[SerializeField] float currentSpeed = 1f;
 	[SerializeField] float damage = 50;
 
 	AttackerSpawner myLaneSpawner;

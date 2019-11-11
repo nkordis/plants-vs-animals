@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: b5c20b0bdc72d194886a1cb7edc55f90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8585693674259173590
+    second: Guava_DJump_0
+  - first:
+      213: 4386085746165926456
+    second: Guava_DJump_1
+  - first:
+      213: 1135834586648912554
+    second: Guava_DJump_2
+  - first:
+      213: -74774374808625349
+    second: Guava_DJump_3
+  - first:
+      213: 743277634717508440
+    second: Guava_DJump_4
+  - first:
+      213: 5388942735069733632
+    second: Guava_DJump_5
+  - first:
+      213: -8205107914652445119
+    second: Guava_DJump_6
+  - first:
+      213: -3401033670510078981
+    second: Guava_DJump_7
+  - first:
+      213: -7696886219133334874
+    second: Guava_DJump_8
+  - first:
+      213: -1534050745439261118
+    second: Guava_DJump_9
+  - first:
+      213: 3807560340348979995
+    second: Guava_DJump_10
+  - first:
+      213: -4476607364721041887
+    second: Guava_DJump_11
+  - first:
+      213: -5254487472349460312
+    second: Guava_DJump_12
+  - first:
+      213: -2557319611164109877
+    second: Guava_DJump_13
+  - first:
+      213: 4800569288520339722
+    second: Guava_DJump_14
+  - first:
+      213: 2114404121631250211
+    second: Guava_DJump_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guava_DJump_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 107
+        width: 420
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ad41c3d736f634d9f4106189a01fc1
+      internalID: -8585693674259173590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_1
+      rect:
+        serializedVersion: 2
+        x: 6724
+        y: 611
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849d3b61f28f91647bfa79204a8a4c6b
+      internalID: 4386085746165926456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_2
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 610
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1361bb096a18e4b458ba5b55833009a3
+      internalID: 1135834586648912554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_3
+      rect:
+        serializedVersion: 2
+        x: 6803
+        y: 611
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534eda060fdf27e46acc3a930ef1ae8c
+      internalID: -74774374808625349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_4
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 611
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba8457fba93384eba7b6ba04309af9
+      internalID: 743277634717508440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_5
+      rect:
+        serializedVersion: 2
+        x: 6884
+        y: 611
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4a1f8009879804883952f5de8435a8
+      internalID: 5388942735069733632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_6
+      rect:
+        serializedVersion: 2
+        x: 6924
+        y: 612
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbc25921e4e6f94bba8fc6eac1c46f2
+      internalID: -8205107914652445119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_7
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 155
+        width: 407
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42c75c6731fa92418b7121e7c19072f
+      internalID: -3401033670510078981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 155
+        width: 509
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe5b472dca8fb6479a52f673b5d8a5d
+      internalID: -7696886219133334874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_9
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 117
+        width: 479
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b2b2e8ca728c498a99778fdbf79af
+      internalID: -1534050745439261118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_10
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 43
+        width: 320
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68a53d306356a5488a581ddcc4b8fed
+      internalID: 3807560340348979995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_11
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 36
+        width: 327
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51905eee961776f4c96c71a48e78af09
+      internalID: -4476607364721041887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_12
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 67
+        width: 400
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5618c3ea59b4bf4b8f7e99d29772041
+      internalID: -5254487472349460312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_13
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 145
+        width: 526
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b9bf1da1316642b6a3e1c0ee0d6b3
+      internalID: -2557319611164109877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_14
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 131
+        width: 490
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf06ddba28175a46a73998e511f539c
+      internalID: 4800569288520339722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guava_DJump_15
+      rect:
+        serializedVersion: 2
+        x: 6194
+        y: 128
+        width: 356
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaaa488414f70e4ca6830710b0c1d64
+      internalID: 2114404121631250211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
