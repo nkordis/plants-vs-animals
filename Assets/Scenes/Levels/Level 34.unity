@@ -139,8 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ce0bbf1a771704c89cf6b36eb43bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 3
-  maxSpawnDelay: 6
+  minSpawnDelay: 4
+  maxSpawnDelay: 7
   attackerPrefabArray:
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
@@ -538,12 +538,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ce0bbf1a771704c89cf6b36eb43bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 3
-  maxSpawnDelay: 6
+  minSpawnDelay: 4
+  maxSpawnDelay: 7
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
+  - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
 --- !u!4 &557978800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4783717922975062, guid: 1e7fdd6db50f6b54dbf976bc096cb9ce,
@@ -828,6 +829,7 @@ MonoBehaviour:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
+  - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
 --- !u!4 &827130541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4783717922975062, guid: 1e7fdd6db50f6b54dbf976bc096cb9ce,
@@ -2215,7 +2217,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 315
+      value: 345
       objectReference: {fileID: 0}
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
