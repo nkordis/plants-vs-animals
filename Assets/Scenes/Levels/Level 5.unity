@@ -1038,6 +1038,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_Name
+      value: Thorn
+      objectReference: {fileID: 0}
     - target: {fileID: 224692337828174682, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1130,19 +1138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1549758557912422, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1058112619914848, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_Name
       value: Mushroom
-      objectReference: {fileID: 0}
-    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_Name
-      value: Thorn
       objectReference: {fileID: 0}
     - target: {fileID: 212391926492217832, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
@@ -1355,6 +1355,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572,
         type: 3}
+    - target: {fileID: 1901384379791532424, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4a995833fef0534899db9724d1944a8, type: 3}
 --- !u!1 &1721989022

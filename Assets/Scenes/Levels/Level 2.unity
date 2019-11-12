@@ -469,10 +469,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2118012029}
     m_Modifications:
-    - target: {fileID: 1912422935962390, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
-      propertyPath: m_Name
-      value: Level Complete Canvas
-      objectReference: {fileID: 0}
     - target: {fileID: 224139331384549176, guid: 4a01f11256f97a445801d0533b5d0a23,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -577,6 +573,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912422935962390, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
+      propertyPath: m_Name
+      value: Level Complete Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
@@ -900,10 +900,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1779059725989678, guid: cbca3f1ec0ae95646878dcbd7b9b8174, type: 3}
-      propertyPath: m_Name
-      value: Core Game Area
-      objectReference: {fileID: 0}
     - target: {fileID: 4083558437809162, guid: cbca3f1ec0ae95646878dcbd7b9b8174, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -947,6 +943,10 @@ PrefabInstance:
     - target: {fileID: 4083558437809162, guid: cbca3f1ec0ae95646878dcbd7b9b8174, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779059725989678, guid: cbca3f1ec0ae95646878dcbd7b9b8174, type: 3}
+      propertyPath: m_Name
+      value: Core Game Area
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbca3f1ec0ae95646878dcbd7b9b8174, type: 3}
@@ -1100,9 +1100,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1231280703759362, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_Name
-      value: Buttons
+      value: Thorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224692337828174682, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
@@ -1209,13 +1213,17 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1549758557912422, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1058112619914848, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_Name
       value: Mushroom
       objectReference: {fileID: 0}
-    - target: {fileID: 1660638162923836, guid: d4a995833fef0534899db9724d1944a8, type: 3}
-      propertyPath: m_Name
-      value: Thorn
+    - target: {fileID: 1058112619914848, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 212391926492217832, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
@@ -1388,6 +1396,15 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231280703759362, guid: d4a995833fef0534899db9724d1944a8, type: 3}
+      propertyPath: m_Name
+      value: Buttons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901384379791532424, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4a995833fef0534899db9724d1944a8, type: 3}
@@ -1571,6 +1588,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
+        type: 3}
+      propertyPath: levelTime
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2127395975, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1582,11 +1604,6 @@ PrefabInstance:
     - target: {fileID: 1785407344080854, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
-        type: 3}
-      propertyPath: levelTime
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
@@ -1688,10 +1705,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1349419610069012, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
-      propertyPath: m_Name
-      value: Level Controller
-      objectReference: {fileID: 0}
     - target: {fileID: 114664922250655312, guid: 1ee37da65c855354c9c93e4aae5473d9,
         type: 3}
       propertyPath: winLabel
@@ -1707,6 +1720,10 @@ PrefabInstance:
       propertyPath: livesText
       value: 
       objectReference: {fileID: 1856282351}
+    - target: {fileID: 1349419610069012, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
+      propertyPath: m_Name
+      value: Level Controller
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ee37da65c855354c9c93e4aae5473d9, type: 3}
 --- !u!1 &2118012028
