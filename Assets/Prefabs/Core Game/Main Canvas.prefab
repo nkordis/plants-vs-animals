@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTime: 6
-  delaySlider: 0.7
+  delaySlider: 1
 --- !u!1 &1140162150290834
 GameObject:
   m_ObjectHideFlags: 0

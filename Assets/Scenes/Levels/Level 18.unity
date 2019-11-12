@@ -1858,7 +1858,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: delaySlider
-      value: 0.93
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114009962718335206, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}

@@ -335,10 +335,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1895198039826278, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
-      propertyPath: m_Name
-      value: Damage Collider R
-      objectReference: {fileID: 0}
     - target: {fileID: 4381165898982644, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13
@@ -370,6 +366,10 @@ PrefabInstance:
     - target: {fileID: 4381165898982644, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895198039826278, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
+      propertyPath: m_Name
+      value: Damage Collider R
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
@@ -714,10 +714,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1895198039826278, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
-      propertyPath: m_Name
-      value: Damage Collider L
-      objectReference: {fileID: 0}
     - target: {fileID: 4381165898982644, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -749,6 +745,10 @@ PrefabInstance:
     - target: {fileID: 4381165898982644, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895198039826278, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
+      propertyPath: m_Name
+      value: Damage Collider L
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 667c41299a894dd43b7db1b68f6426b1, type: 3}
@@ -1209,16 +1209,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thorn
       objectReference: {fileID: 0}
-    - target: {fileID: 5214483724047828973, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 706939981127697828, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 224692337828174682, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1538,6 +1528,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572,
         type: 3}
+    - target: {fileID: 706939981127697828, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214483724047828973, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4a995833fef0534899db9724d1944a8, type: 3}
 --- !u!1 &1699345099 stripped
@@ -1913,7 +1913,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: delaySlider
-      value: 0.9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114009962718335206, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
