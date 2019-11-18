@@ -47,6 +47,7 @@ public class LevelController : MonoBehaviour {
 		audioSource.PlayOneShot(levelWinSound);
 		AddLevelScore();
 		yield return new WaitForSeconds(waitToLoad);
+		FindObjectOfType<AdManager>().ShowAdd();
 		FindObjectOfType<LevelLoader>().LoadNextScene();
 	}
 
