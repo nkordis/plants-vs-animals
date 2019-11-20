@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
+#if UNITY_EDITOR
 public class LocalizedTextEditor : EditorWindow
 {
 	public LocalizationData localizationData;
@@ -67,3 +68,4 @@ public class LocalizedTextEditor : EditorWindow
 
 
 }
+#endif

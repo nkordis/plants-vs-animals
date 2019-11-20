@@ -9,7 +9,7 @@ public class AdManager : MonoBehaviour
     void Awake()
     {
 		DontDestroyOnLoad(this);
-		Advertisement.Initialize(gameID, true);
+		Advertisement.Initialize(gameID, true); 
 	}
 
 	public void ShowAdd() 

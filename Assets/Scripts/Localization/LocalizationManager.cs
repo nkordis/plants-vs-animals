@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.Networking;
 
 public class LocalizationManager : MonoBehaviour
 {
@@ -29,21 +30,48 @@ public class LocalizationManager : MonoBehaviour
         
     }
 
-	public void LoadLocalizedText(string filename) 
-	{
+	public IEnumerator LoadLocalizedTextAndroid(string filename) {
 		localizedText = new Dictionary<string, string>();
-		string filePath = Path.Combine(Application.streamingAssetsPath, filename);
+		string filePath = "";
+		string dataAsJson = "";
+		bool fileExists = false;
+
+		filePath = Path.Combine("jar:file://" + Application.dataPath + "!/assets", filename);
+		UnityWebRequest reader = UnityWebRequest.Get(filePath);
+		yield return reader.SendWebRequest(); 
+		if (!reader.isNetworkError && !reader.isHttpError){
+		   dataAsJson = reader.downloadHandler.text;
+           fileExists = true;
+        }       		
+
+		LoadDataFromFile(dataAsJson, fileExists);
+	}
+
+	public void LoadLocalizedText(string filename) {
+		localizedText = new Dictionary<string, string>();
+		string filePath = "";
+		string dataAsJson = "";
+		bool fileExists = false;
+
+		filePath = Path.Combine(Application.streamingAssetsPath, filename);
 		if (File.Exists(filePath)) {
-			string dataAsJson = File.ReadAllText(filePath);
-			LocalizationData loadedData =JsonUtility.FromJson<LocalizationData>(dataAsJson);
-			for (int i = 0; i < loadedData.items.Length; i++) 
-			{
-				localizedText.Add(loadedData.items[i].key, loadedData.items[i].value );
+			dataAsJson = File.ReadAllText(filePath);
+			fileExists = true;
+		}
+
+		LoadDataFromFile(dataAsJson, fileExists);
+	}
+
+
+	private void LoadDataFromFile(string dataAsJson, bool fileExists) {
+		if (fileExists) {
+			LocalizationData loadedData = JsonUtility.FromJson<LocalizationData>(dataAsJson);
+			for (int i = 0; i < loadedData.items.Length; i++) {
+				localizedText.Add(loadedData.items[i].key, loadedData.items[i].value);
 			}
 
 			Debug.Log("Data loaded, dictionary contains: " + localizedText.Count + " entries");
-		} else 
-		{
+		} else {
 			Debug.LogError("Cannot find file!");
 		}
 
