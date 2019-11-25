@@ -161,6 +161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Lost Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1481179775543886, guid: e5c753cb93ddcf44d86fa7c8ced0d062, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224393629227941280, guid: e5c753cb93ddcf44d86fa7c8ced0d062,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -276,6 +280,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 319040612}
+    - target: {fileID: 1183380130650608, guid: e5c753cb93ddcf44d86fa7c8ced0d062, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5c753cb93ddcf44d86fa7c8ced0d062, type: 3}
 --- !u!4 &319040611 stripped
@@ -579,6 +587,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Complete Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1837643597, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 319040612}
+    - target: {fileID: 1624749888, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 319040612}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a01f11256f97a445801d0533b5d0a23, type: 3}
 --- !u!1 &642340455 stripped
