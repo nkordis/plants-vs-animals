@@ -81,6 +81,9 @@ public class LevelLoader : MonoBehaviour {
 		}
 
 		Debug.Log("Current max level: " + PlayersMaxLevelController.GetMaxLevel());
+		if (GetCurrentLevel() > 1) {
+			FindObjectOfType<AdManager>().ShowAdd();
+		}
 		Time.timeScale = 1;
 		SceneManager.LoadScene(currentSceneIndex + 1);
 	}

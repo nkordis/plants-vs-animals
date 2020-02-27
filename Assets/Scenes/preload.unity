@@ -276,6 +276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bce2c419a576824ea97369d6589c827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameID: 3365823
+  rewardedVideotId: rewardedVideo
+  bannertId: bannerPlacement
+  skipAddRate: 70
 --- !u!4 &322823016
 Transform:
   m_ObjectHideFlags: 0

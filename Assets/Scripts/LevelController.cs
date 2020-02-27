@@ -37,29 +37,29 @@ public class LevelController : MonoBehaviour {
 		int lives = Convert.ToInt32(livesText.text);
 		if (numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
         {
-			// StartCoroutine(HandleWinCondition());
-			HandleWinCondition();
+			 StartCoroutine(HandleWinCondition());
+			//HandleWinCondition();
 		}
     }
-	/*
+	
 		IEnumerator HandleWinCondition() {
 			gameEnded = true;
 			winLabel.SetActive(true);
 			audioSource.PlayOneShot(levelWinSound);
 			AddLevelScore();
 			yield return new WaitForSeconds(waitToLoad);
-			FindObjectOfType<AdManager>().ShowAdd();
+			//FindObjectOfType<AdManager>().ShowAdd();
 			FindObjectOfType<LevelLoader>().LoadNextScene();
 		}
-	*/
-
+	
+	/*
 	public void HandleWinCondition() {
 		gameEnded = true;
 		winLabel.SetActive(true);
 		audioSource.PlayOneShot(levelWinSound);
 		AddLevelScore();
 		Time.timeScale = 0;
-	}
+	}*/
 
 	private static void AddLevelScore() {
 		int score = Convert.ToInt32(FindObjectOfType<StarDisplay>().GetStars());
