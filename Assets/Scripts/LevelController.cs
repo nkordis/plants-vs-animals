@@ -31,35 +31,32 @@ public class LevelController : MonoBehaviour {
         numberOfAttackers++;
     }
 
-    public void AttackerKilled()
+	//This method is also called when the timer ends
+    public void AttackerKilled(bool isAttackerKilled)
     {
-        numberOfAttackers--;
+		if (isAttackerKilled) {
+			numberOfAttackers--;
+		}
 		int lives = Convert.ToInt32(livesText.text);
 		if (numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
         {
-			 StartCoroutine(HandleWinCondition());
+			Debug.Log("Hnadle win condition: ");
+			StartCoroutine(HandleWinCondition());
+			Debug.Log("Hnadle win condition: OK1");
 			//HandleWinCondition();
 		}
     }
 	
 		IEnumerator HandleWinCondition() {
-			gameEnded = true;
+		Debug.Log("Hnadle win condition: OK2");
+		gameEnded = true;
 			winLabel.SetActive(true);
 			audioSource.PlayOneShot(levelWinSound);
 			AddLevelScore();
 			yield return new WaitForSeconds(waitToLoad);
-			//FindObjectOfType<AdManager>().ShowAdd();
 			FindObjectOfType<LevelLoader>().LoadNextScene();
 		}
-	
-	/*
-	public void HandleWinCondition() {
-		gameEnded = true;
-		winLabel.SetActive(true);
-		audioSource.PlayOneShot(levelWinSound);
-		AddLevelScore();
-		Time.timeScale = 0;
-	}*/
+
 
 	private static void AddLevelScore() {
 		int score = Convert.ToInt32(FindObjectOfType<StarDisplay>().GetStars());
@@ -88,6 +85,7 @@ public class LevelController : MonoBehaviour {
     {
         levelTimerFinished = true;
         StopSpawners();
+		AttackerKilled(false);// calls attacker killed method in case there is no other attacker to kill
     }
 
     private void StopSpawners()

@@ -10,7 +10,7 @@ public class GameTimer : MonoBehaviour {
 
 	[Tooltip("Slider delay")]
 	[Range(0.0f, 1.0f)]
-	[SerializeField] float delaySlider = 0.7f;
+	[SerializeField] float delaySlider = 1f;
 
 	bool triggeredLevelFinished = false;
 

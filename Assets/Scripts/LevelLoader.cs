@@ -84,7 +84,7 @@ public class LevelLoader : MonoBehaviour {
 		if (GetCurrentLevel() > 1) {
 			FindObjectOfType<AdManager>().ShowAdd();
 		}
-		Time.timeScale = 1;
+		//Time.timeScale = 1;
 		SceneManager.LoadScene(currentSceneIndex + 1);
 	}
 
