@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 4
-  maxSpawnDelay: 5
+  maxSpawnDelay: 10
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
 --- !u!4 &557978800 stripped
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 2
-  maxSpawnDelay: 4
+  maxSpawnDelay: 8
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3f4a8696cb385494db26dd2b1e647307, type: 3}
 --- !u!4 &827130541 stripped
@@ -1323,7 +1323,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1491693692, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d, type: 3}
       propertyPath: m_Color.r

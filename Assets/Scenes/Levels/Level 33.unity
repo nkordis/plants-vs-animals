@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
-  maxSpawnDelay: 6
+  maxSpawnDelay: 12
   attackerPrefabArray:
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
-  maxSpawnDelay: 6
+  maxSpawnDelay: 12
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 6
-  maxSpawnDelay: 9
+  maxSpawnDelay: 18
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 5
-  maxSpawnDelay: 8
+  maxSpawnDelay: 16
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 5
-  maxSpawnDelay: 9
+  maxSpawnDelay: 18
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: a4937ec023b6a1c4ca0bd88ce3610867, type: 3}
@@ -2231,7 +2231,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 330
+      value: 660
       objectReference: {fileID: 0}
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
