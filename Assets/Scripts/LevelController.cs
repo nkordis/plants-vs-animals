@@ -40,10 +40,7 @@ public class LevelController : MonoBehaviour {
 		int lives = Convert.ToInt32(livesText.text);
 		if (numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
         {
-			Debug.Log("Hnadle win condition: ");
 			StartCoroutine(HandleWinCondition());
-			Debug.Log("Hnadle win condition: OK1");
-			//HandleWinCondition();
 		}
     }
 	

@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour {
 
-    AudioSource audioSource;
+	const string MASTER_VOLUME_KEY = "master volume";
+	AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(this);
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefsController.GetMasterVolume();
+		if (PlayerPrefs.HasKey(MASTER_VOLUME_KEY)) {
+			audioSource.volume = PlayerPrefsController.GetMasterVolume();
+		} else {
+			PlayerPrefsController.SetMasterVolume(0.3f);
+			SetVolume(0.3f);
+		}
 	}
 	
     public void SetVolume(float volume)
