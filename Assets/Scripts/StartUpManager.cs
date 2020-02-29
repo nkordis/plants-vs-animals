@@ -13,7 +13,7 @@ public class StartUpManager : MonoBehaviour
     {
 		
 		string fileName = englishFileName;
-
+		/*
 		if (Application.systemLanguage == SystemLanguage.English) {
 
 			fileName = englishFileName;
@@ -21,7 +21,7 @@ public class StartUpManager : MonoBehaviour
 		} else if (Application.systemLanguage == SystemLanguage.Spanish) {
 			
 			fileName = spanishFileName;
-		}
+		}*/
 
 		while (!LocalizationManager.instance.GetIsReady()) 
 		{

@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
-  maxSpawnDelay: 6
+  maxSpawnDelay: 12
   attackerPrefabArray:
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
   - {fileID: 114524238380976926, guid: fda2115d729a4da42a137d84f54e5d81, type: 3}
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 3
-  maxSpawnDelay: 6
+  maxSpawnDelay: 12
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 7
-  maxSpawnDelay: 10
+  maxSpawnDelay: 20
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 5
-  maxSpawnDelay: 8
+  maxSpawnDelay: 16
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpawnDelay: 5
-  maxSpawnDelay: 9
+  maxSpawnDelay: 18
   attackerPrefabArray:
   - {fileID: 114524238380976926, guid: 3a397c7f96a93094193715ad2c23c5c8, type: 3}
   - {fileID: 5973787694263414649, guid: 334f479edfa770e43966823e35521b9d, type: 3}
@@ -1694,32 +1694,6 @@ PrefabInstance:
       propertyPath: defenderSelectSound
       value: 
       objectReference: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
-    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.54901963
-      objectReference: {fileID: 0}
-    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.54901963
-      objectReference: {fileID: 0}
-    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.54901963
-      objectReference: {fileID: 0}
-    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8966194803602975413, guid: 81519c997811de74890b0a4e830101db,
-        type: 3}
-    - target: {fileID: 114799349882747212, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: defenderSelectSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
     - target: {fileID: 212734744799371988, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
       propertyPath: m_Color.r
@@ -1757,6 +1731,11 @@ PrefabInstance:
       propertyPath: defenderSelectSound
       value: 
       objectReference: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
+    - target: {fileID: 706939981127697828, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1074455701547796, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1767,11 +1746,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1194146626453172, guid: d4a995833fef0534899db9724d1944a8, type: 3}
       propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 706939981127697828, guid: d4a995833fef0534899db9724d1944a8,
-        type: 3}
-      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5214483724047828973, guid: d4a995833fef0534899db9724d1944a8,
@@ -1842,6 +1816,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 98b4a2a26f320d44abc3a331e932b572,
         type: 3}
+    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.54901963
+      objectReference: {fileID: 0}
+    - target: {fileID: 212349094423400360, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8966194803602975413, guid: 81519c997811de74890b0a4e830101db,
+        type: 3}
+    - target: {fileID: 114799349882747212, guid: d4a995833fef0534899db9724d1944a8,
+        type: 3}
+      propertyPath: defenderSelectSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 388bacf2ef0a2364781616f500a54264, type: 3}
     - target: {fileID: 114233612151245728, guid: d4a995833fef0534899db9724d1944a8,
         type: 3}
       propertyPath: m_Color.r
@@ -2233,7 +2233,7 @@ PrefabInstance:
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
       propertyPath: levelTime
-      value: 270
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 114429871288298956, guid: 6dc2e3963f43a5a4297dbe0b55c85a8d,
         type: 3}
