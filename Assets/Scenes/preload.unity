@@ -277,9 +277,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameID: 3365823
+  testMode: 1
   rewardedVideotId: rewardedVideo
-  bannertId: bannerPlacement
-  skipAddRate: 70
+  skipAddRate: 80
 --- !u!4 &322823016
 Transform:
   m_ObjectHideFlags: 0

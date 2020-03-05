@@ -7,7 +7,7 @@ public class AdManager : MonoBehaviour {
 	[SerializeField] string gameID = "3365823";
 	[SerializeField] bool testMode = true;
 	[SerializeField] string rewardedVideotId = "rewardedVideo";
-	[SerializeField] int skipAddRate = 70;
+	[SerializeField] int skipAddRate = 80;
 
 	void Awake() {
 		DontDestroyOnLoad(this);
@@ -32,17 +32,16 @@ public class AdManager : MonoBehaviour {
 
 	/**
 	* Shows video and rewarded video adds depending on the skipAddRate
-	* Skip adds for levels 2-9. No skip adds for levels 30-40.
+	* No adds for levels 1-9. No skip adds for levels 30-40.
 	* Skip adds rate for levels 10-19. 1-skip addds rate for levels 20-29.
 	*/
 
 	private void ShowAddsByRate() {
 		System.Random rnd = new System.Random();
 		int num = rnd.Next(1, 101);
-		if (FindObjectOfType<LevelLoader>().GetCurrentLevel() == 1) {
 
-		} else if (FindObjectOfType<LevelLoader>().GetCurrentLevel() < 10) {
-			Advertisement.Show();
+		if (FindObjectOfType<LevelLoader>().GetCurrentLevel() < 10) {
+			
 		} else if (FindObjectOfType<LevelLoader>().GetCurrentLevel() > 29) {
 			Advertisement.Show(rewardedVideotId);
 		} else if (FindObjectOfType<LevelLoader>().GetCurrentLevel() < 20) {
