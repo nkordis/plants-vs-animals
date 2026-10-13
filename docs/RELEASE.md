@@ -44,6 +44,12 @@ scores and settings are stored only on the device (Unity `PlayerPrefs`).
 
 Re-do this form whenever an SDK (ads, analytics, crash reporting, billing) is added.
 
+## Signing
+
+Play App Signing is on ("Releases signed by Play"), so Google holds the app signing key.
+The original upload keystore was lost; a new upload key (alias `upload`, created 2026-10-13)
+replaces it through Play Console's upload key reset.
+
 ## CI secrets
 
 The workflow in `.github/workflows/android.yml` builds when these repository secrets exist:
@@ -54,7 +60,7 @@ The workflow in `.github/workflows/android.yml` builds when these repository sec
 | `UNITY_EMAIL` / `UNITY_PASSWORD` | The Unity account that owns the licence |
 | `ANDROID_KEYSTORE_BASE64` | `base64` of the upload keystore |
 | `ANDROID_KEYSTORE_PASS` | Keystore password |
-| `ANDROID_KEYALIAS_NAME` | Key alias (historically `plants_vs_animals`) |
+| `ANDROID_KEYALIAS_NAME` | Key alias (`upload`) |
 | `ANDROID_KEYALIAS_PASS` | Key password |
 
 Without the Unity secrets the job skips the build with a warning. Without the keystore secrets
