@@ -93,13 +93,14 @@ jobs:
           KEYALIAS_PASS: ${{ secrets.ANDROID_KEYALIAS_PASS }}
         run: |
           keytool -printcert -jarfile build/Android/PlantsVsAnimals.aab | grep -E 'Owner|SHA1|SHA256'
+          trap 'rm -f "$RUNNER_TEMP/upload.keystore"' EXIT
           echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.keystore"
           java -jar bundletool.jar build-apks --mode=universal \
             --bundle build/Android/PlantsVsAnimals.aab --output "$RUNNER_TEMP/universal.apks" \
             --ks "$RUNNER_TEMP/upload.keystore" --ks-pass "pass:$KEYSTORE_PASS" \
             --ks-key-alias "$KEYALIAS_NAME" --key-pass "pass:$KEYALIAS_PASS"
-          unzip -p "$RUNNER_TEMP/universal.apks" universal.apk > build/Android/PlantsVsAnimals-test.apk
-          rm "$RUNNER_TEMP/upload.keystore"
+          mkdir -p test-apk
+          unzip -p "$RUNNER_TEMP/universal.apks" universal.apk > test-apk/PlantsVsAnimals-test.apk
 
       - uses: actions/upload-artifact@v7
         if: env.HAS_UNITY_LICENSE == 'true'
@@ -107,6 +108,6 @@ jobs:
           name: PlantsVsAnimals-${{ steps.version.outputs.name }}-${{ steps.version.outputs.code }}${{ env.HAS_KEYSTORE != 'true' && '-unsigned' || '' }}
           path: |
             build/Android/*.aab
-            build/Android/*.apk
+            test-apk/*.apk
             build/Android/*symbols*.zip
           retention-days: 30
