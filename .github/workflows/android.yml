@@ -1,10 +1,11 @@
 name: Android build
 
+# Unity builds are slow, so they run only on demand (Actions tab > Run workflow)
+# or when a release tag such as v1.1.0 is pushed.
 on:
-  push:
-    branches: [master]
-  pull_request:
   workflow_dispatch:
+  push:
+    tags: ['v*']
 
 concurrency:
   group: android-${{ github.ref }}

@@ -52,7 +52,7 @@ replaces it through Play Console's upload key reset.
 
 ## CI secrets
 
-The workflow in `.github/workflows/android.yml` builds when these repository secrets exist:
+The workflow in `.github/workflows/android.yml` runs only on demand (Actions tab, "Run workflow") or on a `v*` tag, and builds when these repository secrets exist:
 
 | Secret | Contents |
 | --- | --- |
