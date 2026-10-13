@@ -84,9 +84,29 @@ jobs:
           java -jar bundletool.jar dump manifest --bundle build/Android/PlantsVsAnimals.aab | tee manifest.xml
           grep -E 'package=|versionCode|versionName|minSdkVersion|targetSdkVersion|uses-permission' manifest.xml
 
+      - name: Check upload signature and build a test APK
+        if: env.HAS_UNITY_LICENSE == 'true' && env.HAS_KEYSTORE == 'true'
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          KEYALIAS_NAME: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          KEYALIAS_PASS: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+        run: |
+          keytool -printcert -jarfile build/Android/PlantsVsAnimals.aab | grep -E 'Owner|SHA1|SHA256'
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.keystore"
+          java -jar bundletool.jar build-apks --mode=universal \
+            --bundle build/Android/PlantsVsAnimals.aab --output "$RUNNER_TEMP/universal.apks" \
+            --ks "$RUNNER_TEMP/upload.keystore" --ks-pass "pass:$KEYSTORE_PASS" \
+            --ks-key-alias "$KEYALIAS_NAME" --key-pass "pass:$KEYALIAS_PASS"
+          unzip -p "$RUNNER_TEMP/universal.apks" universal.apk > build/Android/PlantsVsAnimals-test.apk
+          rm "$RUNNER_TEMP/upload.keystore"
+
       - uses: actions/upload-artifact@v7
         if: env.HAS_UNITY_LICENSE == 'true'
         with:
           name: PlantsVsAnimals-${{ steps.version.outputs.name }}-${{ steps.version.outputs.code }}${{ env.HAS_KEYSTORE != 'true' && '-unsigned' || '' }}
-          path: build/Android
+          path: |
+            build/Android/*.aab
+            build/Android/*.apk
+            build/Android/*symbols*.zip
           retention-days: 30
