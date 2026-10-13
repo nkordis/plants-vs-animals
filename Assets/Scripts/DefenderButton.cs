@@ -32,7 +32,7 @@ public class DefenderButton : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        var buttons = FindObjectsOfType<DefenderButton>();
+        var buttons = FindObjectsByType<DefenderButton>(FindObjectsSortMode.None);
         foreach(DefenderButton button in buttons)
         {
             button.GetComponent<SpriteRenderer>().color = new Color32(140, 140, 140, 255);
@@ -40,13 +40,13 @@ public class DefenderButton : MonoBehaviour {
 
 
 
-		if (FindObjectOfType<DefenderSpawner>().GetSelectedDefender() != defenderPrefab) {
+		if (FindAnyObjectByType<DefenderSpawner>().GetSelectedDefender() != defenderPrefab) {
 		
 			audioSource.PlayOneShot(defenderSelectSound);
 		}
 
 		GetComponent<SpriteRenderer>().color = Color.white;
-		FindObjectOfType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
+		FindAnyObjectByType<DefenderSpawner>().SetSelectedDefender(defenderPrefab);
 
 	}
 

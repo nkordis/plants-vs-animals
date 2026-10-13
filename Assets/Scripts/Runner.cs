@@ -19,7 +19,7 @@ public class Runner : MonoBehaviour
 	}
 
 	private void SetLaneSpawner() {
-		AttackerSpawner[] spawners = FindObjectsOfType<AttackerSpawner>();
+		AttackerSpawner[] spawners = FindObjectsByType<AttackerSpawner>(FindObjectsSortMode.None);
 		
 		foreach (AttackerSpawner spawner in spawners) {
 			bool IsCloseEnough =

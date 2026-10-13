@@ -36,13 +36,14 @@ public class LocalizationManager : MonoBehaviour
 		string dataAsJson = "";
 		bool fileExists = false;
 
-		filePath = Path.Combine("jar:file://" + Application.dataPath + "!/assets", filename);
-		UnityWebRequest reader = UnityWebRequest.Get(filePath);
-		yield return reader.SendWebRequest(); 
-		if (!reader.isNetworkError && !reader.isHttpError){
-		   dataAsJson = reader.downloadHandler.text;
-           fileExists = true;
-        }       		
+		filePath = Path.Combine(Application.streamingAssetsPath, filename);
+		using (UnityWebRequest reader = UnityWebRequest.Get(filePath)) {
+			yield return reader.SendWebRequest();
+			if (reader.result == UnityWebRequest.Result.Success) {
+				dataAsJson = reader.downloadHandler.text;
+				fileExists = true;
+			}
+		}
 
 		LoadDataFromFile(dataAsJson, fileExists);
 	}

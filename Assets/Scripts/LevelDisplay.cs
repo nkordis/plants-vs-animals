@@ -14,7 +14,7 @@ public class LevelDisplay : MonoBehaviour
     void Start()
     {
 		levelText = GetComponent<Text>();
-		levelLoader = FindObjectOfType<LevelLoader>();
+		levelLoader = FindAnyObjectByType<LevelLoader>();
 		
 	}
 

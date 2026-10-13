@@ -23,15 +23,13 @@ public class StartUpManager : MonoBehaviour
 			fileName = spanishFileName;
 		}*/
 
-		while (!LocalizationManager.instance.GetIsReady()) 
-		{
-			yield return null;
-#if UNITY_EDITOR || UNITY_IOS
-			FindObjectOfType<LocalizationManager>().LoadLocalizedText(fileName);
-#elif UNITY_ANDROID
-			StartCoroutine(FindObjectOfType<LocalizationManager>().LoadLocalizedTextAndroid(fileName));
+		// Load once and wait; the old loop started a new load every frame until ready.
+#if UNITY_ANDROID && !UNITY_EDITOR
+		yield return StartCoroutine(LocalizationManager.instance.LoadLocalizedTextAndroid(fileName));
+#else
+		LocalizationManager.instance.LoadLocalizedText(fileName);
+		yield return null;
 #endif
-		}
 
 		SceneManager.LoadScene(1);
     }

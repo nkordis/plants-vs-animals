@@ -1,0 +1,91 @@
+name: Android build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Android App Bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      HAS_UNITY_LICENSE: ${{ secrets.UNITY_LICENSE != '' }}
+      HAS_KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
+    steps:
+      - name: Check Unity license secret
+        if: env.HAS_UNITY_LICENSE != 'true'
+        run: |
+          echo "::warning::UNITY_LICENSE, UNITY_EMAIL and UNITY_PASSWORD secrets are not set; skipping the Unity build."
+
+      - name: Free disk space
+        if: env.HAS_UNITY_LICENSE == 'true'
+        uses: jlumbroso/free-disk-space@v2.0.0
+        with:
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          tool-cache: false
+
+      - uses: actions/checkout@v7
+        if: env.HAS_UNITY_LICENSE == 'true'
+
+      - name: Read version from ProjectSettings
+        if: env.HAS_UNITY_LICENSE == 'true'
+        id: version
+        run: |
+          echo "name=$(sed -n 's/^  bundleVersion: //p' ProjectSettings/ProjectSettings.asset)" >> "$GITHUB_OUTPUT"
+          echo "code=$(sed -n 's/^  AndroidBundleVersionCode: //p' ProjectSettings/ProjectSettings.asset)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/cache@v6
+        if: env.HAS_UNITY_LICENSE == 'true'
+        with:
+          path: Library
+          key: Library-Android-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: Library-Android-
+
+      - name: Build with Unity
+        if: env.HAS_UNITY_LICENSE == 'true'
+        uses: game-ci/unity-builder@v6
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: Android
+          buildName: PlantsVsAnimals
+          versioning: Custom
+          version: ${{ steps.version.outputs.name }}
+          androidVersionCode: ${{ steps.version.outputs.code }}
+          androidExportType: androidAppBundle
+          androidSymbolType: public
+          androidKeystoreName: ${{ env.HAS_KEYSTORE == 'true' && 'upload.keystore' || '' }}
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+
+      - name: Verify 16 KB page alignment
+        if: env.HAS_UNITY_LICENSE == 'true'
+        run: python3 .github/scripts/check_16kb_alignment.py build/Android/PlantsVsAnimals.aab
+
+      - name: Dump manifest (package, versions, SDK levels, permissions)
+        if: env.HAS_UNITY_LICENSE == 'true'
+        run: |
+          curl -sSLo bundletool.jar https://github.com/google/bundletool/releases/download/1.18.3/bundletool-all-1.18.3.jar
+          java -jar bundletool.jar dump manifest --bundle build/Android/PlantsVsAnimals.aab | tee manifest.xml
+          grep -E 'package=|versionCode|versionName|minSdkVersion|targetSdkVersion|uses-permission' manifest.xml
+
+      - uses: actions/upload-artifact@v7
+        if: env.HAS_UNITY_LICENSE == 'true'
+        with:
+          name: PlantsVsAnimals-${{ steps.version.outputs.name }}-${{ steps.version.outputs.code }}${{ env.HAS_KEYSTORE != 'true' && '-unsigned' || '' }}
+          path: build/Android
+          retention-days: 30

@@ -51,17 +51,17 @@ public class LevelController : MonoBehaviour {
 			audioSource.PlayOneShot(levelWinSound);
 			AddLevelScore();
 			yield return new WaitForSeconds(waitToLoad);
-			FindObjectOfType<LevelLoader>().LoadNextScene();
+			FindAnyObjectByType<LevelLoader>().LoadNextScene();
 		}
 
 
 	private static void AddLevelScore() {
-		int score = Convert.ToInt32(FindObjectOfType<StarDisplay>().GetStars());
+		int score = Convert.ToInt32(FindAnyObjectByType<StarDisplay>().GetStars());
 		float difficulty = PlayerPrefsController.GetDifficulty();
 		if (difficulty == 1f) 
 			{ score = (3 * score) / 2; } else if (difficulty == 2f) { score = 2 * score; }
 
-		int level = FindObjectOfType<LevelDisplay>().GetCurrentLevel();
+		int level = FindAnyObjectByType<LevelDisplay>().GetCurrentLevel();
 		int oldScore = PlayersScoreController.GetScore(level);
 		Debug.Log("score: " + score);
 		Debug.Log("oldScore: " + oldScore);
@@ -87,7 +87,7 @@ public class LevelController : MonoBehaviour {
 
     private void StopSpawners()
     {
-        AttackerSpawner[] spawnerArray = FindObjectsOfType<AttackerSpawner>();
+        AttackerSpawner[] spawnerArray = FindObjectsByType<AttackerSpawner>(FindObjectsSortMode.None);
         foreach (AttackerSpawner spawner in spawnerArray)
         {
             spawner.StopSpawning();
