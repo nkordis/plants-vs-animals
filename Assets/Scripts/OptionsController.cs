@@ -20,7 +20,7 @@ public class OptionsController : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        var musicPlayer = FindObjectOfType<MusicPlayer>();
+        var musicPlayer = FindAnyObjectByType<MusicPlayer>();
         if (musicPlayer)
         {
             musicPlayer.SetVolume(volumeSlider.value);
@@ -35,7 +35,7 @@ public class OptionsController : MonoBehaviour {
     {
         PlayerPrefsController.SetMasterVolume(volumeSlider.value);
         PlayerPrefsController.SetDifficulty(difficultySlider.value);
-        FindObjectOfType<LevelLoader>().LoadMainMenu();
+        FindAnyObjectByType<LevelLoader>().LoadMainMenu();
     }
 
     public void SetDefaults()

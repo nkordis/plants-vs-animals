@@ -8,7 +8,7 @@ public class DamageCollider : MonoBehaviour {
     {
 		if (otherCollider.gameObject.GetComponent<Attacker>() != null) 
 		{
-			FindObjectOfType<LivesDisplay>().TakeLife();
+			FindAnyObjectByType<LivesDisplay>().TakeLife();
 		}
         Destroy(otherCollider.gameObject);
     }

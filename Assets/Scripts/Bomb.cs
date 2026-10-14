@@ -10,7 +10,7 @@ public class Bomb : MonoBehaviour
 	public void BombNow() 
 	{
 		
-		AttackerSpawner[] spawners = FindObjectsOfType<AttackerSpawner>();
+		AttackerSpawner[] spawners = FindObjectsByType<AttackerSpawner>(FindObjectsSortMode.None);
 		foreach (AttackerSpawner spawner in spawners) {
 
 			for (int i = 0; i < spawner.transform.childCount; i++) {

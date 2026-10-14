@@ -14,7 +14,7 @@ public class StarDisplay : MonoBehaviour
     {
         starText = GetComponent<Text>();
         UpdateDisplay();
-		levelController = FindObjectOfType<LevelController>();
+		levelController = FindAnyObjectByType<LevelController>();
 	}
 
     private void UpdateDisplay()
