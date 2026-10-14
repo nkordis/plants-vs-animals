@@ -14,6 +14,12 @@ public class GameTimer : MonoBehaviour {
 
 	bool triggeredLevelFinished = false;
 
+	// Share of the level time that has passed, 0 to 1.
+	public float GetProgress()
+	{
+		return Mathf.Clamp01(Time.timeSinceLevelLoad / levelTime);
+	}
+
 
 	
 	void Update ()
