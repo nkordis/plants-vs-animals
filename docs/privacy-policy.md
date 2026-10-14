@@ -24,4 +24,4 @@ to match.
 
 ## Contact
 
-Questions about this policy: CONTACT_EMAIL
+Questions about this policy: [info@oeogames.com](mailto:info@oeogames.com)
