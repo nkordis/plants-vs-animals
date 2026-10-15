@@ -1,6 +1,6 @@
 # Restoring Plants vs Animals to Google Play
 
-Release 1.1.0 (versionCode 4) of `com.oeogames.plantsvsanimals`.
+Release 1.1.0 (versionCode 6) of `com.oeogames.plantsvsanimals`.
 
 ## Why the app was removed
 
@@ -11,7 +11,7 @@ later before the September 2025 patches is affected.
 
 ## What this release changes
 
-| Area | Before (1.0.0, code 3) | After (1.1.0, code 4) |
+| Area | Before (1.0.0, code 5) | After (1.1.0, code 6) |
 | --- | --- | --- |
 | Unity | 2019.3.3f1 (vulnerable) | 6000.3.26f1, Unity 6.3 LTS (patched, supported to Dec 2027) |
 | Target SDK | Automatic (API 28/29 era) | 36 (Android 16) |
