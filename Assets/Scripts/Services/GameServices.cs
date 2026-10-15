@@ -46,5 +46,18 @@ public class GameServices : MonoBehaviour
 		{
 			new GameObject("Privacy Options").AddComponent<PrivacyOptionsButton>();
 		}
+		else if (scene.name == "Splash Screen")
+		{
+			ShowVersion();
+		}
+	}
+
+	// The splash screen's version label was typed into the scene; show the real build version.
+	static void ShowVersion()
+	{
+		foreach (UnityEngine.UI.Text text in FindObjectsByType<UnityEngine.UI.Text>(FindObjectsSortMode.None))
+		{
+			if (text.text.StartsWith("v1.")) { text.text = "v" + Application.version; }
+		}
 	}
 }

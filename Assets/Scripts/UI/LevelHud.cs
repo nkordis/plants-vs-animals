@@ -122,7 +122,7 @@ public class LevelHud : MonoBehaviour
 	void BuildPausePanel()
 	{
 		if (losePanel == null) { return; }
-		pausePanel = RuntimeUI.Clone(losePanel, null, "Pause Canvas");
+		pausePanel = RuntimeUI.Clone(losePanel, losePanel.transform.parent, "Pause Canvas");
 		pausePanel.SetActive(false);
 		Text title = RuntimeUI.FindChild<Text>(pausePanel, "Level Lost Text");
 		Button restart = RuntimeUI.FindChild<Button>(pausePanel, "Try Again Button");
@@ -158,7 +158,7 @@ public class LevelHud : MonoBehaviour
 	void ShowTutorial()
 	{
 		if (controller.GetGameEnded()) { return; }
-		GameObject panel = RuntimeUI.Clone(losePanel, null, "Tutorial Canvas");
+		GameObject panel = RuntimeUI.Clone(losePanel, losePanel.transform.parent, "Tutorial Canvas");
 		Text text = RuntimeUI.FindChild<Text>(panel, "Level Lost Text");
 		Button next = RuntimeUI.FindChild<Button>(panel, "Try Again Button");
 		Button menu = RuntimeUI.FindChild<Button>(panel, "Main Menu");
