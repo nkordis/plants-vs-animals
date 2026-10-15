@@ -65,8 +65,17 @@ public class LevelHud : MonoBehaviour
 		Button pauseButton = RuntimeUI.CloneButton(buttonTemplate, mainCanvas.transform, "II",
 			new Vector2(850f, 470f), Pause);
 		((RectTransform)pauseButton.transform).sizeDelta = new Vector2(120f, 110f);
+		// The template is a see-through grey box made for the dark lose panel; on the lawn it
+		// needs a solid colour to read as a button.
+		Image pauseImage = pauseButton.GetComponent<Image>();
+		if (pauseImage != null) { pauseImage.color = new Color(0.33f, 0.13f, 0.5f, 0.92f); }
 		Text pauseLabel = pauseButton.GetComponentInChildren<Text>(true);
-		if (pauseLabel != null) { pauseLabel.fontSize = 64; }
+		if (pauseLabel != null)
+		{
+			pauseLabel.fontSize = 60;
+			pauseLabel.fontStyle = FontStyle.Bold;
+			pauseLabel.color = Color.white;
+		}
 
 		// Let the scene finish its own Start (it hides the panels) before opening anything.
 		yield return null;
