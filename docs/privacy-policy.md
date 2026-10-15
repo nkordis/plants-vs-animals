@@ -23,17 +23,17 @@ privacy policy; we do not sell any data.
   instance identifier, and crash reports, so we can fix problems and improve the game.
   [Firebase privacy information](https://firebase.google.com/support/privacy)
 - **Google AdMob** (advertising). The game shows a rewarded video only when you choose to watch
-  one to continue a lost level. AdMob may use your device's advertising ID, IP address and device
-  information to show and measure ads. In the European Economic Area, the UK and Switzerland the
+  one to continue a lost level. Ads are not personalised; AdMob may use your IP address and device
+  information to show and measure them. In the European Economic Area, the UK and Switzerland the
   game asks for your consent first, and you can change your choice at any time from
   Options > Privacy. [How Google uses data from apps](https://policies.google.com/technologies/partner-sites)
 
-You can reset or delete your advertising ID in your Android settings (Google > Ads).
-
 ## Children
 
-The game is not directed at children under 13 and does not knowingly collect personal
-information from them.
+The game is suitable for children and follows the Google Play Families policy. Ads are
+requested as child-directed: they are never personalised, are limited to content suitable for
+all ages, and the advertising ID is not collected by the game. Firebase Analytics does not
+collect the advertising ID either.
 
 ## Changes
 

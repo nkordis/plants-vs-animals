@@ -41,8 +41,13 @@ off). These one-time steps need the owner's Google accounts. Release 1.1.0 must 
 ## 4. Play Console app content
 
 - **Ads**: "Yes, my app contains ads".
-- **Target audience**: if any age group under 13 is selected, tell Claude: the game then has to send
-  child-directed ad requests (a one-line switch in `Ads.cs`) and follow the Families policy.
+- **Target audience**: it already includes children, so the Families policy applies. 1.2.0 is
+  built for that: ad requests are child-directed and G-rated, the advertising ID permission is
+  removed, and Firebase does not collect the advertising ID. In AdMob, also turn on
+  "child-directed treatment" for the app (App settings) to match.
+- **Advertising ID** declaration: "No" stays correct (the AD_ID permission is removed).
+- **Families**: in the ads questionnaire, confirm the app uses only Families self-certified ad SDKs
+  (AdMob is one).
 - **Data safety**: answers below.
 
 ### Data safety answers for 1.2.0
@@ -51,14 +56,13 @@ Collected (none of it is sold; all of it is encrypted in transit):
 
 | Data type | Collected by | Purpose | Shared |
 | --- | --- | --- | --- |
-| Device or other IDs (advertising ID, Firebase app instance ID) | AdMob, Firebase | Advertising, Analytics | Yes (AdMob, for ads) |
+| Device or other IDs (Firebase app instance ID; no advertising ID) | Firebase | Analytics | No |
 | App interactions (levels played, scores) | Firebase Analytics | Analytics | No |
 | Crash logs, diagnostics | Firebase Crashlytics | App functionality (stability) | No |
 | Approximate location (from IP, by AdMob) | AdMob | Advertising | Yes |
 | Name / user IDs (Play Games gamer profile) | Google Play Games | App functionality (leaderboards) | No |
 
-- Data collection is required (cannot be turned off in-app), except ad personalisation, which
-  follows the consent form in the EEA/UK.
+- Data collection is required (cannot be turned off in-app). Ads are never personalised.
 - Users can't request deletion through the app; Play Games profile data is managed in the
   Play Games app.
 

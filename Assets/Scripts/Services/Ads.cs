@@ -12,8 +12,9 @@ public static class Ads
 	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset) before release.
 	const string RewardedUnitId = "ca-app-pub-3940256099942544/5224354917";
 
-	// Set to true if the Play Console target audience includes children under 13.
-	const bool ChildDirected = false;
+	// The Play Console target audience includes children, so every ad request is
+	// child-directed (Families policy): no personalised ads, G-rated content only.
+	const bool ChildDirected = true;
 
 	static bool started;
 	static bool loading;
