@@ -1,6 +1,6 @@
 # 1.2.0 setup: accounts and Play Console
 
-1.2.0 (versionCode 5) adds Google Play Games leaderboards, Firebase Analytics + Crashlytics and
+1.2.0 (versionCode 7) adds Google Play Games leaderboards, Firebase Analytics + Crashlytics and
 AdMob rewarded ads. The code is ready and runs safely without the ids below (the features just stay
 off). These one-time steps need the owner's Google accounts. Release 1.1.0 must be live first.
 
