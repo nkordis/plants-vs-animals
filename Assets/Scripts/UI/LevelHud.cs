@@ -347,6 +347,9 @@ public class LevelHud : MonoBehaviour
 			loseShown = false;
 			livesDisplay.AddLife();
 			Time.timeScale = 1f;
+			// If the life was lost to the last animal after the timer ended, nothing else
+			// would check the win condition again and the level would never finish.
+			controller.AttackerKilled(false);
 		});
 	}
 }
