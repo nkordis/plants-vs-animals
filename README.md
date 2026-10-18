@@ -27,4 +27,4 @@ The project is published on Google Play at: https://play.google.com/store/apps/d
 * Android: target API 36, minimum API 25, IL2CPP, ARMv7 + ARM64, built as an Android App Bundle.
 * CI: `.github/workflows/android.yml` builds a signed `.aab` with GameCI and checks 16 KB page alignment.
 * Release steps, Data safety answers and required CI secrets: [docs/RELEASE.md](docs/RELEASE.md).
-* 1.2.0 account setup (Play Games leaderboards, Firebase, AdMob, Data safety): [docs/SETUP-1.2.0.md](docs/SETUP-1.2.0.md).
+* 1.2.0 account setup (Firebase, AdMob, Data safety): [docs/SETUP-1.2.0.md](docs/SETUP-1.2.0.md).

@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Starts analytics, Play Games and ads once per app launch, and adds the 1.2.0 screens
-// (pause, tutorial, results, ratings) to scenes as they load, so the scene files of the
+// Starts analytics and ads once per app launch, and adds the 1.2.0 screens
+// (pause, tutorial, results) to scenes as they load, so the scene files of the
 // 40 levels stay untouched.
 public class GameServices : MonoBehaviour
 {
@@ -23,7 +23,6 @@ public class GameServices : MonoBehaviour
 	void Start()
 	{
 		Ads.Init();
-		PlayGames.Init();
 	}
 
 	void OnDestroy()
@@ -37,10 +36,6 @@ public class GameServices : MonoBehaviour
 		if (scene.name.StartsWith("Level "))
 		{
 			new GameObject("Level Hud").AddComponent<LevelHud>();
-		}
-		else if (scene.name == "Choose Level Screen")
-		{
-			new GameObject("Level Ratings").AddComponent<ChooseLevelRatings>();
 		}
 		else if (scene.name == "Options Screen")
 		{

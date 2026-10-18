@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 // Added to every level scene at load (see GameServices): pause button and menu, the
-// level-1 tutorial, the marking of the two lawn columns that cannot be planted, the star
-// rating and leaderboard rank on the win panel, and the rewarded "continue" on the lose panel.
+// level-1 tutorial, the marking of the two lawn columns that cannot be planted, the score
+// (stars left) and best on the win panel, and the rewarded "continue" on the lose panel.
 public class LevelHud : MonoBehaviour
 {
 	public static LevelHud Instance { get; private set; }
@@ -230,7 +230,6 @@ public class LevelHud : MonoBehaviour
 			star = RuntimeUI.StarIcon(starSprite, winPanel.transform, new Vector2(-110f, 345f), 150f);
 		}
 
-		Text info = null;
 		if (title != null)
 		{
 			if (banner != null)
@@ -241,7 +240,7 @@ public class LevelHud : MonoBehaviour
 				bannerRect.sizeDelta = new Vector2(1200f, 160f);
 				infoBanner.transform.SetSiblingIndex(banner.transform.GetSiblingIndex() + 1);
 			}
-			info = RuntimeUI.CloneText(title, winPanel.transform, "Result Text", ResultLine(result, 0, 0),
+			RuntimeUI.CloneText(title, winPanel.transform, "Result Text", ResultLine(result),
 				new Vector2(0f, -10f), new Vector2(1180f, 160f), 50);
 			RuntimeUI.CloneText(title, winPanel.transform, "Stars Left Text", result.Score.ToString(),
 				new Vector2(star != null ? 80f : 0f, 345f), new Vector2(300f, 170f), 120);
@@ -249,44 +248,25 @@ public class LevelHud : MonoBehaviour
 
 		if (next != null) { ((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -170f); }
 		Button template = next != null ? next : buttonTemplate;
-		bool showLeaderboard = PlayGames.IsConfigured;
 		float rowY = -345f;
 		if (menu != null)
 		{
-			((RectTransform)menu.transform).anchoredPosition = new Vector2(showLeaderboard ? 0f : 260f, rowY);
+			((RectTransform)menu.transform).anchoredPosition = new Vector2(260f, rowY);
 		}
 		if (template != null)
 		{
 			RuntimeUI.CloneButton(template, winPanel.transform, UiText.Retry,
-				new Vector2(showLeaderboard ? -520f : -260f, rowY), loader.RestartScene);
-			if (showLeaderboard)
-			{
-				RuntimeUI.CloneButton(template, winPanel.transform, UiText.Leaderboard,
-					new Vector2(520f, rowY), () => PlayGames.ShowLeaderboard(level));
-			}
+				new Vector2(-260f, rowY), loader.RestartScene);
 		}
 
 		if (star != null) { StartCoroutine(Pop(star.transform)); }
-
-		if (!result.Continued)
-		{
-			PlayGames.SubmitLevelScore(level, result.Score, submitted =>
-			{
-				if (!submitted || info == null) { return; }
-				PlayGames.LoadLevelRank(level, (rank, players) =>
-				{
-					if (rank > 0 && info != null) { info.text = ResultLine(result, rank, players); }
-				});
-			});
-		}
 	}
 
-	static string ResultLine(LevelResult result, int rank, int players)
+	static string ResultLine(LevelResult result)
 	{
 		if (result.Continued) { return UiText.Score(result.Score) + "\n" + UiText.ContinuedRun; }
 		string line = UiText.Score(result.Score) + "   " +
 			(result.NewBest ? UiText.NewBest : UiText.Best(result.PreviousBest));
-		if (rank > 0) { line += "\n" + UiText.Rank(rank, players); }
 		return line;
 	}
 

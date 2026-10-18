@@ -14,10 +14,6 @@ device. They are deleted when you uninstall the game or clear its data.
 The game uses the following Google services. Each one collects data as described in its own
 privacy policy; we do not sell any data.
 
-- **Google Play Games Services** (leaderboards). If you are signed in to Play Games, your best
-  score per level and your Play Games profile name are shown on public leaderboards. You manage
-  your profile and its visibility in the Google Play Games app.
-  [Google Privacy Policy](https://policies.google.com/privacy)
 - **Firebase Analytics and Firebase Crashlytics** (by Google). They record how the game is played
   (for example levels started, won or lost, and scores), basic device information, an app
   instance identifier, and crash reports, so we can fix problems and improve the game.

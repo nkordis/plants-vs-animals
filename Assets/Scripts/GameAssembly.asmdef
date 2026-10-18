@@ -1,8 +1,6 @@
 ﻿{
 	"name": "GameAssembly",
-	"references": [
-		"Google.Play.Games"
-	],
+	"references": [],
 	"versionDefines": [
 		{
 			"name": "com.google.firebase.analytics",

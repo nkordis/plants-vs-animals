@@ -81,9 +81,7 @@ public static class Analytics
 
 	public static void TutorialComplete() { Log("tutorial_complete"); }
 
-	public static void LeaderboardOpened(string which) { Log("leaderboard_open", "which", which); }
 
-	public static void PlayGamesSignIn(bool success) { Log("pgs_sign_in", "success", success ? 1 : 0); }
 
 	public static void BlockedTileTapped(int level) { Log("blocked_tile_tap", "level", level); }
 

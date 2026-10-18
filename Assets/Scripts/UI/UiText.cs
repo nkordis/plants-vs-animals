@@ -14,8 +14,6 @@ public static class UiText
 	public static string Resume { get { return Get("pause_resume", "Resume"); } }
 	public static string Restart { get { return Get("pause_restart", "Restart"); } }
 	public static string Retry { get { return Get("win_retry", "Retry"); } }
-	public static string Leaderboard { get { return Get("leaderboard", "Leaderboard"); } }
-	public static string Leaderboards { get { return Get("leaderboards", "Leaderboards"); } }
 	public static string ContinueAd { get { return Get("continue_ad", "Continue (ad)"); } }
 	public static string NoContinue { get { return Get("continue_unavailable", "No ad available right now"); } }
 	public static string Next { get { return Get("tutorial_next", "Next"); } }
@@ -27,10 +25,6 @@ public static class UiText
 	public static string NewBest { get { return Get("win_new_best", "New best!"); } }
 	public static string Best(int best) { return Get("win_best", "Best") + ": " + best; }
 	public static string ContinuedRun { get { return Get("win_continued", "Continued run: score not recorded"); } }
-	public static string Rank(int rank, int players)
-	{
-		return Get("win_rank", "World rank") + ": #" + rank + (players > 0 ? " / " + players : "");
-	}
 
 	public static string[] TutorialSteps
 	{
