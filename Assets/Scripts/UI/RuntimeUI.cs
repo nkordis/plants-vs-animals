@@ -68,36 +68,21 @@ public static class RuntimeUI
 		return text;
 	}
 
-	// A row of three rating stars. Earned stars use the game's star sprite in full colour,
-	// missing ones are dimmed.
-	public static Image[] StarRow(Sprite star, Transform parent, Vector2 center, float size,
-		float spacing)
+	// The game's star sprite as a UI image, e.g. next to the stars-left count.
+	public static Image StarIcon(Sprite star, Transform parent, Vector2 center, float size)
 	{
-		var images = new Image[3];
-		for (int i = 0; i < 3; i++)
-		{
-			var go = new GameObject("Rating Star " + (i + 1), typeof(RectTransform), typeof(Image));
-			go.layer = parent.gameObject.layer;
-			var rect = (RectTransform)go.transform;
-			rect.SetParent(parent, false);
-			rect.anchorMin = rect.anchorMax = new Vector2(0.5f, 0.5f);
-			rect.sizeDelta = new Vector2(size, size);
-			rect.anchoredPosition = center + new Vector2((i - 1) * spacing, i == 1 ? size * 0.15f : 0f);
-			Image image = go.GetComponent<Image>();
-			image.sprite = star;
-			image.preserveAspect = true;
-			image.raycastTarget = false;
-			images[i] = image;
-		}
-		return images;
-	}
-
-	public static void ShowRating(Image[] stars, int rating)
-	{
-		for (int i = 0; i < stars.Length; i++)
-		{
-			stars[i].color = i < rating ? Color.white : new Color(0.15f, 0.15f, 0.15f, 0.45f);
-		}
+		var go = new GameObject("Star Icon", typeof(RectTransform), typeof(Image));
+		go.layer = parent.gameObject.layer;
+		var rect = (RectTransform)go.transform;
+		rect.SetParent(parent, false);
+		rect.anchorMin = rect.anchorMax = new Vector2(0.5f, 0.5f);
+		rect.sizeDelta = new Vector2(size, size);
+		rect.anchoredPosition = center;
+		Image image = go.GetComponent<Image>();
+		image.sprite = star;
+		image.preserveAspect = true;
+		image.raycastTarget = false;
+		return image;
 	}
 
 	public static T FindChild<T>(GameObject root, string name) where T : Component

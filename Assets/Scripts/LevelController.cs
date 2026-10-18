@@ -50,7 +50,7 @@ public class LevelController : MonoBehaviour {
 			winLabel.SetActive(true);
 			audioSource.PlayOneShot(levelWinSound);
 			LevelResult result = RecordLevelResult();
-			// The win panel now shows the rating, score and rank and waits for the player.
+			// The win panel now shows the score (stars left), best and rank and waits for the player.
 			LevelHud hud = LevelHud.Instance;
 			if (hud != null) {
 				hud.ShowResults(result);
@@ -61,7 +61,7 @@ public class LevelController : MonoBehaviour {
 		}
 
 	// A run saved by a rewarded "continue" unlocks the next level but does not count as a
-	// best score (see ScoreRules.Rating for the star rating).
+	// best score.
 	private static LevelResult RecordLevelResult() {
 		int starsLeft = Convert.ToInt32(FindAnyObjectByType<StarDisplay>().GetStars());
 		int score = ScoreRules.FinalScore(starsLeft, LevelRun.Difficulty);
@@ -72,14 +72,12 @@ public class LevelController : MonoBehaviour {
 			{
 			PlayersScoreController.SetScore(level, score);
 			}
-		int rating = ScoreRules.Rating(level, score, LevelRun.LivesLost, LevelRun.Continued);
-		LevelProgress.RecordRating(level, rating);
 		PlayerPrefs.Save();
-		Analytics.LevelWin(level, LevelRun.Difficulty, score, rating, newBest, LevelRun.LivesLost,
+		Analytics.LevelWin(level, LevelRun.Difficulty, score, newBest, LevelRun.LivesLost,
 			LevelRun.Continued, LevelRun.DefendersPlaced, LevelRun.Duration);
 		return new LevelResult {
 			Level = level, Score = score, PreviousBest = oldScore, NewBest = newBest,
-			Rating = rating, Continued = LevelRun.Continued,
+			Continued = LevelRun.Continued,
 		};
 	}
 

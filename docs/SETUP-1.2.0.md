@@ -65,9 +65,3 @@ Collected (none of it is sold; all of it is encrypted in transit):
 - Data collection is required (cannot be turned off in-app). Ads are never personalised.
 - Users can't request deletion through the app; Play Games profile data is managed in the
   Play Games app.
-
-## 5. Score thresholds for the third star
-
-`Assets/Scripts/Competition/LevelThresholds.cs` holds provisional values. Screenshots of the
-level select screen from a device with good runs (it shows the best score per level) let Claude
-set realistic thresholds before release; analytics refines them afterwards.

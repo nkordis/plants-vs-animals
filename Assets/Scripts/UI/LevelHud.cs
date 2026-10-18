@@ -223,11 +223,11 @@ public class LevelHud : MonoBehaviour
 		Button next = RuntimeUI.FindChild<Button>(winPanel, "Continue Button");
 		Button menu = RuntimeUI.FindChild<Button>(winPanel, "Main Menu");
 
-		Image[] stars = null;
+		// The score is the stars left at the end of the level: a big star and the count.
+		Image star = null;
 		if (starSprite != null)
 		{
-			stars = RuntimeUI.StarRow(starSprite, winPanel.transform, new Vector2(0f, 345f), 150f, 190f);
-			RuntimeUI.ShowRating(stars, 0);
+			star = RuntimeUI.StarIcon(starSprite, winPanel.transform, new Vector2(-110f, 345f), 150f);
 		}
 
 		Text info = null;
@@ -243,6 +243,8 @@ public class LevelHud : MonoBehaviour
 			}
 			info = RuntimeUI.CloneText(title, winPanel.transform, "Result Text", ResultLine(result, 0, 0),
 				new Vector2(0f, -10f), new Vector2(1180f, 160f), 50);
+			RuntimeUI.CloneText(title, winPanel.transform, "Stars Left Text", result.Score.ToString(),
+				new Vector2(star != null ? 80f : 0f, 345f), new Vector2(300f, 170f), 120);
 		}
 
 		if (next != null) { ((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -170f); }
@@ -264,7 +266,7 @@ public class LevelHud : MonoBehaviour
 			}
 		}
 
-		if (stars != null) { StartCoroutine(RevealStars(stars, result.Rating)); }
+		if (star != null) { StartCoroutine(Pop(star.transform)); }
 
 		if (!result.Continued)
 		{
@@ -288,20 +290,15 @@ public class LevelHud : MonoBehaviour
 		return line;
 	}
 
-	IEnumerator RevealStars(Image[] stars, int rating)
+	IEnumerator Pop(Transform t)
 	{
-		for (int i = 0; i < rating && i < stars.Length; i++)
+		yield return new WaitForSecondsRealtime(0.3f);
+		for (float s = 0f; s < 1f; s += Time.unscaledDeltaTime * 4f)
 		{
-			yield return new WaitForSecondsRealtime(0.35f);
-			stars[i].color = Color.white;
-			Transform t = stars[i].transform;
-			for (float s = 0f; s < 1f; s += Time.unscaledDeltaTime * 5f)
-			{
-				t.localScale = Vector3.one * (1f + 0.4f * Mathf.Sin(s * Mathf.PI));
-				yield return null;
-			}
-			t.localScale = Vector3.one;
+			t.localScale = Vector3.one * (1f + 0.4f * Mathf.Sin(s * Mathf.PI));
+			yield return null;
 		}
+		t.localScale = Vector3.one;
 	}
 
 	// --- Lose ---------------------------------------------------------------------------

@@ -51,11 +51,11 @@ public static class Analytics
 		SetCrashKey("level", level.ToString());
 	}
 
-	public static void LevelWin(int level, float difficulty, int score, int rating, bool newBest,
+	public static void LevelWin(int level, float difficulty, int score, bool newBest,
 		int livesLost, bool continued, int defenders, float seconds)
 	{
 		Log("level_win", "level", level, "difficulty", Mathf.RoundToInt(difficulty),
-			"score", score, "rating", rating, "new_best", newBest ? 1 : 0,
+			"score", score, "new_best", newBest ? 1 : 0,
 			"lives_lost", livesLost, "continued", continued ? 1 : 0,
 			"defenders", defenders, "seconds", Mathf.RoundToInt(seconds));
 	}

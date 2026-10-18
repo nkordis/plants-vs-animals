@@ -42,7 +42,7 @@ public static class UiText
 				Get("tutorial_2", "Pick a plant from the bar, then tap a square of the lawn to plant it."),
 				Get("tutorial_3", "Plants cost stars. Mushrooms make more stars, so plant some early."),
 				Get("tutorial_4", "Every animal that gets through costs a life. Hold on until the timer runs out to win."),
-				Get("tutorial_5", "Your score is the stars you have left. Win without losing a life for 2 stars, and score high for 3!"),
+				Get("tutorial_5", "Your score is the stars you have left at the end. Save as many as you can!"),
 			};
 		}
 	}
