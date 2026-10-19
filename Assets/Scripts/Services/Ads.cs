@@ -8,9 +8,9 @@ using GoogleMobileAds.Ump.Api;
 // for best score or leaderboards (see LevelRun.MarkContinued).
 public static class Ads
 {
-	// Google's public test ids. Replace with the real AdMob ids (and the app id in
-	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset) before release.
-	const string RewardedUnitId = "ca-app-pub-3940256099942544/5224354917";
+	// AdMob rewarded unit "continue_after_loss" (app id in
+	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset).
+	const string RewardedUnitId = "ca-app-pub-2232453977466422/7141921516";
 
 	// The Play Console target audience includes children, so every ad request is
 	// child-directed (Families policy): no personalised ads, G-rated content only.
