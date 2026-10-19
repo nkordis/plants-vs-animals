@@ -71,6 +71,7 @@ Result per case: PASS / FAIL / N/A, with device and a screenshot for UI cases. A
 | N8 | Continue after the last animal | Losing the last life to the last animal after the timer, then continuing, finishes the level (fix e42d9e6) |
 | N9 | Continue offered once per level | Second loss in the same run shows no offer (or as designed in LevelHud) |
 | N10 Gate | Ad content | Ads are G-rated and not personalised (AdMob ad inspector, or visual check over ~5 ads) |
+| N11 Gate | Families close rule | Every rewarded ad shows a close control within 5 seconds (Families policy: rewarded or opt-in ads must be "closeable after 5 seconds"; see docs/analysis/play-policy-2026-10.md finding 6) |
 
 ## 6. Analytics and crashes (Firebase console)
 
