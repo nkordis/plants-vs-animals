@@ -68,7 +68,7 @@ public static class Ads
 		};
 		if (ChildDirected)
 		{
-			configuration.TagForChildDirectedTreatment = TagForChildDirectedTreatment.True;
+			configuration.AgeRestrictedTreatment = AgeRestrictedTreatment.Child;
 			configuration.MaxAdContentRating = MaxAdContentRating.G;
 		}
 		MobileAds.SetRequestConfiguration(configuration);
