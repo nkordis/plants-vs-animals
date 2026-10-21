@@ -24,6 +24,7 @@ public class LevelHud : MonoBehaviour
 
 	GameObject pausePanel;
 	Button continueButton;
+	Text continueNote;
 	Text loseNote;
 	bool paused;
 	bool loseShown;
@@ -296,14 +297,21 @@ public class LevelHud : MonoBehaviour
 		{
 			Text title = RuntimeUI.FindChild<Text>(losePanel, "Level Lost Text");
 			Button menu = RuntimeUI.FindChild<Button>(losePanel, "Main Menu");
-			if (title != null) { ((RectTransform)title.transform).anchoredPosition = new Vector2(0f, 250f); }
+			if (title != null) { ((RectTransform)title.transform).anchoredPosition = new Vector2(0f, 280f); }
 			continueButton = RuntimeUI.CloneButton(buttonTemplate, buttonTemplate.transform.parent,
 				UiText.ContinueAd, new Vector2(0f, 60f), WatchAdToContinue);
+			// Said before the player opts in, so the ad's cost is clear up front.
+			if (title != null)
+			{
+				continueNote = RuntimeUI.CloneText(title, title.transform.parent, "Continue Note", UiText.ContinueNote,
+					new Vector2(0f, 170f), new Vector2(1200f, 70f), 40);
+			}
 			((RectTransform)buttonTemplate.transform).anchoredPosition = new Vector2(0f, -125f);
 			if (menu != null) { ((RectTransform)menu.transform).anchoredPosition = new Vector2(0f, -310f); }
 		}
 		continueButton.gameObject.SetActive(true);
 		continueButton.interactable = true;
+		if (continueNote != null) { continueNote.gameObject.SetActive(true); }
 		Analytics.ContinueOffered(level);
 	}
 
@@ -320,6 +328,7 @@ public class LevelHud : MonoBehaviour
 			LevelRun.MarkContinued();
 			Analytics.ContinueUsed(level);
 			continueButton.gameObject.SetActive(false);
+			if (continueNote != null) { continueNote.gameObject.SetActive(false); }
 			losePanel.SetActive(false);
 			loseShown = false;
 			livesDisplay.AddLife();

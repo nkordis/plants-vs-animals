@@ -1,6 +1,6 @@
 # Privacy Policy for Plants vs Animals
 
-Last updated: 2026-10-20 (applies from version 1.2.0)
+Last updated: 2026-10-21 (applies from version 1.2.0)
 
 Plants vs Animals ("the game") is published by OEO GAMES on Google Play.
 
@@ -16,13 +16,25 @@ privacy policy; we do not sell any data.
 
 - **Firebase Analytics and Firebase Crashlytics** (by Google). They record how the game is played
   (for example levels started, won or lost, and scores), basic device information, an app
-  instance identifier, and crash reports, so we can fix problems and improve the game.
+  instance identifier, an approximate location worked out from your IP address (country or city,
+  never your exact location), and crash reports, so we can fix problems and improve the game.
   [Firebase privacy information](https://firebase.google.com/support/privacy)
 - **Google AdMob** (advertising). The game shows a rewarded video only when you choose to watch
   one to continue a lost level. Ads are not personalised; AdMob may use your IP address and device
   information to show and measure them. Where the law requires consent (for example in the European
   Economic Area, the UK and Switzerland), Google's consent form is used; if it was shown, you can
-  change your choice at any time from Options > Privacy. [How Google uses data from apps](https://policies.google.com/technologies/partner-sites)
+  change your choice at any time from Options > Privacy choices. [How Google uses data from apps](https://policies.google.com/technologies/partner-sites)
+
+## How long data is kept, and deleting it
+
+- Firebase Analytics keeps event data for 2 months, then deletes it.
+- Firebase Crashlytics keeps crash reports for 90 days.
+- AdMob data is kept and deleted by Google as described in Google's privacy policy.
+- Clearing the game's data or uninstalling it deletes everything stored on your device and
+  resets the identifiers above, so new data can no longer be linked to the old data.
+- To ask us to delete data linked to your device, email
+  [info@oeogames.com](mailto:info@oeogames.com). We reply within 30 days and delete any data
+  we can link to your device.
 
 ## Children
 

@@ -1,13 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// Google's consent rules require a way to change ad consent later, for players in regions
-// where the consent form applies. Shown on the Options screen only for them.
+// Privacy buttons on the Options screen, in the free row above Defaults and Back.
+// "Privacy policy" is always shown (Families policy: the policy must be reachable in the app).
+// "Privacy choices" reopens Google's consent form, only for players in regions where it applies.
 public class PrivacyOptionsButton : MonoBehaviour
 {
+	public const string PolicyUrl = "https://doc-hosting.flycricket.io/plants-vs-animals-privacy-policy/a2969790-5227-4195-b213-7a9ce096d751/privacy";
+
 	void Start()
 	{
-		if (!Ads.PrivacyOptionsRequired) { return; }
 		Button defaults = null;
 		foreach (Button button in FindObjectsByType<Button>(FindObjectsInactive.Exclude, FindObjectsSortMode.None))
 		{
@@ -15,7 +17,11 @@ public class PrivacyOptionsButton : MonoBehaviour
 		}
 		if (defaults == null) { return; }
 		Vector2 position = ((RectTransform)defaults.transform).anchoredPosition;
+		RuntimeUI.CloneButton(defaults, defaults.transform.parent, UiText.PrivacyPolicy,
+			position + new Vector2(0f, 190f), () => Application.OpenURL(PolicyUrl));
+		if (!Ads.PrivacyOptionsRequired) { return; }
+		// Same x as the Back button, which sits 744 to the right of Defaults.
 		RuntimeUI.CloneButton(defaults, defaults.transform.parent, UiText.Privacy,
-			position + new Vector2(0f, 190f), () => Ads.ShowPrivacyOptions(null));
+			position + new Vector2(744f, 190f), () => Ads.ShowPrivacyOptions(null));
 	}
 }

@@ -36,14 +36,24 @@ off). These one-time steps need the owner's Google accounts. Release 1.1.0 must 
 
 ### Data safety answers for 1.2.0
 
+Answer for every SDK in the build, not only for what the game's own code sends. Google's
+disclosure pages for the SDKs are the source:
+[AdMob / Google Mobile Ads](https://developers.google.com/admob/android/privacy/play-data-disclosure),
+[Firebase](https://firebase.google.com/docs/android/play-data-disclosure).
+
 Collected (none of it is sold; all of it is encrypted in transit):
 
-| Data type | Collected by | Purpose | Shared |
+| Data type | Collected by | Purposes | Shared |
 | --- | --- | --- | --- |
-| Device or other IDs (Firebase app instance ID; no advertising ID) | Firebase | Analytics | No |
-| App interactions (levels played, scores) | Firebase Analytics | Analytics | No |
-| Crash logs, diagnostics | Firebase Crashlytics | App functionality (stability) | No |
-| Approximate location (from IP, by AdMob) | AdMob | Advertising | Yes |
+| Approximate location (derived from IP address) | AdMob, Firebase Analytics | Advertising or marketing, Analytics, Fraud prevention | Yes (AdMob) |
+| App interactions (levels played, scores; ad views and taps) | Firebase Analytics, AdMob | Analytics, Advertising or marketing | Yes (AdMob) |
+| Crash logs | Firebase Crashlytics, AdMob | App functionality, Analytics | Yes (AdMob) |
+| Diagnostics (performance, device info) | Firebase Crashlytics, AdMob | App functionality, Analytics, Advertising or marketing | Yes (AdMob) |
+| Device or other IDs (Firebase installation and app instance IDs, app set ID; no advertising ID) | Firebase, AdMob | Analytics, App functionality, Advertising or marketing, Fraud prevention | Yes (AdMob) |
 
+- "Shared" follows Google's AdMob disclosure page; Firebase data is processed by Google on our
+  behalf, which Play does not count as sharing.
 - Data collection is required (cannot be turned off in-app). Ads are never personalised.
-- Users can't request deletion through the app.
+- Deletion: users can ask by email (info@oeogames.com); there is no in-app deletion button.
+  Analytics data expires after the retention set in Firebase (keep the GA4 default, 2 months).
+- Before answering, re-check both disclosure pages: Google updates them with SDK releases.

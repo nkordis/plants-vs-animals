@@ -24,6 +24,11 @@ class FamiliesManifest : IPostGenerateGradleAndroidProject
 	{
 		{ "google_analytics_adid_collection_enabled", "false" },
 		{ "google_analytics_default_allow_ad_personalization_signals", "false" },
+		// Consent mode defaults: analytics only, nothing for ads. Kept denied for everyone since
+		// the game never uses Firebase data for advertising.
+		{ "google_analytics_default_ad_storage", "denied" },
+		{ "google_analytics_default_ad_user_data", "denied" },
+		{ "google_analytics_default_ad_personalization", "denied" },
 	};
 
 	public int callbackOrder { get { return 100; } }
