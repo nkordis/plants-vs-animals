@@ -7,6 +7,9 @@ on:
   push:
     tags: ['v*']
 
+permissions:
+  contents: read
+
 concurrency:
   group: android-${{ github.ref }}
   cancel-in-progress: true
@@ -14,7 +17,7 @@ concurrency:
 jobs:
   build:
     name: Build Android App Bundle
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     env:
       HAS_UNITY_LICENSE: ${{ secrets.UNITY_LICENSE != '' }}
@@ -27,7 +30,7 @@ jobs:
 
       - name: Free disk space
         if: env.HAS_UNITY_LICENSE == 'true'
-        uses: jlumbroso/free-disk-space@v2.0.0
+        uses: jlumbroso/free-disk-space@ceedf095f4ec1a097402bc6bd80831f2e1a6fde6 # v2.0.0
         with:
           android: true
           dotnet: true
@@ -35,7 +38,7 @@ jobs:
           large-packages: false
           tool-cache: false
 
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         if: env.HAS_UNITY_LICENSE == 'true'
 
       - name: Read version from ProjectSettings
@@ -45,7 +48,29 @@ jobs:
           echo "name=$(sed -n 's/^  bundleVersion: //p' ProjectSettings/ProjectSettings.asset)" >> "$GITHUB_OUTPUT"
           echo "code=$(sed -n 's/^  AndroidBundleVersionCode: //p' ProjectSettings/ProjectSettings.asset)" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/cache@v6
+      # Play rejects a bundle whose versionCode is not above every code it has already received.
+      # .github/play-version-code holds the highest code uploaded to Play Console (bump it on master after
+      # each upload). The higher of this commit's copy and master's copy is used, so an old branch or tag
+      # cannot rely on a stale value.
+      - name: Check versionCode against Play
+        if: env.HAS_UNITY_LICENSE == 'true'
+        env:
+          CODE: ${{ steps.version.outputs.code }}
+        run: |
+          code="$CODE"
+          uploaded=$(tr -d '[:space:]' < .github/play-version-code)
+          on_master=$(git fetch -q --depth 1 origin master && git show FETCH_HEAD:.github/play-version-code 2>/dev/null | tr -d '[:space:]' || true)
+          if [ -n "$on_master" ] && [ "$on_master" -gt "$uploaded" ]; then uploaded=$on_master; fi
+          if [ "$code" -gt "$uploaded" ]; then
+            echo "versionCode $code is above the last Play upload ($uploaded)."
+          elif [ "$GITHUB_EVENT_NAME" = push ] && [ "$GITHUB_REF_TYPE" = tag ]; then
+            echo "::error::versionCode $code is not above the last Play upload ($uploaded). Bump AndroidBundleVersionCode before tagging a release."
+            exit 1
+          else
+            echo "::warning::versionCode $code is not above the last Play upload ($uploaded); Play will reject this bundle. Fine for a test APK."
+          fi
+
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         if: env.HAS_UNITY_LICENSE == 'true'
         with:
           path: Library
@@ -54,13 +79,15 @@ jobs:
 
       - name: Build with Unity
         if: env.HAS_UNITY_LICENSE == 'true'
-        uses: game-ci/unity-builder@v6
+        uses: game-ci/unity-builder@eb1b9fba120c6e62c9fb7a7a81d6c107ce004c45 # v6.0.0
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: Android
+          cliVersion: v0.1.72
+          customImage: unityci/editor:ubuntu-6000.3.26f1-android-3@sha256:fd2641a484634dc6ef8aea4aa18e69cf1deeb233f6f7a56da4c24164b55d3fcd
           buildName: PlantsVsAnimals
           versioning: Custom
           version: ${{ steps.version.outputs.name }}
@@ -81,6 +108,7 @@ jobs:
         if: env.HAS_UNITY_LICENSE == 'true'
         run: |
           curl -sSLo bundletool.jar https://github.com/google/bundletool/releases/download/1.18.3/bundletool-all-1.18.3.jar
+          echo "a099cfa1543f55593bc2ed16a70a7c67fe54b1747bb7301f37fdfd6d91028e29  bundletool.jar" | sha256sum -c -
           java -jar bundletool.jar dump manifest --bundle build/Android/PlantsVsAnimals.aab | tee manifest.xml
           grep -E 'package=|versionCode|versionName|minSdkVersion|targetSdkVersion|uses-permission' manifest.xml
 
@@ -102,7 +130,7 @@ jobs:
           mkdir -p test-apk
           unzip -p "$RUNNER_TEMP/universal.apks" universal.apk > test-apk/PlantsVsAnimals-test.apk
 
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: env.HAS_UNITY_LICENSE == 'true'
         with:
           name: PlantsVsAnimals-${{ steps.version.outputs.name }}-${{ steps.version.outputs.code }}${{ env.HAS_KEYSTORE != 'true' && '-unsigned' || '' }}
