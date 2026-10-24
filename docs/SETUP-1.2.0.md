@@ -16,7 +16,9 @@ off). These one-time steps need the owner's Google accounts. Release 1.1.0 must 
 
 1. Sign in with the developer account, add the app (Android, "published on Google Play", search
    the package name).
-2. Create one **Rewarded** ad unit named `continue_after_loss`.
+2. Create one **Rewarded** ad unit named `continue_after_loss`, and one **Interstitial** ad unit
+   named `level_end` (shown when leaving a finished level from level 10 on). Its id goes in
+   `InterstitialUnitId` in `Assets/Scripts/Services/Ads.cs`.
 3. Privacy & messaging: create and publish a **European regulations (GDPR)** message for the app
    (Google's consent form, which the game already shows when required).
 4. Send Claude the **App ID** (`ca-app-pub-…~…`) and the **ad unit ID** (`ca-app-pub-…/…`).

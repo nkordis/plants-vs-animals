@@ -60,6 +60,17 @@ public class LevelHud : MonoBehaviour
 		starSprite = starIcon != null ? starIcon.sprite : null;
 
 		BlockedColumns.Create(level);
+		Button loseMenu = RuntimeUI.FindChild<Button>(losePanel, "Main Menu");
+		if (buttonTemplate != null)
+		{
+			RuntimeUI.Rewire(buttonTemplate, UiText.Get("try_again", "Play Again"),
+				() => AfterLevelAd(loader.RestartScene));
+		}
+		if (loseMenu != null)
+		{
+			RuntimeUI.Rewire(loseMenu, UiText.Get("main_menu", "Main Menu"),
+				() => AfterLevelAd(loader.LoadMainMenuNormally));
+		}
 		if (buttonTemplate == null || textTemplate == null || mainCanvas == null) { yield break; }
 
 		BuildPauseButton(mainCanvas.transform);
@@ -262,7 +273,7 @@ public class LevelHud : MonoBehaviour
 		if (next != null)
 		{
 			next.gameObject.SetActive(true);
-			RuntimeUI.Rewire(next, UiText.NextLevel, loader.LoadNextScene);
+			RuntimeUI.Rewire(next, UiText.NextLevel, () => AfterLevelAd(loader.LoadNextScene));
 			((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -170f);
 		}
 		Button template = next != null ? next : buttonTemplate;
@@ -270,15 +281,31 @@ public class LevelHud : MonoBehaviour
 		if (menu != null)
 		{
 			menu.gameObject.SetActive(true);
+			RuntimeUI.Rewire(menu, UiText.Get("main_menu", "Main Menu"),
+				() => AfterLevelAd(loader.LoadMainMenuNormally));
 			((RectTransform)menu.transform).anchoredPosition = new Vector2(260f, rowY);
 		}
 		if (template != null)
 		{
 			RuntimeUI.CloneButton(template, winPanel.transform, UiText.Retry,
-				new Vector2(-260f, rowY), loader.RestartScene);
+				new Vector2(-260f, rowY), () => AfterLevelAd(loader.RestartScene));
 		}
 
 		if (star != null) { StartCoroutine(Pop(star.transform)); }
+	}
+
+	// From level 10, leaving a finished level (won or lost) plays an interstitial first, as
+	// the original game did after level 10. Skipped when the player already watched the
+	// rewarded ad in this run.
+	const int FirstLevelWithAds = 10;
+	bool leaving;
+
+	void AfterLevelAd(System.Action go)
+	{
+		if (leaving) { return; }
+		leaving = true;
+		if (level < FirstLevelWithAds || LevelRun.Continued) { go(); return; }
+		Ads.ShowInterstitial(() => go());
 	}
 
 	static string ResultLine(LevelResult result)

@@ -3,14 +3,19 @@ using UnityEngine;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Ump.Api;
 
-// AdMob rewarded ads behind Google's consent form (UMP). Ads never change a competitive
-// score: the only reward is a "continue" after losing, and that run then does not count
-// for best score or leaderboards (see LevelRun.MarkContinued).
+// AdMob ads behind Google's consent form (UMP). Ads never change a competitive score: the
+// only reward is a "continue" after losing, and that run then does not count for best
+// score (see LevelRun.MarkContinued). From level 10 an interstitial plays when the player
+// leaves a finished level (see LevelHud.AfterLevelAd).
 public static class Ads
 {
 	// AdMob rewarded unit "continue_after_loss" (app id in
 	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset).
 	const string RewardedUnitId = "ca-app-pub-2232453977466422/7141921516";
+
+	// AdMob interstitial unit for the end of a level. Empty until the unit exists in AdMob:
+	// no interstitials are requested while it is empty.
+	const string InterstitialUnitId = "";
 
 	// The Play Console target audience includes children, so every ad request is
 	// child-directed (Families policy): no personalised ads, G-rated content only.
@@ -19,6 +24,8 @@ public static class Ads
 	static bool started;
 	static bool loading;
 	static RewardedAd rewarded;
+	static bool interstitialLoading;
+	static InterstitialAd interstitial;
 
 	public static bool PrivacyOptionsRequired
 	{
@@ -72,7 +79,11 @@ public static class Ads
 			configuration.MaxAdContentRating = MaxAdContentRating.G;
 		}
 		MobileAds.SetRequestConfiguration(configuration);
-		MobileAds.Initialize(status => LoadRewarded());
+		MobileAds.Initialize(status =>
+		{
+			LoadRewarded();
+			LoadInterstitial();
+		});
 	}
 
 	static void LoadRewarded()
@@ -89,6 +100,51 @@ public static class Ads
 			}
 			rewarded = ad;
 		});
+	}
+
+	static void LoadInterstitial()
+	{
+		if (!started || InterstitialUnitId.Length == 0 || interstitialLoading ||
+			(interstitial != null && interstitial.CanShowAd())) { return; }
+		interstitialLoading = true;
+		InterstitialAd.Load(InterstitialUnitId, new AdRequest(), (ad, error) =>
+		{
+			interstitialLoading = false;
+			if (error != null || ad == null)
+			{
+				Debug.LogWarning("Interstitial ad failed to load: " + error);
+				return;
+			}
+			interstitial = ad;
+		});
+	}
+
+	public static bool InterstitialReady
+	{
+		get { return interstitial != null && interstitial.CanShowAd(); }
+	}
+
+	// Shows the interstitial if one is loaded; done runs after it closes, or at once if
+	// there is none.
+	public static void ShowInterstitial(Action done)
+	{
+		if (!InterstitialReady) { done(); LoadInterstitial(); return; }
+		InterstitialAd ad = interstitial;
+		interstitial = null;
+		bool finished = false;
+		Action finish = () =>
+		{
+			if (finished) { return; }
+			finished = true;
+			AudioListener.pause = false;
+			ad.Destroy();
+			done();
+			LoadInterstitial();
+		};
+		ad.OnAdFullScreenContentClosed += () => finish();
+		ad.OnAdFullScreenContentFailed += adError => finish();
+		AudioListener.pause = true;
+		ad.Show();
 	}
 
 	public static bool RewardedReady
