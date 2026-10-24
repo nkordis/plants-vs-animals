@@ -41,6 +41,16 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         if: env.HAS_UNITY_LICENSE == 'true'
 
+      - name: Add Firebase packages
+        if: env.HAS_UNITY_LICENSE == 'true'
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.FIREBASE_GOOGLE_SERVICES_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICES_JSON" ]; then
+            printf '%s' "$GOOGLE_SERVICES_JSON" > "$RUNNER_TEMP/google-services.json"
+          fi
+          python3 .github/scripts/add_firebase.py "$RUNNER_TEMP/google-services.json"
+
       - name: Read version from ProjectSettings
         if: env.HAS_UNITY_LICENSE == 'true'
         id: version

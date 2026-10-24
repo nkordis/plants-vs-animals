@@ -38,37 +38,47 @@ public class LevelController : MonoBehaviour {
 			numberOfAttackers--;
 		}
 		int lives = Convert.ToInt32(livesText.text);
-		if (numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
+		if (!gameEnded && numberOfAttackers <= 0 && levelTimerFinished && lives > 0 )
         {
 			StartCoroutine(HandleWinCondition());
 		}
     }
 	
 		IEnumerator HandleWinCondition() {
-		Debug.Log("Hnadle win condition: OK2");
 		gameEnded = true;
+		LevelRun.MarkFinished();
 			winLabel.SetActive(true);
 			audioSource.PlayOneShot(levelWinSound);
-			AddLevelScore();
+			LevelResult result = RecordLevelResult();
+			// The win panel now shows the score (stars left), best and rank and waits for the player.
+			LevelHud hud = LevelHud.Instance;
+			if (hud != null) {
+				hud.ShowResults(result);
+				yield break;
+			}
 			yield return new WaitForSeconds(waitToLoad);
 			FindAnyObjectByType<LevelLoader>().LoadNextScene();
 		}
 
-
-	private static void AddLevelScore() {
-		int score = Convert.ToInt32(FindAnyObjectByType<StarDisplay>().GetStars());
-		float difficulty = PlayerPrefsController.GetDifficulty();
-		if (difficulty == 1f) 
-			{ score = (3 * score) / 2; } else if (difficulty == 2f) { score = 2 * score; }
-
-		int level = FindAnyObjectByType<LevelDisplay>().GetCurrentLevel();
+	// A run saved by a rewarded "continue" unlocks the next level but does not count as a
+	// best score.
+	private static LevelResult RecordLevelResult() {
+		int starsLeft = Convert.ToInt32(FindAnyObjectByType<StarDisplay>().GetStars());
+		int score = ScoreRules.FinalScore(starsLeft, LevelRun.Difficulty);
+		int level = LevelRun.Level;
 		int oldScore = PlayersScoreController.GetScore(level);
-		Debug.Log("score: " + score);
-		Debug.Log("oldScore: " + oldScore);
-		if (score > oldScore) 
+		bool newBest = !LevelRun.Continued && score > oldScore;
+		if (newBest)
 			{
 			PlayersScoreController.SetScore(level, score);
 			}
+		PlayerPrefs.Save();
+		Analytics.LevelWin(level, LevelRun.Difficulty, score, newBest, LevelRun.LivesLost,
+			LevelRun.Continued, LevelRun.DefendersPlaced, LevelRun.Duration);
+		return new LevelResult {
+			Level = level, Score = score, PreviousBest = oldScore, NewBest = newBest,
+			Continued = LevelRun.Continued,
+		};
 	}
 
 	public void HandleLoseCondition()
@@ -76,6 +86,11 @@ public class LevelController : MonoBehaviour {
         loseLabel.SetActive(true);
 		audioSource.PlayOneShot(levelLostSound);
 		Time.timeScale = 0;
+		LevelHud hud = LevelHud.Instance;
+		if (hud != null) {
+			GameTimer timer = FindAnyObjectByType<GameTimer>();
+			hud.OnLevelLost(timer != null ? timer.GetProgress() : 0f);
+		}
     }
 
     public void LevelTimerFinished()
@@ -97,4 +112,8 @@ public class LevelController : MonoBehaviour {
 	public bool GetGameEnded() {
 		return gameEnded;
 	}
+
+	public GameObject WinPanel { get { return winLabel; } }
+
+	public GameObject LosePanel { get { return loseLabel; } }
 }

@@ -30,6 +30,7 @@ public class LivesDisplay : MonoBehaviour {
 
     public void TakeLife()
     {
+        LevelRun.LifeLost();
         lives -= damage;
         UpdateDisplay();
 		audioSource.PlayOneShot(livesMinusSound);
@@ -38,5 +39,12 @@ public class LivesDisplay : MonoBehaviour {
         {
             FindAnyObjectByType<LevelController>().HandleLoseCondition();
         }
+    }
+
+    // Used by the rewarded "continue" after losing the last life.
+    public void AddLife()
+    {
+        lives += damage;
+        UpdateDisplay();
     }
 }

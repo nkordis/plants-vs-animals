@@ -9,6 +9,8 @@ public class ChooseLevelController : MonoBehaviour
 	[SerializeField] Button[] buttons;
 	[SerializeField] Sprite comingSoonImage;
 	[SerializeField] Sprite defaultImage;
+
+	public Button[] Buttons { get { return buttons; } }
 	
 	void Start()
     {

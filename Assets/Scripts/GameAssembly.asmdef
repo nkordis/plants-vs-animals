@@ -1,3 +1,11 @@
 ﻿{
-	"name": "GameAssembly"
+	"name": "GameAssembly",
+	"references": [],
+	"versionDefines": [
+		{
+			"name": "com.google.firebase.analytics",
+			"expression": "0.0.1",
+			"define": "PVA_FIREBASE"
+		}
+	]
 }
