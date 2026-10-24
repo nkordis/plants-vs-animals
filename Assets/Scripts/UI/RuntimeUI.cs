@@ -65,6 +65,7 @@ public static class RuntimeUI
 		text.alignment = TextAnchor.MiddleCenter;
 		text.horizontalOverflow = HorizontalWrapMode.Wrap;
 		text.verticalOverflow = VerticalWrapMode.Overflow;
+		LocalizationManager.FitText(text);
 		return text;
 	}
 

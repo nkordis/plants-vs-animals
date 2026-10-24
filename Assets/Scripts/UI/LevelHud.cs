@@ -74,6 +74,7 @@ public class LevelHud : MonoBehaviour
 		if (pauseLabel != null)
 		{
 			pauseLabel.fontSize = 60;
+			pauseLabel.resizeTextForBestFit = false;
 			pauseLabel.fontStyle = FontStyle.Bold;
 			pauseLabel.color = Color.white;
 		}
@@ -186,6 +187,7 @@ public class LevelHud : MonoBehaviour
 		text.fontSize = 70;
 		text.horizontalOverflow = HorizontalWrapMode.Wrap;
 		text.verticalOverflow = VerticalWrapMode.Overflow;
+		LocalizationManager.FitText(text);
 		((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -250f);
 
 		string[] steps = UiText.TutorialSteps;

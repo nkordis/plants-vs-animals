@@ -1,4 +1,4 @@
-// Texts for the 1.2.0 screens. Looked up in the localization files when the key exists
+// Texts set from code (the 1.2.0 screens, the level number). Looked up in the localization files when the key exists
 // there, otherwise the English text below is used.
 public static class UiText
 {
