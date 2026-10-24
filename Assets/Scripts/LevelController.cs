@@ -72,6 +72,11 @@ public class LevelController : MonoBehaviour {
 			{
 			PlayersScoreController.SetScore(level, score);
 			}
+		// Unlock the next level now: the player may leave from the win panel without
+		// pressing Next level, which is where the original game unlocked it.
+		if (PlayersMaxLevelController.GetMaxLevel() < level) {
+			PlayersMaxLevelController.SetMaxLeveL(level);
+		}
 		PlayerPrefs.Save();
 		Analytics.LevelWin(level, LevelRun.Difficulty, score, newBest, LevelRun.LivesLost,
 			LevelRun.Continued, LevelRun.DefendersPlaced, LevelRun.Duration);
