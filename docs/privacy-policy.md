@@ -19,8 +19,8 @@ privacy policy; we do not sell any data.
   instance identifier, an approximate location worked out from your IP address (country or city,
   never your exact location), and crash reports, so we can fix problems and improve the game.
   [Firebase privacy information](https://firebase.google.com/support/privacy)
-- **Google AdMob** (advertising). The game shows a rewarded video only when you choose to watch
-  one to continue a lost level. Ads are not personalised; AdMob may use your IP address and device
+- **Google AdMob** (advertising). From level 10 on, an ad is shown when you leave a finished
+  level, and it can be closed after 5 seconds. Ads are not personalised; AdMob may use your IP address and device
   information to show and measure them. Where the law requires consent (for example in the European
   Economic Area, the UK and Switzerland), Google's consent form is used; if it was shown, you can
   change your choice at any time from Options > Privacy choices. [How Google uses data from apps](https://policies.google.com/technologies/partner-sites)

@@ -52,30 +52,26 @@ public static class Analytics
 	}
 
 	public static void LevelWin(int level, float difficulty, int score, bool newBest,
-		int livesLost, bool continued, int defenders, float seconds)
+		int livesLost, int defenders, float seconds)
 	{
 		Log("level_win", "level", level, "difficulty", Mathf.RoundToInt(difficulty),
 			"score", score, "new_best", newBest ? 1 : 0,
-			"lives_lost", livesLost, "continued", continued ? 1 : 0,
+			"lives_lost", livesLost,
 			"defenders", defenders, "seconds", Mathf.RoundToInt(seconds));
 	}
 
 	public static void LevelLose(int level, float difficulty, int defenders, float seconds,
-		float progress, bool continued)
+		float progress)
 	{
 		Log("level_lose", "level", level, "difficulty", Mathf.RoundToInt(difficulty),
 			"defenders", defenders, "seconds", Mathf.RoundToInt(seconds),
-			"progress_pct", Mathf.RoundToInt(progress * 100f), "continued", continued ? 1 : 0);
+			"progress_pct", Mathf.RoundToInt(progress * 100f));
 	}
 
 	public static void LevelQuit(int level, string how, float seconds)
 	{
 		Log("level_quit", "level", level, "how", how, "seconds", Mathf.RoundToInt(seconds));
 	}
-
-	public static void ContinueOffered(int level) { Log("continue_offered", "level", level); }
-
-	public static void ContinueUsed(int level) { Log("continue_used", "level", level); }
 
 	public static void TutorialStep(int step) { Log("tutorial_step", "step", step); }
 

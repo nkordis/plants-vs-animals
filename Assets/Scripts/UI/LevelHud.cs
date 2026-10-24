@@ -5,16 +5,14 @@ using UnityEngine.UI;
 
 // Added to every level scene at load (see GameServices): pause button and menu, the
 // level-1 tutorial, the marking of the two lawn columns that cannot be planted, the score
-// (stars left) and best on the win panel, and the rewarded "continue" on the lose panel.
+// (stars left) and best on the win panel, and the end-of-level ad from level 10.
 public class LevelHud : MonoBehaviour
 {
 	public static LevelHud Instance { get; private set; }
 
-	const string TUTORIAL_DONE_KEY = "tutorial done";
 
 	int level;
 	LevelController controller;
-	LivesDisplay livesDisplay;
 	LevelLoader loader;
 	GameObject winPanel;
 	GameObject losePanel;
@@ -23,9 +21,6 @@ public class LevelHud : MonoBehaviour
 	Sprite starSprite;
 
 	GameObject pausePanel;
-	Button continueButton;
-	Text continueNote;
-	Text loseNote;
 	bool paused;
 	bool loseShown;
 	bool overlayOpen;
@@ -45,9 +40,8 @@ public class LevelHud : MonoBehaviour
 	{
 		level = SceneManager.GetActiveScene().buildIndex - 3;
 		controller = FindAnyObjectByType<LevelController>();
-		livesDisplay = FindAnyObjectByType<LivesDisplay>();
 		loader = FindAnyObjectByType<LevelLoader>();
-		if (controller == null || livesDisplay == null || loader == null) { yield break; }
+		if (controller == null || loader == null) { yield break; }
 
 		LevelRun.Begin(level);
 
@@ -61,30 +55,24 @@ public class LevelHud : MonoBehaviour
 		starSprite = starIcon != null ? starIcon.sprite : null;
 
 		BlockedColumns.Create(level);
+		Button loseMenu = RuntimeUI.FindChild<Button>(losePanel, "Main Menu");
+		if (buttonTemplate != null)
+		{
+			RuntimeUI.Rewire(buttonTemplate, UiText.Get("try_again", "Play Again"),
+				() => AfterLevelAd(loader.RestartScene));
+		}
+		if (loseMenu != null)
+		{
+			RuntimeUI.Rewire(loseMenu, UiText.Get("main_menu", "Main Menu"),
+				() => AfterLevelAd(loader.LoadMainMenuNormally));
+		}
 		if (buttonTemplate == null || textTemplate == null || mainCanvas == null) { yield break; }
 
-		Button pauseButton = RuntimeUI.CloneButton(buttonTemplate, mainCanvas.transform, "II",
-			new Vector2(850f, 470f), Pause);
-		((RectTransform)pauseButton.transform).sizeDelta = new Vector2(120f, 110f);
-		// The template is a see-through grey box made for the dark lose panel; on the lawn it
-		// needs a solid colour to read as a button.
-		Image pauseImage = pauseButton.GetComponent<Image>();
-		if (pauseImage != null) { pauseImage.color = new Color(0.33f, 0.13f, 0.5f, 0.92f); }
-		Text pauseLabel = pauseButton.GetComponentInChildren<Text>(true);
-		if (pauseLabel != null)
-		{
-			pauseLabel.fontSize = 60;
-			pauseLabel.resizeTextForBestFit = false;
-			pauseLabel.fontStyle = FontStyle.Bold;
-			pauseLabel.color = Color.white;
-		}
+		BuildPauseButton(mainCanvas.transform);
 
 		// Let the scene finish its own Start (it hides the panels) before opening anything.
 		yield return null;
-		if (level == 1 && PlayerPrefs.GetInt(TUTORIAL_DONE_KEY) == 0)
-		{
-			ShowTutorial();
-		}
+		if (level == 1) { ShowTutorial(); }
 	}
 
 	void Update()
@@ -108,6 +96,36 @@ public class LevelHud : MonoBehaviour
 	}
 
 	// --- Pause ------------------------------------------------------------------------
+
+	// A light square with the usual two dark bars, drawn with images rather than a text
+	// label. x 760 keeps it on screen on 16:10 and 4:3 devices, which crop the sides of the
+	// 1920-wide canvas.
+	void BuildPauseButton(Transform canvas)
+	{
+		Button pauseButton = RuntimeUI.CloneButton(buttonTemplate, canvas, "",
+			new Vector2(760f, 440f), Pause);
+		pauseButton.transition = Selectable.Transition.None;
+		((RectTransform)pauseButton.transform).sizeDelta = new Vector2(110f, 110f);
+		Image square = pauseButton.GetComponent<Image>();
+		if (square != null) { square.color = new Color(1f, 1f, 1f, 0.9f); }
+		foreach (Text label in pauseButton.GetComponentsInChildren<Text>(true))
+		{
+			label.gameObject.SetActive(false);
+		}
+		foreach (float x in new[] { -18f, 18f })
+		{
+			var bar = new GameObject("Pause Bar", typeof(RectTransform), typeof(Image));
+			bar.layer = pauseButton.gameObject.layer;
+			var rect = (RectTransform)bar.transform;
+			rect.SetParent(pauseButton.transform, false);
+			rect.anchorMin = rect.anchorMax = new Vector2(0.5f, 0.5f);
+			rect.sizeDelta = new Vector2(20f, 60f);
+			rect.anchoredPosition = new Vector2(x, 0f);
+			Image image = bar.GetComponent<Image>();
+			image.color = new Color(0.2f, 0.07f, 0.28f, 1f);
+			image.raycastTarget = false;
+		}
+	}
 
 	void Pause()
 	{
@@ -164,7 +182,7 @@ public class LevelHud : MonoBehaviour
 		go();
 	}
 
-	// --- Tutorial (level 1, first time) -----------------------------------------------------
+	// --- Tutorial (every start of level 1) ---------------------------------------------------
 
 	void ShowTutorial()
 	{
@@ -205,8 +223,6 @@ public class LevelHud : MonoBehaviour
 			RuntimeUI.Rewire(next, last ? UiText.Play : UiText.Next, () =>
 			{
 				if (!last) { step++; show(); return; }
-				PlayerPrefs.SetInt(TUTORIAL_DONE_KEY, 1);
-				PlayerPrefs.Save();
 				Analytics.TutorialComplete();
 				Destroy(panel);
 				overlayOpen = false;
@@ -249,25 +265,46 @@ public class LevelHud : MonoBehaviour
 				new Vector2(star != null ? 80f : 0f, 345f), new Vector2(300f, 170f), 120);
 		}
 
-		if (next != null) { ((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -170f); }
+		// The scene hides these two because the original game moved on by itself after a win.
+		if (next != null)
+		{
+			next.gameObject.SetActive(true);
+			RuntimeUI.Rewire(next, UiText.NextLevel, () => AfterLevelAd(loader.LoadNextScene));
+			((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -170f);
+		}
 		Button template = next != null ? next : buttonTemplate;
 		float rowY = -345f;
 		if (menu != null)
 		{
+			menu.gameObject.SetActive(true);
+			RuntimeUI.Rewire(menu, UiText.Get("main_menu", "Main Menu"),
+				() => AfterLevelAd(loader.LoadMainMenuNormally));
 			((RectTransform)menu.transform).anchoredPosition = new Vector2(260f, rowY);
 		}
 		if (template != null)
 		{
 			RuntimeUI.CloneButton(template, winPanel.transform, UiText.Retry,
-				new Vector2(-260f, rowY), loader.RestartScene);
+				new Vector2(-260f, rowY), () => AfterLevelAd(loader.RestartScene));
 		}
 
 		if (star != null) { StartCoroutine(Pop(star.transform)); }
 	}
 
+	// From level 10, leaving a finished level (won or lost) plays an interstitial first, as
+	// the original game did after level 10.
+	const int FirstLevelWithAds = 10;
+	bool leaving;
+
+	void AfterLevelAd(System.Action go)
+	{
+		if (leaving) { return; }
+		leaving = true;
+		if (level < FirstLevelWithAds) { go(); return; }
+		Ads.ShowInterstitial(() => go());
+	}
+
 	static string ResultLine(LevelResult result)
 	{
-		if (result.Continued) { return UiText.Score(result.Score) + "\n" + UiText.ContinuedRun; }
 		string line = UiText.Score(result.Score) + "   " +
 			(result.NewBest ? UiText.NewBest : UiText.Best(result.PreviousBest));
 		return line;
@@ -292,52 +329,6 @@ public class LevelHud : MonoBehaviour
 		loseShown = true;
 		if (paused) { Resume(); Time.timeScale = 0f; }
 		Analytics.LevelLose(level, LevelRun.Difficulty, LevelRun.DefendersPlaced, LevelRun.Duration,
-			progress, LevelRun.Continued);
-		if (LevelRun.Continued || !Ads.RewardedReady || losePanel == null || buttonTemplate == null) { return; }
-
-		if (continueButton == null)
-		{
-			Text title = RuntimeUI.FindChild<Text>(losePanel, "Level Lost Text");
-			Button menu = RuntimeUI.FindChild<Button>(losePanel, "Main Menu");
-			if (title != null) { ((RectTransform)title.transform).anchoredPosition = new Vector2(0f, 280f); }
-			continueButton = RuntimeUI.CloneButton(buttonTemplate, buttonTemplate.transform.parent,
-				UiText.ContinueAd, new Vector2(0f, 60f), WatchAdToContinue);
-			// Said before the player opts in, so the ad's cost is clear up front.
-			if (title != null)
-			{
-				continueNote = RuntimeUI.CloneText(title, title.transform.parent, "Continue Note", UiText.ContinueNote,
-					new Vector2(0f, 170f), new Vector2(1200f, 70f), 40);
-			}
-			((RectTransform)buttonTemplate.transform).anchoredPosition = new Vector2(0f, -125f);
-			if (menu != null) { ((RectTransform)menu.transform).anchoredPosition = new Vector2(0f, -310f); }
-		}
-		continueButton.gameObject.SetActive(true);
-		continueButton.interactable = true;
-		if (continueNote != null) { continueNote.gameObject.SetActive(true); }
-		Analytics.ContinueOffered(level);
-	}
-
-	void WatchAdToContinue()
-	{
-		continueButton.interactable = false;
-		Ads.ShowRewarded(earned =>
-		{
-			if (!earned)
-			{
-				RuntimeUI.SetLabel(continueButton, UiText.NoContinue);
-				return;
-			}
-			LevelRun.MarkContinued();
-			Analytics.ContinueUsed(level);
-			continueButton.gameObject.SetActive(false);
-			if (continueNote != null) { continueNote.gameObject.SetActive(false); }
-			losePanel.SetActive(false);
-			loseShown = false;
-			livesDisplay.AddLife();
-			Time.timeScale = 1f;
-			// If the life was lost to the last animal after the timer ended, nothing else
-			// would check the win condition again and the level would never finish.
-			controller.AttackerKilled(false);
-		});
+			progress);
 	}
 }

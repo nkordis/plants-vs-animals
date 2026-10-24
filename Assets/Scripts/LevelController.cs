@@ -60,24 +60,26 @@ public class LevelController : MonoBehaviour {
 			FindAnyObjectByType<LevelLoader>().LoadNextScene();
 		}
 
-	// A run saved by a rewarded "continue" unlocks the next level but does not count as a
-	// best score.
 	private static LevelResult RecordLevelResult() {
 		int starsLeft = Convert.ToInt32(FindAnyObjectByType<StarDisplay>().GetStars());
 		int score = ScoreRules.FinalScore(starsLeft, LevelRun.Difficulty);
 		int level = LevelRun.Level;
 		int oldScore = PlayersScoreController.GetScore(level);
-		bool newBest = !LevelRun.Continued && score > oldScore;
+		bool newBest = score > oldScore;
 		if (newBest)
 			{
 			PlayersScoreController.SetScore(level, score);
 			}
+		// Unlock the next level now: the player may leave from the win panel without
+		// pressing Next level, which is where the original game unlocked it.
+		if (PlayersMaxLevelController.GetMaxLevel() < level) {
+			PlayersMaxLevelController.SetMaxLeveL(level);
+		}
 		PlayerPrefs.Save();
 		Analytics.LevelWin(level, LevelRun.Difficulty, score, newBest, LevelRun.LivesLost,
-			LevelRun.Continued, LevelRun.DefendersPlaced, LevelRun.Duration);
+			LevelRun.DefendersPlaced, LevelRun.Duration);
 		return new LevelResult {
 			Level = level, Score = score, PreviousBest = oldScore, NewBest = newBest,
-			Continued = LevelRun.Continued,
 		};
 	}
 

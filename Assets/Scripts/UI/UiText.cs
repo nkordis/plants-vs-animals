@@ -13,12 +13,10 @@ public static class UiText
 	public static string Paused { get { return Get("pause_heading", "Paused"); } }
 	public static string Resume { get { return Get("pause_resume", "Resume"); } }
 	public static string Restart { get { return Get("pause_restart", "Restart"); } }
+	public static string NextLevel { get { return Get("next_level", "Next level"); } }
 	public static string Retry { get { return Get("win_retry", "Retry"); } }
-	public static string ContinueAd { get { return Get("continue_ad", "Watch an ad: +1 life"); } }
-	public static string NoContinue { get { return Get("continue_unavailable", "No ad available right now"); } }
 	public static string Next { get { return Get("tutorial_next", "Next"); } }
 	public static string Play { get { return Get("tutorial_play", "Play!"); } }
-	public static string ContinueNote { get { return Get("continue_note", "A run you continue won't save a best score."); } }
 	public static string Privacy { get { return Get("privacy_options", "Privacy choices"); } }
 	public static string PrivacyPolicy { get { return Get("privacy_policy", "Privacy policy"); } }
 	public static string CannotPlant { get { return Get("cannot_plant", "Plants can't grow here"); } }
@@ -26,7 +24,6 @@ public static class UiText
 	public static string Score(int score) { return Get("win_score", "Score") + ": " + score; }
 	public static string NewBest { get { return Get("win_new_best", "New best!"); } }
 	public static string Best(int best) { return Get("win_best", "Best") + ": " + best; }
-	public static string ContinuedRun { get { return Get("win_continued", "Continued run: score not recorded"); } }
 
 	public static string[] TutorialSteps
 	{
