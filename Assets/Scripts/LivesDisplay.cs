@@ -30,6 +30,7 @@ public class LivesDisplay : MonoBehaviour {
 
     public void TakeLife()
     {
+        LevelRun.LifeLost();
         lives -= damage;
         UpdateDisplay();
 		audioSource.PlayOneShot(livesMinusSound);

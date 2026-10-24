@@ -34,3 +34,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Build-time downloads and secrets (see .github/scripts/add_firebase.py)
+GooglePackages/
+Assets/google-services.json
+Assets/google-services.json.meta

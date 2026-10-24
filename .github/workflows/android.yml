@@ -41,6 +41,16 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         if: env.HAS_UNITY_LICENSE == 'true'
 
+      - name: Add Firebase packages
+        if: env.HAS_UNITY_LICENSE == 'true'
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.FIREBASE_GOOGLE_SERVICES_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICES_JSON" ]; then
+            printf '%s' "$GOOGLE_SERVICES_JSON" > "$RUNNER_TEMP/google-services.json"
+          fi
+          python3 .github/scripts/add_firebase.py "$RUNNER_TEMP/google-services.json"
+
       - name: Read version from ProjectSettings
         if: env.HAS_UNITY_LICENSE == 'true'
         id: version
@@ -111,6 +121,13 @@ jobs:
           echo "a099cfa1543f55593bc2ed16a70a7c67fe54b1747bb7301f37fdfd6d91028e29  bundletool.jar" | sha256sum -c -
           java -jar bundletool.jar dump manifest --bundle build/Android/PlantsVsAnimals.aab | tee manifest.xml
           grep -E 'package=|versionCode|versionName|minSdkVersion|targetSdkVersion|uses-permission' manifest.xml
+
+      # Without this resource Crashlytics stops the app at launch, before Unity starts.
+      - name: Check Crashlytics build ID
+        if: env.HAS_UNITY_LICENSE == 'true' && hashFiles('Assets/google-services.json') != ''
+        run: |
+          java -jar bundletool.jar dump resources --bundle build/Android/PlantsVsAnimals.aab --values \
+            | grep -A2 'com.crashlytics.android.build_id' || { echo "::error::Crashlytics build ID missing: the app would crash at launch."; exit 1; }
 
       - name: Check upload signature and build a test APK
         if: env.HAS_UNITY_LICENSE == 'true' && env.HAS_KEYSTORE == 'true'

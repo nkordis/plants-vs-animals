@@ -30,6 +30,11 @@ public class DefenderSpawner : MonoBehaviour {
 
     private void OnMouseDown()
     {
+        // Ignore taps on the lawn behind the pause, tutorial, win and lose panels.
+        LevelHud hud = LevelHud.Instance;
+        if (hud != null && hud.BlocksInput) { return; }
+        LevelController levelController = FindAnyObjectByType<LevelController>();
+        if (levelController != null && levelController.GetGameEnded()) { return; }
         AttemptToPlaceDefenderAt(GetSquareClicked());
     }
 
@@ -51,6 +56,7 @@ public class DefenderSpawner : MonoBehaviour {
         {
             SpawnDefender(gridPos);
             StarDisplay.SpendStars(defenderCost);
+            LevelRun.DefenderPlaced();
         }
     }
 
