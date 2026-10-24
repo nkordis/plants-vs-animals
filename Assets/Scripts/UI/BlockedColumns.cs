@@ -2,14 +2,16 @@ using System.Collections;
 using UnityEngine;
 
 // The lawn is 9 columns wide but plants can only go in columns 1-7 (the Core Game Area
-// collider). Players tapped columns 8-9 and thought the game was broken, so they are
-// shaded, and a tap there says why nothing happens. Planting rules are unchanged.
+// collider). Players tapped columns 8-9 and thought the game was broken, so a tap there
+// briefly tints them and says why nothing happens. They look as before otherwise (Nikos,
+// 2026-10-24). Planting rules are unchanged.
 public class BlockedColumns : MonoBehaviour
 {
 	const float LeftEdge = 7.5f;
 	const float RightEdge = 9.5f;
 	const float Bottom = 0.5f;
 	const float Top = 5.5f;
+	static readonly Color Clear = new Color(0f, 0f, 0f, 0f);
 
 	int level;
 	SpriteRenderer shade;
@@ -35,7 +37,7 @@ public class BlockedColumns : MonoBehaviour
 		// One world unit wide, stretched to the two columns by the scale above.
 		shade.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height),
 			new Vector2(0.5f, 0.5f), texture.width);
-		shade.color = new Color(0f, 0f, 0f, 0.22f);
+		shade.color = Clear;
 		// Above the background canvas (order 0), below plants and animals (5-6).
 		shade.sortingOrder = 1;
 
@@ -79,7 +81,7 @@ public class BlockedColumns : MonoBehaviour
 		message.gameObject.SetActive(true);
 		shade.color = new Color(0.6f, 0f, 0f, 0.35f);
 		yield return new WaitForSeconds(1.5f);
-		shade.color = new Color(0f, 0f, 0f, 0.22f);
+		shade.color = Clear;
 		message.gameObject.SetActive(false);
 		flashing = null;
 	}
