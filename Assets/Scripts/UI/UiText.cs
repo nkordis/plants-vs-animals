@@ -13,6 +13,7 @@ public static class UiText
 	public static string Paused { get { return Get("pause_heading", "Paused"); } }
 	public static string Resume { get { return Get("pause_resume", "Resume"); } }
 	public static string Restart { get { return Get("pause_restart", "Restart"); } }
+	public static string NextLevel { get { return Get("next_level", "Next level"); } }
 	public static string Retry { get { return Get("win_retry", "Retry"); } }
 	public static string ContinueAd { get { return Get("continue_ad", "Watch an ad: +1 life"); } }
 	public static string NoContinue { get { return Get("continue_unavailable", "No ad available right now"); } }
