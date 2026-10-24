@@ -7,10 +7,9 @@ using GoogleMobileAds.Ump.Api;
 // the player leaves a finished level (see LevelHud.AfterLevelAd). Ads never change a score.
 public static class Ads
 {
-	// AdMob interstitial unit for the end of a level (app id in
-	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset). Empty until the unit
-	// exists in AdMob: no ads are requested while it is empty.
-	const string InterstitialUnitId = "";
+	// AdMob interstitial unit "level_end" (app id in
+	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset).
+	const string InterstitialUnitId = "ca-app-pub-2232453977466422/9954930883";
 
 	// The Play Console target audience includes children, so every ad request is
 	// child-directed (Families policy): no personalised ads, G-rated content only.
