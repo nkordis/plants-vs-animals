@@ -5,5 +5,4 @@ public struct LevelResult
 	public int Score;
 	public int PreviousBest;
 	public bool NewBest;
-	public bool Continued;
 }

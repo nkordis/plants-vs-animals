@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 // Added to every level scene at load (see GameServices): pause button and menu, the
 // level-1 tutorial, the marking of the two lawn columns that cannot be planted, the score
-// (stars left) and best on the win panel, and the rewarded "continue" on the lose panel.
+// (stars left) and best on the win panel, and the end-of-level ad from level 10.
 public class LevelHud : MonoBehaviour
 {
 	public static LevelHud Instance { get; private set; }
@@ -13,7 +13,6 @@ public class LevelHud : MonoBehaviour
 
 	int level;
 	LevelController controller;
-	LivesDisplay livesDisplay;
 	LevelLoader loader;
 	GameObject winPanel;
 	GameObject losePanel;
@@ -22,9 +21,6 @@ public class LevelHud : MonoBehaviour
 	Sprite starSprite;
 
 	GameObject pausePanel;
-	Button continueButton;
-	Text continueNote;
-	Text loseNote;
 	bool paused;
 	bool loseShown;
 	bool overlayOpen;
@@ -44,9 +40,8 @@ public class LevelHud : MonoBehaviour
 	{
 		level = SceneManager.GetActiveScene().buildIndex - 3;
 		controller = FindAnyObjectByType<LevelController>();
-		livesDisplay = FindAnyObjectByType<LivesDisplay>();
 		loader = FindAnyObjectByType<LevelLoader>();
-		if (controller == null || livesDisplay == null || loader == null) { yield break; }
+		if (controller == null || loader == null) { yield break; }
 
 		LevelRun.Begin(level);
 
@@ -295,8 +290,7 @@ public class LevelHud : MonoBehaviour
 	}
 
 	// From level 10, leaving a finished level (won or lost) plays an interstitial first, as
-	// the original game did after level 10. Skipped when the player already watched the
-	// rewarded ad in this run.
+	// the original game did after level 10.
 	const int FirstLevelWithAds = 10;
 	bool leaving;
 
@@ -304,13 +298,12 @@ public class LevelHud : MonoBehaviour
 	{
 		if (leaving) { return; }
 		leaving = true;
-		if (level < FirstLevelWithAds || LevelRun.Continued) { go(); return; }
+		if (level < FirstLevelWithAds) { go(); return; }
 		Ads.ShowInterstitial(() => go());
 	}
 
 	static string ResultLine(LevelResult result)
 	{
-		if (result.Continued) { return UiText.Score(result.Score) + "\n" + UiText.ContinuedRun; }
 		string line = UiText.Score(result.Score) + "   " +
 			(result.NewBest ? UiText.NewBest : UiText.Best(result.PreviousBest));
 		return line;
@@ -335,61 +328,6 @@ public class LevelHud : MonoBehaviour
 		loseShown = true;
 		if (paused) { Resume(); Time.timeScale = 0f; }
 		Analytics.LevelLose(level, LevelRun.Difficulty, LevelRun.DefendersPlaced, LevelRun.Duration,
-			progress, LevelRun.Continued);
-		if (LevelRun.Continued || !Ads.RewardedReady || losePanel == null || buttonTemplate == null) { return; }
-
-		if (continueButton == null)
-		{
-			Text title = RuntimeUI.FindChild<Text>(losePanel, "Level Lost Text");
-			Button menu = RuntimeUI.FindChild<Button>(losePanel, "Main Menu");
-			if (title != null) { ((RectTransform)title.transform).anchoredPosition = new Vector2(0f, 280f); }
-			continueButton = RuntimeUI.CloneButton(buttonTemplate, buttonTemplate.transform.parent,
-				UiText.ContinueAd, new Vector2(0f, 60f), WatchAdToContinue);
-			Text continueLabel = continueButton.GetComponentInChildren<Text>(true);
-			if (continueLabel != null)
-			{
-				continueLabel.resizeTextForBestFit = true;
-				continueLabel.resizeTextMinSize = 30;
-				continueLabel.resizeTextMaxSize = continueLabel.fontSize;
-			}
-			// Said before the player opts in, so the ad's cost is clear up front.
-			if (title != null)
-			{
-				continueNote = RuntimeUI.CloneText(title, title.transform.parent, "Continue Note", UiText.ContinueNote,
-					new Vector2(0f, 170f), new Vector2(1200f, 70f), 40);
-			}
-			((RectTransform)buttonTemplate.transform).anchoredPosition = new Vector2(0f, -125f);
-			if (menu != null) { ((RectTransform)menu.transform).anchoredPosition = new Vector2(0f, -310f); }
-		}
-		continueButton.gameObject.SetActive(true);
-		continueButton.interactable = true;
-		if (continueNote != null) { continueNote.gameObject.SetActive(true); }
-		Analytics.ContinueOffered(level);
-	}
-
-	void WatchAdToContinue()
-	{
-		continueButton.interactable = false;
-		Ads.ShowRewarded(earned =>
-		{
-			if (!earned)
-			{
-				RuntimeUI.SetLabel(continueButton, UiText.NoContinue);
-				return;
-			}
-			LevelRun.MarkContinued();
-			Analytics.ContinueUsed(level);
-			continueButton.gameObject.SetActive(false);
-			if (continueNote != null) { continueNote.gameObject.SetActive(false); }
-			losePanel.SetActive(false);
-			loseShown = false;
-			livesDisplay.AddLife();
-			Time.timeScale = 1f;
-			// If the life was lost to the last animal after the timer ended, nothing else
-			// would check the win condition again and the level would never finish.
-			controller.AttackerKilled(false);
-			// Back from the ad, the player resumes when ready instead of mid-attack.
-			Pause();
-		});
+			progress);
 	}
 }

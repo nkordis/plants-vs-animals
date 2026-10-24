@@ -20,8 +20,7 @@ privacy policy; we do not sell any data.
   never your exact location), and crash reports, so we can fix problems and improve the game.
   [Firebase privacy information](https://firebase.google.com/support/privacy)
 - **Google AdMob** (advertising). From level 10 on, an ad is shown when you leave a finished
-  level, and it can be closed after 5 seconds. You can also choose to watch a rewarded video to
-  continue a lost level. Ads are not personalised; AdMob may use your IP address and device
+  level, and it can be closed after 5 seconds. Ads are not personalised; AdMob may use your IP address and device
   information to show and measure them. Where the law requires consent (for example in the European
   Economic Area, the UK and Switzerland), Google's consent form is used; if it was shown, you can
   change your choice at any time from Options > Privacy choices. [How Google uses data from apps](https://policies.google.com/technologies/partner-sites)

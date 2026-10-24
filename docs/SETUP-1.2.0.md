@@ -1,6 +1,6 @@
 # 1.2.0 setup: accounts and Play Console
 
-1.2.0 (versionCode 7) adds Firebase Analytics + Crashlytics and AdMob rewarded ads. Play Games
+1.2.0 (versionCode 7) adds Firebase Analytics + Crashlytics and AdMob ads (an interstitial when leaving a finished level from level 10). Play Games
 leaderboards were left out of 1.2.0 (Families policy risk; Nikos, 2026-10-18). The code is ready and runs safely without the ids below (the features just stay
 off). These one-time steps need the owner's Google accounts. Release 1.1.0 must be live first.
 
@@ -16,8 +16,7 @@ off). These one-time steps need the owner's Google accounts. Release 1.1.0 must 
 
 1. Sign in with the developer account, add the app (Android, "published on Google Play", search
    the package name).
-2. Create one **Rewarded** ad unit named `continue_after_loss`, and one **Interstitial** ad unit
-   named `level_end` (shown when leaving a finished level from level 10 on). Its id goes in
+2. Create one **Interstitial** ad unit named `level_end` (shown when leaving a finished level from level 10 on). Its id goes in
    `InterstitialUnitId` in `Assets/Scripts/Services/Ads.cs`.
 3. Privacy & messaging: create and publish a **European regulations (GDPR)** message for the app
    (Google's consent form, which the game already shows when required).

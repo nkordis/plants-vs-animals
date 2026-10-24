@@ -3,18 +3,13 @@ using UnityEngine;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Ump.Api;
 
-// AdMob ads behind Google's consent form (UMP). Ads never change a competitive score: the
-// only reward is a "continue" after losing, and that run then does not count for best
-// score (see LevelRun.MarkContinued). From level 10 an interstitial plays when the player
-// leaves a finished level (see LevelHud.AfterLevelAd).
+// AdMob ads behind Google's consent form (UMP). From level 10 an interstitial plays when
+// the player leaves a finished level (see LevelHud.AfterLevelAd). Ads never change a score.
 public static class Ads
 {
-	// AdMob rewarded unit "continue_after_loss" (app id in
-	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset).
-	const string RewardedUnitId = "ca-app-pub-2232453977466422/7141921516";
-
-	// AdMob interstitial unit for the end of a level. Empty until the unit exists in AdMob:
-	// no interstitials are requested while it is empty.
+	// AdMob interstitial unit for the end of a level (app id in
+	// Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset). Empty until the unit
+	// exists in AdMob: no ads are requested while it is empty.
 	const string InterstitialUnitId = "";
 
 	// The Play Console target audience includes children, so every ad request is
@@ -22,8 +17,6 @@ public static class Ads
 	const bool ChildDirected = true;
 
 	static bool started;
-	static bool loading;
-	static RewardedAd rewarded;
 	static bool interstitialLoading;
 	static InterstitialAd interstitial;
 
@@ -79,27 +72,7 @@ public static class Ads
 			configuration.MaxAdContentRating = MaxAdContentRating.G;
 		}
 		MobileAds.SetRequestConfiguration(configuration);
-		MobileAds.Initialize(status =>
-		{
-			LoadRewarded();
-			LoadInterstitial();
-		});
-	}
-
-	static void LoadRewarded()
-	{
-		if (!started || loading || (rewarded != null && rewarded.CanShowAd())) { return; }
-		loading = true;
-		RewardedAd.Load(RewardedUnitId, new AdRequest(), (ad, error) =>
-		{
-			loading = false;
-			if (error != null || ad == null)
-			{
-				Debug.LogWarning("Rewarded ad failed to load: " + error);
-				return;
-			}
-			rewarded = ad;
-		});
+		MobileAds.Initialize(status => LoadInterstitial());
 	}
 
 	static void LoadInterstitial()
@@ -145,34 +118,5 @@ public static class Ads
 		ad.OnAdFullScreenContentFailed += adError => finish();
 		AudioListener.pause = true;
 		ad.Show();
-	}
-
-	public static bool RewardedReady
-	{
-		get { return rewarded != null && rewarded.CanShowAd(); }
-	}
-
-	// Shows the rewarded ad. done(true) runs after the ad closes if the player earned the
-	// reward, done(false) otherwise.
-	public static void ShowRewarded(Action<bool> done)
-	{
-		if (!RewardedReady) { done(false); LoadRewarded(); return; }
-		RewardedAd ad = rewarded;
-		rewarded = null;
-		bool earned = false;
-		bool finished = false;
-		Action finish = () =>
-		{
-			if (finished) { return; }
-			finished = true;
-			AudioListener.pause = false;
-			ad.Destroy();
-			done(earned);
-			LoadRewarded();
-		};
-		ad.OnAdFullScreenContentClosed += () => finish();
-		ad.OnAdFullScreenContentFailed += adError => finish();
-		AudioListener.pause = true;
-		ad.Show(reward => earned = true);
 	}
 }
