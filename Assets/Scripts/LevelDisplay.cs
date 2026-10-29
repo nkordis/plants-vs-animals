@@ -20,7 +20,7 @@ public class LevelDisplay : MonoBehaviour
 
 	private void Update() {
 		currentLevel = levelLoader.GetCurrentLevel();
-		levelText.text = "Level " + currentLevel;
+		levelText.text = UiText.Get("choose_level", "Level") + " " + currentLevel;
 	}
 
 	public int GetCurrentLevel() {

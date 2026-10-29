@@ -205,6 +205,7 @@ public class LevelHud : MonoBehaviour
 		text.fontSize = 70;
 		text.horizontalOverflow = HorizontalWrapMode.Wrap;
 		text.verticalOverflow = VerticalWrapMode.Overflow;
+		LocalizationManager.FitText(text);
 		((RectTransform)next.transform).anchoredPosition = new Vector2(0f, -250f);
 
 		string[] steps = UiText.TutorialSteps;
