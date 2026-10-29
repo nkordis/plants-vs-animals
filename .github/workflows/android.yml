@@ -122,6 +122,13 @@ jobs:
           java -jar bundletool.jar dump manifest --bundle build/Android/PlantsVsAnimals.aab | tee manifest.xml
           grep -E 'package=|versionCode|versionName|minSdkVersion|targetSdkVersion|uses-permission' manifest.xml
 
+      # Without this resource Crashlytics stops the app at launch, before Unity starts.
+      - name: Check Crashlytics build ID
+        if: env.HAS_UNITY_LICENSE == 'true' && hashFiles('Assets/google-services.json') != ''
+        run: |
+          java -jar bundletool.jar dump resources --bundle build/Android/PlantsVsAnimals.aab --values \
+            | grep -A2 'com.crashlytics.android.build_id' || { echo "::error::Crashlytics build ID missing: the app would crash at launch."; exit 1; }
+
       - name: Check upload signature and build a test APK
         if: env.HAS_UNITY_LICENSE == 'true' && env.HAS_KEYSTORE == 'true'
         env:
