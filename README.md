@@ -16,6 +16,8 @@ A tower defence game developed after the course on Udemy: Complete C# Unity Deve
 
 The project is published on Google Play at: https://play.google.com/store/apps/details?id=com.oeogames.plantsvsanimals
 
+Made by OEO Games (https://oeogames.com). Game page: https://oeogames.com/plantsvsanimals/ · Privacy policy: https://oeogames.com/plants-vs-animals/privacy/
+
 # Resources
 
 * Complete C# Unity Developer 2D: Learn to Code Making Games - https://www.udemy.com/course/unitycourse/

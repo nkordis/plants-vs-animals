@@ -12,7 +12,7 @@ Result per case: PASS / FAIL / N/A, with device and a screenshot for UI cases. A
 | P2 Gate | Real ad ids in place | `Ads.cs` `RewardedUnitId` and `GoogleMobileAdsSettings.asset` app id | Not the Google test ids (`ca-app-pub-3940256099942544…`) |
 | P3 Gate | Firebase config | GitHub secret `FIREBASE_GOOGLE_SERVICES_JSON` exists | CI log shows Firebase added |
 | P4 | AdMob app settings | AdMob > App settings | Child-directed treatment on; GDPR message published |
-| P5 Gate | Privacy policy | Hosted policy (flycricket) | Mentions Firebase Analytics, Crashlytics, AdMob, child-directed ads, contact info@oeogames.com |
+| P5 Gate | Privacy policy | Hosted policy (https://oeogames.com/plants-vs-animals/privacy/) | Mentions Firebase Analytics, Crashlytics, AdMob, child-directed ads, contact info@oeogames.com |
 
 ## 1. Build artefact (CI logs and the AAB, no device)
 
