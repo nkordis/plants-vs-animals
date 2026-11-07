@@ -6,7 +6,7 @@ using UnityEngine.UI;
 // "Privacy choices" reopens Google's consent form, only for players in regions where it applies.
 public class PrivacyOptionsButton : MonoBehaviour
 {
-	public const string PolicyUrl = "https://doc-hosting.flycricket.io/plants-vs-animals-privacy-policy/a2969790-5227-4195-b213-7a9ce096d751/privacy";
+	public const string PolicyUrl = "https://oeogames.com/plants-vs-animals/privacy/";
 
 	void Start()
 	{

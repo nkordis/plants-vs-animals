@@ -32,7 +32,7 @@ later before the September 2025 patches is affected.
 3. **App content** updates:
    - *Ads*: "No, my app does not contain ads".
    - *Data safety*: see below.
-   - *Privacy policy*: the Flycricket-hosted copy of `docs/privacy-policy.md` (see below).
+   - *Privacy policy*: https://oeogames.com/plants-vs-animals/privacy/ (the hosted copy of `docs/privacy-policy.md`) (see below).
    - *Target audience and content*: confirm the existing answers still hold.
 4. **Send for review**, then reply to the policy notice if the console offers an appeal/resubmit option.
 
@@ -42,7 +42,7 @@ The build contains no third-party SDKs, no ads, no analytics and no account syst
 scores and settings are stored only on the device (Unity `PlayerPrefs`).
 
 - Does your app collect or share any of the required user data types? **No**
-- Privacy policy URL: https://doc-hosting.flycricket.io/plants-vs-animals-privacy-policy/a2969790-5227-4195-b213-7a9ce096d751/privacy
+- Privacy policy URL: https://oeogames.com/plants-vs-animals/privacy/
   (same text as `docs/privacy-policy.md`; keep the two in sync).
 - Advertising ID: **No**. Health apps: no health features.
 - The target audience includes children, so the Play Families Policy applies to every future SDK.

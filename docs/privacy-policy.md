@@ -1,5 +1,7 @@
 # Privacy Policy for Plants vs Animals
 
+<!-- Published at https://oeogames.com/plants-vs-animals/privacy/ . Keep that page and this file identical. -->
+
 Last updated: 2026-10-21 (applies from version 1.2.0)
 
 Plants vs Animals ("the game") is published by OEO GAMES on Google Play.

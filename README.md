@@ -7,7 +7,7 @@ A tower defence game developed after the course on Udemy: Complete C# Unity Deve
 * Save level 
 * Choose level and help screens
 * Sound effects and images
-* 8 defenders and 6 attackers
+* 7 plants (defenders) and 5 animals (attackers)
 * Scoring system per level
 * 40 game levels
 * Localization 
@@ -15,6 +15,8 @@ A tower defence game developed after the course on Udemy: Complete C# Unity Deve
 # Releases
 
 The project is published on Google Play at: https://play.google.com/store/apps/details?id=com.oeogames.plantsvsanimals
+
+Made by OEO Games (https://oeogames.com). Game page: https://oeogames.com/plantsvsanimals/ · Privacy policy: https://oeogames.com/plants-vs-animals/privacy/
 
 # Resources
 
